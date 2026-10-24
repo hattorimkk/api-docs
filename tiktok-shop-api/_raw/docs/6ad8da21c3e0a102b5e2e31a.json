@@ -1,0 +1,26 @@
+{
+  "title": "【Important】Analytics API Changelog: Endpoint Retirements and Query Window Changes",
+  "content": "TikTok Shop Open Platform will implement the following Analytics API changes on two effective dates. ISVs should review their integrations and complete the required updates before the applicable effective date.\n\n* **November 6, 2026:** Maximum query window changes for two endpoints.\n* **December 28, 2026:** Retirement of the single-video performance endpoint and older shop video list API versions.\n\n# 1. Single-video performance endpoint retirement\n**Effective date: December 28, 2026**\nThe following endpoint will be retired:\n**API Name:** [Get Shop Video Performance Details](https://partner.tiktokshop.com/docv2/page/get-shop-video-performance-details-202509)\n**Endpoint:** `GET /analytics/:version/shop_videos/{video_id}/performance`\n**Required action:** Migrate to the batch performance endpoint:\n**API Name:** [Get Shop Videos Performance Details](https://partner.tiktokshop.com/docv2/page/get-shop-videos-performance-details-202609)\n**Endpoint:** `GET /analytics/:version/shop_videos/batch_performance`\nUpdate your request parameters and response handling according to the batch endpoint documentation.\n# 2. Retirement of older shop video list API versions\n**Effective date: December 28, 2026**\nAffected endpoint:\n**API Name:** [Get Shop Video Performance List](https://partner.tiktokshop.com/docv2/page/get-shop-video-performance-list-202509)\n**Endpoint:** `GET /analytics/:version/shop_videos/performance`\nVersions **202409** and **202509** will be retired. Version **202605** will remain available.\n**Required action:** Migrate integrations using either retiring version to:\n**API Name:** [Get Shop Video Performance List](https://partner.tiktokshop.com/docv2/page/get-shop-video-performance-list-202605)\n**Endpoint:** `GET /analytics/202605/shop_videos/performance`\n# 3. Shop hourly performance: maximum 7 days per request\n**Effective date: November 6, 2026**\nAffected endpoint:\n**API Name:** [Get Shop Performance Per Hour](https://partner.tiktokshop.com/docv2/page/get-shop-performance-per-hour-202510)\n**Endpoint:** `GET /analytics/:version/shop/performance/:date/performance_per_hour`\nThe maximum query window will be **7 days per request**. The historical date range available for querying will remain unchanged.\nIf a request spans more than 7 days, the API will return data for the first 7 days by default, covering the requested start date and the following 6 days. For example, a request for **October 1 to October 30** will return data for **October 1 to October 7** by default.\n**Required action:** To retrieve data for a longer period, split the date range into requests covering no more than 7 days each and combine the results.\n# 4. Shop video list: maximum 30 days per request\n**Effective date: November 6, 2026**\nAffected endpoint:\n**API Name:** [Get Shop Video Performance List](https://partner.tiktokshop.com/docv2/page/get-shop-video-performance-list-202605)\n**Endpoint:** `GET /analytics/:version/shop_videos/performance`\nThe maximum query window will be **30 days per request**. The historical date range available for querying will remain unchanged.\n**Required action:** To retrieve data for a longer period, split the date range into requests covering no more than 30 days each and combine the results.\n",
+  "update_time": "1792596736",
+  "view_count": 0,
+  "prev_document_id": "6aba2d4f3adbea051387e346",
+  "prev_document_path": "6az7iwe9",
+  "next_document_id": "6ac85d16793c00050c8f552d",
+  "next_document_path": "pgd9hfyy",
+  "is_api_doc": false,
+  "document_id": "6ad8da21c3e0a102b5e2e31a",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    },
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "8z0tllw9"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Configuration, output, and local files",
+  "content": "# Configuration precedence\nThe CLI resolves configuration in this order:\n\n1. Explicit `--config`.\n2. `TTS_OPEN_TOOLKIT_CONFIG` environment override.\n3. Project configuration.\n4. User configuration.\n5. Built-in defaults.\n\n# Default paths\n| Platform or scope | Path |\n| --- | --- |\n| macOS user config | `~/Library/Application Support/tts-open-toolkit/config.json` |\n| Linux user config | `${XDG_CONFIG_HOME:-~/.config}/tts-open-toolkit/config.json` |\n| Windows user config | `%APPDATA%\\tts-open-toolkit\\config.json` |\n| Project override | `<project>/.tts_open_toolkit/config.json` |\n| Project history | `<project>/.tts_open_toolkit/history/` |\n| Project skills | `<project>/.codex/skills/` |\nRun `tts_open_toolkit doctor` to print the exact resolved paths on the current machine.\n# OAuth storage\n\n* Profile metadata is stored in `~/.tts_open_toolkit/config.json`.\n* OAuth access and refresh tokens are not stored in that file.\n* macOS uses Keychain; Windows uses CurrentUser DPAPI.\n* Status, list, and doctor output expose only non-secret metadata.\n\n# Machine-readable output\n```bash\ntts_open_toolkit auth status --json\ntts_open_toolkit devapi list --json\ntts_open_toolkit app list --json\ntts_open_toolkit skill state --scope project --json\n```\n\nUse JSON for agent workflows and automation. Do not scrape the human-readable format when a JSON option exists.\n# Deterministic environments\nSet `OPEN_TOOLKIT_SKIP_UPDATE_CHECK=1` in offline or deterministic CI smoke tests. Keep package updates explicit.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143799",
+  "view_count": 0,
+  "prev_document_id": "6a6716fed8f53d04f11537c3",
+  "prev_document_path": "tts-open-toolkit-command-reference",
+  "next_document_id": "6a671701d61e3104b670a547",
+  "next_document_path": "tts-open-toolkit-help-feedback",
+  "is_api_doc": false,
+  "document_id": "6a6717006fc1a104e5ac8d75",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-configuration-output-files"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Seller Access & Sandbox Rate Limit Updates",
+  "content": "## What's Changing\n### 1. Inactive Seller Access Restriction\nTikTok Shop will restrict API access for seller or shop accounts that are in an **inactive status** (e.g., deactivated, closing, or otherwise unavailable).\n### 2. Sandbox Account Rate Limit Update\nTo optimize resource allocation, we are updating the rate limits for testing environments:\n\n* **Affected Users:** Developers making API calls using **test accounts or sandbox accounts**.\n* **Threshold:** Requests may be throttled with a **429 (Too Many Requests)** error if the App-level QPH (Queries Per Hour) exceeds **100**.\n* **Note:** Formal production accounts are **not affected** by this sandbox-specific rule.\n\n\n## Impact & Error Codes\n### Access Denial\nRequests associated with invalid or inactive seller/shop accounts will fail. You may receive:\n\n* **401 Unauthorized**\n* **Access Denied** responses\n\n### Rate Limiting (Error 429)\nAPI calls from sandbox accounts exceeding the QPH threshold will be rejected with a **429** status code.\n",
+  "update_time": "1779433884",
+  "view_count": 0,
+  "prev_document_id": "68ad7aa69e6e2a049311af0f",
+  "prev_document_path": "k1156vkq",
+  "next_document_id": "68ed3b33c97e6a049ad8c696",
+  "next_document_path": "gvt0yknn",
+  "is_api_doc": false,
+  "document_id": "6a0ffdce1c4e66e01e6f2362",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "eibloj08"
+}

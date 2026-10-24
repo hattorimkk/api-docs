@@ -1,0 +1,21 @@
+{
+  "title": "Install and set up",
+  "content": "# Requirements\n\n* Node.js 18 or later.\n* npm available on your machine.\n* Codex, Claude Code, Trae, or Trae CN.\n\n# Install the CLI\n```bash\nnpm install -g @tts-open-toolkit/cli\n```\n\nConfirm that the command is available:\n```bash\ntts_open_toolkit version\ntts_open_toolkit doctor\n```\n\n# Add skills to your AI agent\n| Agent | Command |\n| --- | --- |\n| Codex | `tts_open_toolkit skill add --agent codex` |\n| Claude Code | `tts_open_toolkit skill add --agent cc` |\n| Trae | `tts_open_toolkit skill add --agent trae` |\n| Trae CN | `tts_open_toolkit skill add --agent trae-cn` |\n## Project-scoped installation\nUse a project target when the skills should travel with one repository:\n```bash\ntts_open_toolkit skill add --scope project\n```\n\nThis installs managed skills under `.codex/skills` in the current project.\n# Verify the skills\n```bash\ntts_open_toolkit skill list --agent codex --json\ntts_open_toolkit skill state --agent codex --json\n```\n\n> 💡\n> **Ask your agent to do the setup.** You can paste: “Install TTS Open Toolkit CLI, add all bundled TTS skills for this agent, run doctor, and show me the verification result.”\n\n# Next\n[Sign in and manage profiles](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-auth-profiles) when your workflow needs Partner Center account, App, sandbox, or DevAPI data.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143838",
+  "view_count": 0,
+  "prev_document_id": "6a6716f6d8f53d04f11537a2",
+  "prev_document_path": "tts-open-toolkit-developer-api-operations",
+  "next_document_id": "6a6716f8194d4e04bd313d24",
+  "next_document_path": "tts-open-toolkit-auth-profiles",
+  "is_api_doc": false,
+  "document_id": "6a6716f7b87b9804f0e99a90",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-install-setup"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "For Thailand Market: Add TIS Certificate Mark on the Product Label as a Mandatory Qualification for 13 Categories",
+  "content": "# What is changing?\nStarting from 5 August 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for 13 categories. This information will be put into the \"certifications\" parameter in the API. Here is the category list:\n| **First_category_name** | **Second_category_name** | **Leaf_category_name** | **Leaf_category_id** |\n| --- | --- | --- | --- |\n| Household Appliances | Home Appliances | Irons | 601100 |\n| Household Appliances | Home Appliances | Fans | 601104 |\n| Household Appliances | Home Appliances | Air Cooler | 880656 |\n| Household Appliances | Home Appliances | Electronic Mosquito Killers | 934408 |\n| Household Appliances | Home Appliances | Air Purifiers | 601090 |\n| Household Appliances | Home Appliances | Clothes Steamers | 601107 |\n| Household Appliances | Kitchen Appliances | Microwave Ovens | 848136 |\n| Household Appliances | Large Home Appliances | Refrigerators & Freezers | 850312 |\n| Household Appliances | Large Home Appliances | Air Conditioner | 849928 |\n| Household Appliances | Large Home Appliances | Washing Machines & Dryers | 850184 |\n| Household Appliances | Large Home Appliances | Portable Air Conditioners | 852496 |\n| Household Appliances | Large Home Appliances | Beverage Refrigerators | 852624 |\n| Home Improvement | Lights & Lighting | Bulbs, Tubes & Strips | 893704 |\n# Which markets are affected?\nThe updates of the requirements apply to cross border sellers in the Thailand market.\n# Who is affected?\nDevelopers with applications that use [Create Product](https://partner.tiktokshop.com/docv2/page/create-product-202309), [Edit Product](https://partner.tiktokshop.com/docv2/page/edit-product-202509), and [Partial Edit Product](https://partner.tiktokshop.com/docv2/page/partial-edit-product-202509#Back%20To%20Top)\n# Which version is applicable?\nThe updates of the requirements apply to all versions of the related APIs\n# What action is required?\nWithout this mandatory qualification sellers will not be able to create or update products.\nUse the Get Category Rules API to check what certification requirements are mandatory for specific categories when using Create Product, Edit Product and Partial Edit Product API.\n",
+  "update_time": "1783179755",
+  "view_count": 0,
+  "prev_document_id": "6a467bb5b6498104e9a2155f",
+  "prev_document_path": "wqmuutis",
+  "next_document_id": "6a4d1317194d4e04bd05296c",
+  "next_document_path": "jvo7fzwt",
+  "is_api_doc": false,
+  "document_id": "6a4928e98c54fa052a10c028",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "pxkua3s7"
+}

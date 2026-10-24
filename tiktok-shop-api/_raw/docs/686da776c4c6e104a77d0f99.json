@@ -1,0 +1,21 @@
+{
+  "title": "Make your first API call overview",
+  "content": "Before you begin this tutorial to make your first TikTok Shop API call, you need to have a [TikTok Shop Partner Center](https://partner.tiktokshop.com) account, and that account must be [registered as a developer](developer-onboarding).\nIf you've completed those steps, the tutorial to make your first TikTok Shop API call has the following steps:\n\n1. [Create a TikTok Shop App (OAuth client)](create-tts-app-oauth-client): Create your app in Partner Center and obtain the App Key and App Secret required for API authentication.\n2. [Create a test seller account](create-test-seller-account): Set up a test seller account in the development shop environment for API integration and testing.\n3. [Generate a test access token](generate-test-access-token): Authorize the test seller account and generate an access token to access TikTok Shop APIs.\n4. [Create a hash to sign your test API call](create-hash-to-sign-your-test-api-call): Generate the request signature using your App Secret to ensure the API request is authenticated and secure.\n5. [Call Get Authorized Shops](call-get-authorized-shops): Make your first API call to verify that the authentication flow and API integration are working correctly.\n\nAlternatively, it can be completed directly in Postman with a single click. Please refer to the [Postman](https://partner.tiktokshop.com/docv2/page/call-your-first-api-using-postman) documentation for details.\n## Next steps\nThe first step in making your first TikTok Shop API call is to [Create a TikTok Shop App (OAuth client)](create-tts-app-oauth-client).\n\n",
+  "update_time": "1781626563",
+  "view_count": 0,
+  "prev_document_id": "6a6716eeb9e53b04eac6141f",
+  "prev_document_path": "tts-open-toolkit-ai-agents",
+  "next_document_id": "686da778633023048bd10368",
+  "next_document_path": "create-tts-app-oauth-client",
+  "is_api_doc": false,
+  "document_id": "686da776c4c6e104a77d0f99",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "make-your-first-api-call-overview"
+}

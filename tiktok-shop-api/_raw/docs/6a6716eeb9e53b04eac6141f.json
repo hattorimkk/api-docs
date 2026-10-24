@@ -1,0 +1,21 @@
+{
+  "title": "TTS Open Toolkit for AI agents",
+  "content": "TTS Open Toolkit gives supported AI coding agents current TikTok Shop developer guidance, OpenAPI schemas, onboarding knowledge, and safe access to supported CLI workflows.\n# Requirements\n\n* Node.js 18 or later.\n* Codex, Claude Code, Trae, or Trae CN.\n* A Partner Center developer account when the task needs App, Shop, sandbox, or DevAPI context.\n\n# Install the Toolkit\n```bash\nnpm install -g @tts-open-toolkit/cli\ntts_open_toolkit skill add --agent codex --update\ntts_open_toolkit doctor\n```\n\nReplace `codex` with `cc`, `trae`, or `trae-cn` for your AI coding agent.\n> 💡\n> **You can ask the agent to install it.** Paste: “Install TTS Open Toolkit CLI, add all bundled TTS skills for this agent, run doctor, and show me the verification result.”\n\n# Try it on a real task\n\n* Find the APIs, webhooks, scopes, and prerequisites for a business scenario.\n* Generate a runnable integration demo from the current TikTok Shop schema.\n* Check whether a Changelog update affects the repository.\n* Sign in and select an authorized App/Shop before a supported API workflow.\n\n# Related resources\n[TTS Open Toolkit CLI](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-cli) for installation, authentication, task guides, and CLI behavior.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143872",
+  "view_count": 0,
+  "prev_document_id": "6a671705331fb304ed654cad",
+  "prev_document_path": "tts-open-toolkit-releases-feedback",
+  "next_document_id": "686da776c4c6e104a77d0f99",
+  "next_document_path": "make-your-first-api-call-overview",
+  "is_api_doc": false,
+  "document_id": "6a6716eeb9e53b04eac6141f",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-ai-agents"
+}

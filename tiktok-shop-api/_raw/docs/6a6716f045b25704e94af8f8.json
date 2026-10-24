@@ -1,0 +1,21 @@
+{
+  "title": "Overview",
+  "content": "Use this section for installation, App/Shop authorization, API and webhook discovery, sandbox context, integration planning, Changelog review, and supported developer operations.\n# Guides\n| Goal | Guide |\n| --- | --- |\n| Understand the CLI | [About TTS Open Toolkit CLI](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-about-cli) |\n| Install or upgrade the CLI | [Install and set up](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-install-setup) and [Upgrade and verify](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-upgrade-verify) |\n| Sign in and manage App/Shop authorization | [Sign in and manage profiles](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-auth-profiles) |\n| Choose an API or webhook | [Find the right API and webhook](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-find-api-webhook) |\n| Inspect Apps or sandbox accounts | [Work with apps and sandbox accounts](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-apps-sandbox) |\n| Create an integration plan or demo | [Plan an integration and generate a runnable demo](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-integration-plan-demo) |\n| Assess a platform change | [Review API and Changelog impact](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-api-changelog-impact) |\n| Run an allowlisted developer operation | [Call supported developer APIs](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-developer-api-operations) |\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785144002",
+  "view_count": 0,
+  "prev_document_id": "6a66bdaae645e904b7878355",
+  "prev_document_path": "6kiauzd6",
+  "next_document_id": "6a6716f18c54fa052a407b43",
+  "next_document_path": "tts-open-toolkit-find-api-webhook",
+  "is_api_doc": false,
+  "document_id": "6a6716f045b25704e94af8f8",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-cli"
+}

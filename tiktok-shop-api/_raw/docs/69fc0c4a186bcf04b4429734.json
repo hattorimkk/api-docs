@@ -1,0 +1,26 @@
+{
+  "title": "For US market: Mandatory Size Chart Quality Validation",
+  "content": "# Updates to Product API For Size Chart Quality Validation\n**Effective Date:**\n\n* **Grace Period Start:** 2026-05-07\n* **Full Enforcement Start:** 2026-07-07\n\n### What is changing?\nTo improve the buyer experience and ensure size chart accuracy, TikTok Shop is introducing a new quality validation mechanism for size charts when editing existing products via the API.\nThis change will be rolled out in two phases for existing products:\n\n1. **Grace Period (Starts 2026-05-07):** The `edit_product` API **will not** be blocked if a size chart has quality issues. \n2. **Full Enforcement (Starts 2026-07-07):** The `edit_product` API will be **blocked** if a size chart fails our quality validation. The API will return an error, and the response will include error message object detailing the specific issues.\n\n### Which APIs are affected?\n| API Name | Change Description |\n| --- | --- |\n| `/product/202509/products/{product_id}` (Edit Product) <br> & <br> /product/202509/products/{product_id}/partial_edit | From **2026-07-07**, this API will return an error and block updates for existing products with poor-quality size charts if no changes are made to the size chart during the edit. |\n| (New) Submit Appeal Task | A new API will be introduced to allow partners to submit an appeal if they believe a size chart quality warning is incorrect. |\n| （New）Appeal Completed Webhook <br>  | to receive asynchronous updates on the status of each appeal (approved or rejected) |\n### How does the validation work?\nValidation is triggered only when editing an existing product **and** the size chart (`size_chart.template_id` or `size_chart.image_id`) has not been changed in the current `edit_product` request.\nOur system will asynchronously check for three types of quality issues:\n\n* **Missing Mandatory Dimensions:** The size chart is missing required dimensions for its category (e.g., a dress missing 'Bust' measurement).\n* **Invalid Value Range:** The measurements provided are outside the expected range for the category.\n* **Incomplete Variation Coverage:** The size chart does not include all available SKU variations (e.g., the product is sold in 'S', 'M', and 'L', but the size chart only lists 'S' and 'M').\n\n### New Error Structure\nStarting **2026-07-07**, if an `edit_product` call is blocked due to a size chart quality issue, you will receive the following error response:\n**Error Code:** `5001001`**Error Message:** \"Size chart quality check failed. Please check the warning details and either update the size chart or submit an appeal.\"\n### What action is required?\n\n1. **Handle the Hard Block:** After **2026-07-07**, prepare your system to handle the new error code (`5001001`) from the `edit_product` API. When this error occurs, you must either:\n   * Prompt the seller to update their size chart with corrected information.\n   * OR, provide an interface for the seller to use the new **appeal API** to report an incorrect diagnosis.\n2. **Develop an Appeal Process:**\n   * Build functionality to call the new Submit Appeal Task endpoint. This allows sellers to request an exemption if they believe the validation is incorrect.\n   * Subscribe to the new **Appeal Completed Webhook** to receive asynchronous updates on the status of each appeal (approved or rejected). If an appeal is approved, the seller can then successfully edit the product without changing the size chart.\n\nWe appreciate your cooperation in improving the quality of product listings on TikTok Shop.\n",
+  "update_time": "1778134386",
+  "view_count": 0,
+  "prev_document_id": "69ee028240280804f5be9cdf",
+  "prev_document_path": "qc6yk2e0",
+  "next_document_id": "69fd9f331b7d0404ef375605",
+  "next_document_path": "pnlwkbnq",
+  "is_api_doc": false,
+  "document_id": "69fc0c4a186bcf04b4429734",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "digvqy0x"
+}

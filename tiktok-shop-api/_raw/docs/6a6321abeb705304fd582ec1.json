@@ -1,0 +1,21 @@
+{
+  "title": "For All Markets :  Marketplace Creator API add an optional parameter",
+  "content": "# Summary\nThe Seller Search Creator on Marketplace and Get Marketplace Creator Performance endpoints add an optional data_groups parameter, letting callers request only the creator data groups they need (basic info / content performance / follower info / collaboration / sales & GMV). If omitted, all groups are returned by default, keeping behavior unchanged — fetching on demand reduces response size and unnecessary data retrieval, improving API efficiency.\n# Scope of Impact\n\n* **Affected endpoints (2):** Seller Search Creator on Marketplace, Get Marketplace Creator Performance.\n* **Applicable markets:** EU, UK.\n* **Applicable seller types:** Local and Cross-border.\n\n# Field-level Diff\n| Field | Before | After |\n| --- | --- | --- |\n| data_groups | Not present (endpoint always returned all data groups) | New, optional;  <br> type []string (enum array);  <br> default: returns all groups when omitted (get all groups by default);  |\n**data_groups enum values:**\n\n* BASIC_CREATOR_INFORMATION — basic creator information\n* CONTENT_PERFORMANCE — content performance\n* FOLLOWER_INFORMATION — follower information\n* COLLABORATION — collaboration\n* SALES_AND_GMV — sales and GMV\n\n# Breaking or Not\n**Non-breaking (backward compatible).** This is a new optional parameter; the default behavior (returning all groups) is identical to before. Existing callers keep working with no changes and no migration required.\n\n# Timeline\n\n* Effective scope: all versions after 202309 (example endpoints shown are 202508).\n* Launch: released with the corresponding versions; no hard deadline (non-breaking change).\n\n# Links\n\n* API Reference · Seller Search Creator on Marketplace: [Seller Search Creator on Marketplace](https://partner.tiktokshop.com/docv2/page/seller-search-creator-on-marketplace-202508)\n* API Reference · Get Marketplace Creator Performance: [Get Marketplace Creator Performance](https://partner.tiktokshop.com/docv2/page/get-marketplace-creator-performance-202508)\n",
+  "update_time": "1784881706",
+  "view_count": 0,
+  "prev_document_id": "6a4e102f8c54fa052a158ea0",
+  "prev_document_path": "xbd5dfga",
+  "next_document_id": "6a2a7f021c4e66e01e9068e8",
+  "next_document_path": "si5r1bv3",
+  "is_api_doc": false,
+  "document_id": "6a6321abeb705304fd582ec1",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "d5oa8gw3"
+}

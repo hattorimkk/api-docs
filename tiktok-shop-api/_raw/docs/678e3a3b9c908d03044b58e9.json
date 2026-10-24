@@ -1,0 +1,21 @@
+{
+  "title": "Authorization via App Store",
+  "content": "❗ **Important**: Authorizing via the Seller Center App Store only applies to **public** apps. Public apps must meet specific criteria and pass TikTok Shop's app review process. For more information on developing a public app, please visit our [app development overview](https://partner.tiktokshop.com/docv2/page/app-development-overview).\n# App installation authorization\n**Step 1 — Open the App Store.** Before the seller begins, your app must already be a reviewed **public** app with a valid **Redirect URL** and the required scopes enabled in Partner Center. In Seller Center, the seller opens the left-hand menu and goes to **Growth > App store**, where they see the full list of apps available to install and authorize:\n![Image](https://p16-arcosite-sg.ibyteimg.com/tos-alisg-i-k9wyc2ijk0-sg/7bfbd4d5039549239f134556e3148e45~tplv-k9wyc2ijk0-image.image)\n**Step 2 — Start installation.** The seller locates your app and clicks to install it, then is prompted to review the app and the permissions (scopes) it requests:\n![Image](https://p16-arcosite-sg.ibyteimg.com/tos-alisg-i-k9wyc2ijk0-sg/770e3f19def04d2c80a6f533d1c8da14~tplv-k9wyc2ijk0-image.image)\n**Step 3 — Confirm and authorize.** After the seller fills in the required information and confirms the requested permissions, they reach the authorization step and click **Authorize** to grant your app access to their shop:\n![Image](https://p16-arcosite-sg.ibyteimg.com/tos-alisg-i-k9wyc2ijk0-sg/dac2bba539f94e09b7851a7b33090698~tplv-k9wyc2ijk0-image.image)\n**Step 4 — Land on your Redirect URL and sign in to your app.** Once the seller authorizes, TikTok Shop redirects them to your configured **Redirect URL** with a short-lived authorization code appended as a query parameter (for example `{your_redirect_url}?code={auth_code}`). Here \"log in to your app\" means the seller signs in to **your** application (the developer-built product), not to TikTok — this lets your app bind the authorization to the seller account in your own system and finish onboarding:\n![Image](https://p16-arcosite-sg.ibyteimg.com/tos-alisg-i-k9wyc2ijk0-sg/8d4ab9ddace34b7e90d0951b1f21ad8d~tplv-k9wyc2ijk0-image.image)\n## After the redirect: exchange the code for tokens\nThe authorization code in the Redirect URL is short-lived and single-use. On your server, read the `code` query parameter and exchange it for an `access_token` and a `refresh_token` by calling the Get Access Token API (`GET https://auth.tiktok-shops.com/api/v2/token/get`) with `grant_type=authorized_code`, following the standard OAuth authorization-code flow. Store the tokens against the seller account in your app, and use the `access_token` to call the authorized Shop APIs. Refresh the token with the `refresh_token` (via `GET https://auth.tiktok-shops.com/api/v2/token/refresh` with `grant_type=refresh_token`) before it expires.\n**Related:** This Seller Center App Store path is the same authorization described in the [seller authorization guide](https://partner.tiktokshop.com/docv2/page/seller-authorization-guide) under \"Authorization from seller app store\". That guide covers the seller-facing walkthrough; this page focuses on the developer side of installing and authorizing a public app.\n",
+  "update_time": "1782727245",
+  "view_count": 0,
+  "prev_document_id": "678e3a3978f4c20311b8b555",
+  "prev_document_path": "partner-authorization-guide",
+  "next_document_id": "6a66bdaae645e904b7878355",
+  "next_document_path": "6kiauzd6",
+  "is_api_doc": false,
+  "document_id": "678e3a3b9c908d03044b58e9",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "authorization-via-app-store"
+}

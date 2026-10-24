@@ -1,0 +1,21 @@
+{
+  "title": "US SPS Update: Impact on Existing APIs",
+  "content": "**Effective date: October 15, 2026**\nTikTok Shop will launch the new Shop Performance Score (SPS) in the US on October 15, 2026. The new SPS page will replace the existing page in Seller Center. This update revises the metrics and calculations for Product Satisfaction and Logistics & Fulfillment; Customer Service remains unchanged. For details, see the [New SPS Trial-run Guide](https://seller-us.tiktok.com/university/essay?knowledge_id=7105568016090887).\nThe impact on API integrations is as follows:\n\n* **Existing SPS APIs will remain available and will not be retired as part of this update.** From October 15, scores and associated scoring rules from these APIs will be for reference only. They should no longer be used to assess shop performance or guide improvements under the new SPS framework.\n* **Review how your application displays and uses existing SPS data.** If your application continues to display data from existing APIs, clearly label it “Previous SPS version — for reference only.” Review any alerts or recommendations based on the previous scoring rules. Refer sellers to the new SPS page in Seller Center for current scores, scoring rules, and improvement guidance.\n* **New SPS APIs will be released as soon as possible.** The release date and integration instructions will be announced separately.\n",
+  "update_time": "1790234272",
+  "view_count": 0,
+  "prev_document_id": "6a5f41af331fb304ed5babdd",
+  "prev_document_path": "3t9j6tz0",
+  "next_document_id": "6aba2d4f3adbea051387e346",
+  "next_document_path": "6az7iwe9",
+  "is_api_doc": false,
+  "document_id": "6ab4ce4054895d04ee564925",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "46di8q34"
+}

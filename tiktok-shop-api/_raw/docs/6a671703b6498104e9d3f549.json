@@ -1,0 +1,21 @@
+{
+  "title": "Security and capability boundaries",
+  "content": "# Credential handling\n| Data | Handling |\n| --- | --- |\n| OAuth access and refresh tokens | Stored only in macOS Keychain or Windows CurrentUser DPAPI; not written to profile metadata. |\n| Profile metadata | Stored locally and may include non-secret account, site, scope, and expiry metadata. |\n| App key | A public identifier that may be used as explicit context. It is not an App Secret. |\n| App Secret, cookies, auth codes, PKCE verifiers | Must never be pasted into prompts, committed, logged, or included in feedback. |\n# Execution boundaries\n\n* `devapi call` uses fixed method, path, and input declarations. Secret-bearing response fields are removed recursively.\n* `auth request` is a diagnostic escape hatch for a known existing route. It must not be used to bypass an allowlist.\n* Sandbox account deletion is excluded and must not be recreated with a raw request.\n* Use read-only checks by default. Ask for explicit approval before a write action.\n* Generated code and explanations still require developer review, tests, and production validation.\n\n# Capability boundary\n> 📌\n> This documentation covers capabilities available in the current published CLI and bundled skills: skill distribution, developer-source guidance, Partner Center OAuth profiles, App and sandbox context, fixed DevAPIs, supported OpenAPI proxy workflows, local hooks/history, diagnostics, and updates.\n> Do not treat roadmap items as available. If a command is not shown by the installed `tts_open_toolkit --help` or current release notes, describe it as unavailable or planned.\n\n# AI output boundary\nThe Toolkit reduces unsupported guesses by giving the agent structured TikTok Shop context and fixed operations. It does not replace code review, API response evidence, security review, or business acceptance testing.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143806",
+  "view_count": 0,
+  "prev_document_id": "6a671702d61e3104b670a559",
+  "prev_document_path": "tts-open-toolkit-troubleshooting",
+  "next_document_id": "6a671705331fb304ed654cad",
+  "next_document_path": "tts-open-toolkit-releases-feedback",
+  "is_api_doc": false,
+  "document_id": "6a671703b6498104e9d3f549",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-security-boundaries"
+}

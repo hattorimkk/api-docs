@@ -1,0 +1,26 @@
+{
+  "title": "For Thailand Market: TIS Related Changes for Slime & Squishy Toys and Stress Relief Toys Categories",
+  "content": "# What is changing?\nStarting from 15 September 2026, partners will be required to add TIS(Thai Industrial Standard) certificate mark on the product label as a mandatory qualification when listing or editing products by using API for Slime & Squishy Toys and Stress Relief Toys categories. This information will be put into the \"certifications\" parameter in the API. TIS Standard Number and TIS License Number will also be changed from optional to mandatory attributes for these two categories.\n# Which markets are affected?\nThe updates of the requirements apply to local to local and POP(Platform Open Plan) sellers in the Thailand market.\n# Who is affected?\nDevelopers with applications that use [Create Product](https://partner.tiktokshop.com/docv2/page/create-product-202309), [Edit Product](https://partner.tiktokshop.com/docv2/page/edit-product-202509), and [Partial Edit Product](https://partner.tiktokshop.com/docv2/page/partial-edit-product-202509#Back%20To%20Top)\n# Which version is applicable?\nThe updates of the requirements apply to all versions of the related APIs\n# What action is required?\nWithout this mandatory qualification and attributes sellers will not be able to create or update products.\nWhen using Create Product, Edit Product and Partial Edit Product API, please use the Get Category Rules API to check what certification requirements are mandatory for specific categories, and also use the Get Attributes API to check what attributes are mandatory.\n",
+  "update_time": "1787025584",
+  "view_count": 0,
+  "prev_document_id": "6a69709cc2de2804e62f47d3",
+  "prev_document_path": "q6srthav",
+  "next_document_id": "6a85bbe3d8f53d04f13b082b",
+  "next_document_path": "todhou0d",
+  "is_api_doc": false,
+  "document_id": "6a83d8768930d50523141bad",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "e119x000"
+}

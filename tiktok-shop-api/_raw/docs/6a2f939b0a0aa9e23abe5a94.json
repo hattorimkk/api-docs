@@ -1,0 +1,31 @@
+{
+  "title": "For All Markets : Get Payments API — Migrate from 202309 to 202605",
+  "content": "## 1. Summary\nThe **Get Payments** API retrieves records of automated payments for a shop based on a specified date range, allowing sellers to verify and reconcile payments against the transactions in their bank account. A new version **202605** has been released. To keep integrations on a single supported version and to remove a deprecated response field, version **202309** will be sunset on <span style=\"color: #D83931\"><strong>2026-08-15</strong></span>. All ISVs must migrate to **202605** by this date.\n**Key Deadline — Sunset Date: 2026-08-15.** Version **202309** of the Get Payments API will be sunset on **2026-08-15**. All ISVs must complete migration to **202605** on or before this date. After 2026-08-15, calls to `GET /finance/202309/payments` will no longer be supported.\n\n# 2. Key Change Summary\nCompared with 202309, version 202605 **removes the** **`reserve_amount` field** from each object in the `payments[]` list. All other request parameters and response fields remain identical. The only change is the endpoint version and the removal of `reserve_amount`.\n\n# 3. Version Comparison\n## 3.1 Endpoint\n|  | 202309 (to be sunset) | 202605 (target) |\n| --- | --- | --- |\n| **Method & Path** | [GET /finance/202309/payments](https://partner.tiktokshop.com/docv2/page/get-payments-202309) | [GET /finance/202605/payments](https://partner.tiktokshop.com/docv2/page/get-payments-202605) |\n| **Required scope** | `seller.finance.info` | `seller.finance.info` (unchanged) |\n| **Request parameters** | app_key, sign, timestamp, shop_cipher, sort_field, create_time_ge, create_time_lt, page_size, page_token, sort_order | Identical to 202309 (no change) |\n## 3.2 Response field comparison (payments[] object)\n| Field | 202309 | 202605 | Note |\n| --- | --- | --- | --- |\n| `create_time` | Yes | Yes | Unchanged |\n| `id` | Yes | Yes | Unchanged |\n| `status` | Yes | Yes | Unchanged  |\n| `amount` (value, currency) | Yes | Yes | Unchanged |\n| `settlement_amount` (value, currency) | Yes | Yes | Unchanged |\n| `reserve_amount` (value, currency) | Yes | **No** | <span style=\"color: #D83931\"><strong>Removed in 202605</strong></span> |\n| `payment_amount_before_exchange` (value, currency) | Yes | Yes | Unchanged |\n| `exchange_rate` | Yes | Yes | Unchanged |\n| `paid_time` | Yes | Yes | Unchanged |\n| `bank_account` | Yes | Yes | Unchanged |\n\n**About** **`reserve_amount`:** In 202309 this object represented \"the reserved amount before currency exchange\" (with `value` and `currency` sub-fields). It is no longer returned in 202605. ISVs that read, store, display, or reconcile against `reserve_amount` must remove this dependency before migrating.\n# 4. Impact & Affected Parties\n\n* **Who is affected:** All ISVs / developers currently calling `GET /finance/202309/payments`.\n* **Markets:** All markets where the API is available.\n* **Functional impact:** After migration, the `reserve_amount` field will no longer be available in the response. Any reconciliation logic, data storage, or UI that depends on `reserve_amount` must be updated. All other fields are returned unchanged.\n\n# 5. Required Actions for ISVs\n\n1. Switch the endpoint from [GET /finance/202309/payments](https://partner.tiktokshop.com/docv2/page/get-payments-202309) to [GET /finance/202605/payments](https://partner.tiktokshop.com/docv2/page/get-payments-202605).\n2. Remove any dependency on the `reserve_amount` field (parsing, storage, display, reconciliation logic).\n3. Keep all request parameters as-is — no parameter changes are required.\n\n\n",
+  "update_time": "1781503323",
+  "view_count": 0,
+  "prev_document_id": "677ccdc6e5dadc0306a56b59",
+  "prev_document_path": "new-version-v202501-for-statement-transactions-and-order-statement-transactions",
+  "next_document_id": "6a4e074e6fc1a104e581d64e",
+  "next_document_path": "jli5x787",
+  "is_api_doc": false,
+  "document_id": "6a2f939b0a0aa9e23abe5a94",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Breaking Change",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    },
+    {
+      "keyword": " Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    },
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "p48h74af"
+}

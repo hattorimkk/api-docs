@@ -1,0 +1,26 @@
+{
+  "title": "For Thailand Market: Add TIS Mandatory Attributes to Several Categories",
+  "content": "# What is changing?\nStarting from 5 August 2026, partners will be required to provide TIS(Thai Industrial Standard) mandatory product attributes when listing or editing products by using API under the following categories in the list:\n| Category Name | Category Id | Mandatory Attribute Name | Attribute Id |\n| --- | --- | --- | --- |\n| Hair Dryers | 874376 | TIS License No. | 103637 |\n|  |  | TIS License URL | 103636 |\n| Power Banks | 910728 | TIS License No. | 103637 |\n|  |  | TIS License URL | 103636 |\n| Electrical Sockets & Accessories | 895240 | TIS License No. | 103637 |\n|  |  | TIS License URL | 103636 |\n| Baby Hair Dryers | 602622 | TIS License No. | 103637 |\n| Dolls & Stuffed Toys | 961160 | TIS License No. | 103637 |\n| Early Education & Smart Toys | 892040 | TIS License No. | 103637 |\n| Baby Sound Toys | 891784 | TIS License No. | 103637 |\n| Toy Figures & Models | 819856 | TIS License No. | 103637 |\n| Rocking Horses & Animals | 961416 | TIS License No. | 103637 |\n| Baby Pretend Play | 818704 | TIS License No. | 103637 |\n| Baby Sports & Outdoor Play | 960904 | TIS License No. | 103637 |\n| Baby Electric & Remote Control Toys | 818576 | TIS License No. | 103637 |\n| Playgyms & Playmats | 891400 | TIS License No. | 103637 |\n| Bath Toys | 891656 | TIS License No. | 103637 |\n| Roly-Poly Toys | 961288 | TIS License No. | 103637 |\n| Car Seat & Stroller Toys | 818192 | TIS License No. | 103637 |\n| Mirrors | 817936 | TIS License No. | 103637 |\n| Balls | 818064 | TIS License No. | 103637 |\n| Gift Sets | 961544 | TIS License No. | 103637 |\n| Indoor Climbers & Play Structures | 818448 | TIS License No. | 103637 |\n| Wires | 942600 | TIS License No. | 103637 |\n| Irons | 601100 | TIS License No. | 103637 |\n| Fans | 601104 | TIS License No. | 103637 |\n| Air Cooler | 880656 | TIS License No. | 103637 |\n| Electronic Mosquito Killers | 934408 | TIS License No. | 103637 |\n| Air Purifiers | 601090 | TIS License No. | 103637 |\n| Clothes Steamers | 601107 | TIS License No. | 103637 |\n| Electric Grills | 977928 | TIS License No. | 103637 |\n| Fryers | 935304 | TIS License No. | 103637 |\n| Electric Hot Pots | 978312 | TIS License No. | 103637 |\n| Countertop Ovens | 848264 | TIS License No. | 103637 |\n| Toasters | 847624 | TIS License No. | 103637 |\n| Microwave Ovens | 848136 | TIS License No. | 103637 |\n| Bread Makers | 934664 | TIS License No. | 103637 |\n| Television | 600852 | TIS License No. | 103637 |\n| Refrigerators & Freezers | 850312 | TIS License No. | 103637 |\n| Water Heaters | 850056 | TIS License No. | 103637 |\n| Air Conditioner | 849928 | TIS License No. | 103637 |\n| Washing Machines & Dryers | 850184 | TIS License No. | 103637 |\n| Portable Air Conditioners | 852496 | TIS License No. | 103637 |\n| Beverage Refrigerators | 852624 | TIS License No. | 103637 |\n| Bulbs, Tubes & Strips | 893704 | TIS License No. | 103637 |\n| Helmets | 815632 | TIS License No. | 103637 |\n| Automatic Transmission Motorcycles | 847760 | TIS License No. | 103637 |\n| Manual Transmission Motorcycles | 847632 | TIS License No. | 103637 |\n| Massage Devices | 601660 | TIS License No. | 103637 |\n| Curlers & Straighteners | 874504 | TIS License No. | 103637 |\n| Massage Chairs | 848016 | TIS License No. | 103637 |\n| Bathroom Taps | 898184 | TIS License No. | 103637 |\n| Kitchen Taps | 895624 | TIS License No. | 103637 |\n# Which markets are affected?\nThe updates of the requirements apply to local to local and cross border sellers in the Thailand market.\n# Who is affected?\nDevelopers with applications that use [Create Product](https://partner.tiktokshop.com/docv2/page/create-product-202309), [Edit Product](https://partner.tiktokshop.com/docv2/page/edit-product-202509), and [Partial Edit Product](https://partner.tiktokshop.com/docv2/page/partial-edit-product-202509#Back%20To%20Top)\n# Which version is applicable?\nThe updates of the requirements apply to all versions of the related APIs\n# What action is required?\nWithout these mandatory attributes sellers will not be able to create and update products.\nUse the Get Attributes to check what attributes are mandatory and pass attribute values via the Create Product, Edit Product, and Partial Edit Product to help sellers fill in the attribute values.\n",
+  "update_time": "1783004323",
+  "view_count": 0,
+  "prev_document_id": "6a412b536fc1a104e5600f5c",
+  "prev_document_path": "5pylr6nx",
+  "next_document_id": "6a4928e98c54fa052a10c028",
+  "next_document_path": "pxkua3s7",
+  "is_api_doc": false,
+  "document_id": "6a467bb5b6498104e9a2155f",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "wqmuutis"
+}

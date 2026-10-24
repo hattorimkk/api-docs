@@ -1,0 +1,31 @@
+{
+  "title": "For EU Markets: Sell Across EU - Global Product APIs (GPA) to Local Replication Architecture",
+  "content": "# What is changing?\nTikTok Shop is moving the Sell Across EU product model from the legacy Global Product APIs (GPA) to the new Local Replication architecture. This change improves scalability and aligns product management with how EU shops operate. **The legacy GPA model (Global APIs) is scheduled to be deprecated by October 30th, 2026.** \n\nGPA vs EU Local Replication (at a glance)\n| **Area** | **Global Product APIs (GPA)** | **Local Replication architecture** |\n| --- | --- | --- |\n| Listing method | GLOBAL_PUBLISHING | LOCAL_REPLICATION |\n| Create & expand products | Create a global product, then publish to EU markets | Create a local product in one EU shop, then replicate to other EU shops |\n| Identifiers you manage | GPID as the cross-market identifier | PID per shop |\n| Key APIs (high-level) | Create Global Product, Publish Global Product, Edit Global Product, Partial Edit Global Product | Create Product, Replicate Product, Edit Product / Partial Edit Product, Bind Local Products |\n| Operational behavior | Global publish model | Replication is asynchronous and tracked via webhook |\n# Which markets are affected?\nThis change applies to all EU markets. \n# Who is affected?\n\n* Technology partners / ISVs currently using Global Product APIs (GPA) to support Sell Across EU.\n* Apps that list and manage products across multiple EU shops.\n\n# What action is required?\n\n* If you are already using GPA for Sell Across EU, review the migration guide below and plan your transition to the EU Local Product Replication architecture before **October 30th, 2026.**\n* If you are building or updating an EU integration app, use the new Local Product Replication architecture for future development.\n* Review your product creation, product mapping, and webhook handling logic to determine updates needed.\n\n\nFor background and implementation details, please refer to:\n\n* Overall Sell Across EU concept: [Sell Across EU API 2026 | TikTok Shop Integration Guides ](https://bytedance.sg.larkoffice.com/docx/SHlfdCXFPoJiWQxp78ClblMWg8b)\n* New Architecture Integration Guide: [Full Sell Across EU API Integration Guide | TikTok Shop ](https://bytedance.larkoffice.com/wiki/J0E9w4SYGirIwOkrjnQc9mmZnJc?from=from_parent_docx)\n* GPA Migration Guide: [Global Product APIs (GPA) Migration to Local Replicate APIs](https://bytedance.larkoffice.com/wiki/FOxxwsvDGiwZt7kKo0lc2HB5nKd)\n",
+  "update_time": "1787731895",
+  "view_count": 0,
+  "prev_document_id": "6a85bbe3d8f53d04f13b082b",
+  "prev_document_path": "todhou0d",
+  "next_document_id": "6a8eaefebaeab604e164ac3a",
+  "next_document_path": "dmo81egx",
+  "is_api_doc": false,
+  "document_id": "6a8e9a23e2cbce04e4a6138f",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    },
+    {
+      "keyword": "Breaking Change",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "6z874qqu"
+}

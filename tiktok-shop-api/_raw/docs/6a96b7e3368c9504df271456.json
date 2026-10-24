@@ -1,0 +1,26 @@
+{
+  "title": "For GS POP Sellers Shipping to EU Markets: Product Identifier (PID) Attribute Requirement Update",
+  "content": "# What is changing?\nStarting **November 1, 2026**, product information used for EU customs declaration must include valid **Product Identifier (PID)** information for goods shipped from outside the EU directly to consumers in EU markets.\nFor each applicable product, the platform will provide **M-PID**. Partners must provide at least one merchant-managed identifier through the following product attributes:\n\n* **Seller SKU**, which maps to **NS-PID**\n* **Product Identifier**, which maps to **S-PID**\n\n**Important**: **Seller SKU (NS-PID)** and **Product Identifier (S-PID)** are **alternative required fields**. **At least one of the two must be provided.**\n\n### Which attributes are affected?\n| EU identifier term | Platform field | Requirement | Notes |\n| --- | --- | --- | --- |\n| Non-standardised Manufacturer Product Identifier (NS-PID) | Seller SKU | Required if S-PID is not provided | Use an internally assigned non-standardised manufacturer identifier. |\n| Standardised Manufacturer Product Identifier (S-PID) | Product Identifier | Required if NS-PID is not provided | Use a recognised standard identifier such as GTIN, JAN, EAN, UPC, or ISBN when available. |\n| Merchant Product Identifier (M-PID) | Platform-provided | No seller action required | This identifier is provided by the platform. |\n### Format requirements\n**Seller SKU / NS-PID** should follow these rules:\n\n* Use **letters and numbers only**.\n* Do **not** use Chinese characters, spaces, or special characters such as `-`, `/`, `_`, or `.`.\n* Keep the value between **6 and 50 characters**.\n* Make sure the identifier matches the actual declared product and remains traceable.\n\n**Product Identifier / S-PID** should follow the recognised international standard applicable to the product category.\n# Who is affected?\nThis update affects Global Selling Platform Open Plan (GSPOP) sellers, partners, and integrators whose product information may be used for shipments from outside the EU to EU consumers, especially those who create, maintain, or sync product attributes through listing tools, ERP systems, or API integrations.\n# What action is required?\n\n1. Review products intended for EU-bound orders and identify records with missing or invalid PID information.\n2. Ensure that **at least one** of the following fields is populated with a valid value: **Seller SKU (NS-PID)** or **Product Identifier (S-PID)**.\n3. For **new products**, start following this rule from **September 1, 2026** before listing.\n4. For **existing products**, complete data checks and remediation before the **end of October 2026** to reduce listing and customs clearance risk.\n\n### What are the risks if no action is taken?\n\n* New products may fail listing checks if the required identifier information is not ready.\n* Existing products may be subject to temporary platform controls by the end of October 2026 if required information is still missing.\n* From **November 1, 2026**, missing or invalid PID information may cause customs declaration issues, customs clearance failure, import rejection, and related logistics loss.\n\n### General recommendation\n\n* If a standardised identifier already exists, populate **Product Identifier (S-PID)** to improve customs data accuracy.\n* If no standardised identifier is available, maintain a valid **Seller SKU (NS-PID)** that meets the required format.\n* If you manage product data through integrations, update validation and sync logic early to avoid last-minute remediation.\n",
+  "update_time": "1788262648",
+  "view_count": 0,
+  "prev_document_id": "6a9532569ae49b04ddf21d98",
+  "prev_document_path": "q50o39n1",
+  "next_document_id": "6a98119cd7ff2a050230aebf",
+  "next_document_path": "h6c7xadr",
+  "is_api_doc": false,
+  "document_id": "6a96b7e3368c9504df271456",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "2ixd0cad"
+}

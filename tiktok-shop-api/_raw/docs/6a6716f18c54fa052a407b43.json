@@ -1,0 +1,21 @@
+{
+  "title": "Find the right API and webhook",
+  "content": "Use this workflow when you know the business outcome but do not yet know the correct endpoint, webhook, version, scope, or field.\n# Ask from the business outcome\n> 📝\n> **Prompt to copy**\n> For [BUSINESS OUTCOME] in [MARKET], identify the current TikTok Shop OpenAPI endpoints and webhooks I should use. For each item, provide the method and path, version, required scopes, prerequisites, required request fields, relevant response fields, pagination or webhook behavior, and the official source. Separate confirmed facts from assumptions.\n\n# How the Toolkit checks the answer\n\n1. The `tts-openapi-guide` skill locates the relevant first-level domain in the bundled OAS reference.\n2. It checks the exact path, method, parameters, body, response, required flags, and enum values.\n3. When the bundled reference does not resolve the question, it falls back to official Partner Center documentation.\n4. If the two sources differ, the answer should state the difference and identify the source used.\n\n# Expected output\n| Section | What to verify |\n| --- | --- |\n| API or webhook | Exact name, method/path or event, and version. |\n| Access | Required scope, App/Shop prerequisite, and market boundary. |\n| Contract | Required request fields, response fields, enums, and pagination. |\n| Evidence | Bundled OAS location or official Partner Center URL. |\n| Gaps | Unknown or conflicting information that still needs confirmation. |\n# Example\n“Which APIs are required to publish a product in the US market? Build the dependency order and identify category, attributes, images, listing checks, creation, and status verification.”\n[Browse TikTok Shop API documentation](https://partner.tiktokshop.com/docv2)\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143351",
+  "view_count": 0,
+  "prev_document_id": "6a6716f045b25704e94af8f8",
+  "prev_document_path": "tts-open-toolkit-cli",
+  "next_document_id": "6a6716f2f4f24b04f6296a10",
+  "next_document_path": "tts-open-toolkit-apps-sandbox",
+  "is_api_doc": false,
+  "document_id": "6a6716f18c54fa052a407b43",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-find-api-webhook"
+}

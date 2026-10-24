@@ -1,0 +1,21 @@
+{
+  "title": "Releases and feedback",
+  "content": "# Check the installed and latest versions\n```bash\ntts_open_toolkit version\ntts_open_toolkit update --check\n```\n\n[TTS Open Toolkit CLI on npm](https://www.npmjs.com/package/@tts-open-toolkit/cli)\n# Keep skills current\n```bash\ntts_open_toolkit skill state --agent codex --json\ntts_open_toolkit skill add --agent codex --update\n```\n\nRepeat with the target used by your AI agent or project.\n# Follow platform changes\n[TikTok Shop developer Changelog](https://partner.tiktokshop.com/docv2/changelog)\nThe platform Changelog covers API and developer-product changes. Review it together with the API reference and your repository before deciding impact.\n# Submit feedback\nUse the English feedback form for installation, upgrade, authentication, App/sandbox access, DevAPI, answer quality, or feature requests.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n## Include\n\n* Operating system, Node version, CLI version, and AI agent.\n* Your goal, reproduction steps, expected result, and actual result.\n* Sanitized request ID, error code, log ID, or screenshot when available.\n\n> 💡\n> Never submit OAuth tokens, authorization codes, App Secrets, cookies, private keys, passwords, or protected credential-store contents.\n\n# Join the developer community\nJoin **TTS Open Toolkit | Developer Community** to discuss integration questions, exchange implementation practices, and share product feedback with other developers.\n[Join TTS Open Toolkit | Developer Community](https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=758l2012-4347-4bfb-a0b5-65f4f3mjqair)\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785144625",
+  "view_count": 0,
+  "prev_document_id": "6a671703b6498104e9d3f549",
+  "prev_document_path": "tts-open-toolkit-security-boundaries",
+  "next_document_id": "6a6716eeb9e53b04eac6141f",
+  "next_document_path": "tts-open-toolkit-ai-agents",
+  "is_api_doc": false,
+  "document_id": "6a671705331fb304ed654cad",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-releases-feedback"
+}

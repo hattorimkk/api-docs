@@ -1,0 +1,21 @@
+{
+  "title": "Get Product API v202309: New not_submitted_reasons Response Field Added",
+  "content": "# Summary\nThe Get Product API adds a new response field, `audit.not_submitted_reasons`, to explain why a product has not been submitted for TikTok Shop audit when the shop has not met one or more listing prerequisites.\nThis field is applicable only when `audit.status` is `NONE` and unmet shop prerequisites prevent the product from being submitted for audit. In all other cases, the API returns an empty array.\n# What is changing\nThe following response field is added to the Get Product API.\n**Endpoint:**`GET /product/202309/products/{product_id}`\n| Location | Field | Type | Returned | Example | Description |\n| --- | --- | --- | --- | --- | --- |\n| Response body: `data.audit` | `not_submitted_reasons` | `List<String>` | Contains one or more values when applicable; otherwise `[]` | `[\"SHOP_INACTIVE\"]` | Reasons why the product has not been submitted for TikTok Shop audit. Applicable only when `audit.status=NONE` and unmet shop listing prerequisites prevent audit submission. |\n\n## Possible values\n| Value | Description |\n| --- | --- |\n| `PAYMENT_ACCOUNT_NOT_LINKED` | No payment account is linked to the shop. |\n| `SHOP_INACTIVE` | The shop is inactive. |\n| `W8_NOT_CONFIGURED` | The required W-8 tax information has not been provided for the shop. Applicable only to US shops. |\n\n## Response example\n```JSON\n{\n  \"code\": 0,\n  \"message\": \"Success\",\n  \"request_id\": \"your_request_id\",\n  \"data\": {\n    \"id\": \"1729592969712207008\",\n    \"audit\": {\n      \"status\": \"NONE\",\n      \"not_submitted_reasons\": [\n        \"SHOP_INACTIVE\"\n      ]\n    }\n  }\n}\n```\n\n# What action is required\nIf your app uses the Get Product API, review the following update.\nRecommended actions:\n\n* Add `audit.not_submitted_reasons` as an array of strings to your Get Product response model, especially if your app uses strict response deserialization.\n* Read this field when `audit.status` is `NONE` to identify unmet shop listing prerequisites that block audit submission.\n* Support multiple reason values in the array rather than assuming that only one reason will be returned.\n* Treat an empty array as no applicable unmet shop prerequisite returned by this field. Continue to use `audit.status` as the source of truth for the product's audit status.\n* Handle unknown future reason values gracefully so that newly introduced values do not cause response parsing failures.\n* For US shops, handle `W8_NOT_CONFIGURED` and guide sellers to provide the required W-8 tax information.\n* Test the updated response parsing logic in API Testing Tool before rolling it out to production traffic.\n\nThis is an additive response change. Apps that ignore unknown response fields are not expected to require code changes, while apps with strict response schemas should update their models before the field is rolled out.\n",
+  "update_time": "1788163329",
+  "view_count": 0,
+  "prev_document_id": "6a91350f52f16104bc1c052a",
+  "prev_document_path": "4t418mt7",
+  "next_document_id": "6a96b7e3368c9504df271456",
+  "next_document_path": "2ixd0cad",
+  "is_api_doc": false,
+  "document_id": "6a9532569ae49b04ddf21d98",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "q50o39n1"
+}

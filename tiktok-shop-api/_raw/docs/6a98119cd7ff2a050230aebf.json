@@ -1,0 +1,26 @@
+{
+  "title": "For UK & EU markets: Dangerous Goods (DG) Compliance Requirements ",
+  "content": "# **What is changing?**\nTikTok Shop has introduced Dangerous Goods (DG) compliance attributes for selected product categories in the United Kingdom and European markets. For applicable categories and product classifications, the [Get Attributes API](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) will return the relevant DG attributes as mandatory starting **September 22nd, 2026**.\nDepending on category type, sellers may be required to provide: \n\n* Battery type \n* Battery characteristics \n* Packaging method \n* Rechargeable status \n* Aerosol liquid volume \n* Flammable liquid volume \n* SDS / UN38.3 documentation \n* Hazardous material classification\n\nNew listings will require mandatory values before they can be published.\n## **Which markets are affected?**\nThe change applies to selected categories in UK and EU. Not every product requires the same DG fields. Applicability depends on the category and product classification, as reflected in the category and attribute information returned by TikTok Shop.\n## **Who is affected?**\n\n* Integration partners and service providers that support product listing creation or editing.\n* Local and cross border sellers operating in the affected markets and categories.\n\n## **What action is required?**\n\n1. **Update attribute handling.** Read the applicable category and attribute information returned by TikTok Shop through the [Get Attributes](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) API.\n2. **Surface mandatory fields.** Display applicable DG attributes as mandatory in integration apps and listing workflows.\n3. **Collect and validate values.** Require sellers to provide the applicable information and validate it before submission.\n4. **Submit during listing creation and editing.** Pass the required DG values whenever an affected listing is created or updated.\n",
+  "update_time": "1788444648",
+  "view_count": 0,
+  "prev_document_id": "6a96b7e3368c9504df271456",
+  "prev_document_path": "2ixd0cad",
+  "next_document_id": "6aa1880ea1d62b04bcb7f950",
+  "next_document_path": "k0ubfjdt",
+  "is_api_doc": false,
+  "document_id": "6a98119cd7ff2a050230aebf",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "h6c7xadr"
+}

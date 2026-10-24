@@ -1,0 +1,21 @@
+{
+  "title": "For US Market: Warehouse ID in Get Package Detail API",
+  "content": "# Overview\nTikTok Shop plans to add `warehouse_id` to the Get Package Detail API for the US market. The field identifies the warehouse associated with a package's actual fulfillment, including cases where TikTok Shop switches the fulfillment warehouse after the order is placed.\nThis update is intended for apps that retrieve package details for inventory reconciliation, warehouse reporting, or fulfillment operations. \n| Item | Scope |\n| --- | --- |\n| Market | US |\n| Audience | Apps that integrate with fulfillment APIs |\n| Primary use case | Warehouse-level reconciliation when a package's fulfillment warehouse changes |\n| Request change | None |\n| Response change | Add `data.warehouse_id` |\n\n# What is changing\nToday, Get Package Detail does not identify the warehouse that actually fulfills a package. If TikTok Shop switches warehouses, an app cannot reliably map the package to the fulfillment warehouse by using the API response alone.\n## Before\n\n* The response does not include the actual fulfillment warehouse ID.\n* Apps may continue using the original warehouse allocation or another indirect mapping.\n* Warehouse-level inventory reconciliation may show discrepancies after a warehouse switch.\n\n## After\n\n* The response includes `data.warehouse_id`.\n* Apps can map each package to the warehouse associated with its actual fulfillment.\n* Apps can reconcile package and inventory records using the returned warehouse ID.\n\n\n## Affected API\n| API | Method and path | API version |\n| --- | --- | --- |\n| Get Package Detail | `GET /fulfillment/202309/packages/{package_id}` | `v202309` |\n## New response field\n| Field | Type | Description |\n| --- | --- | --- |\n| `data.warehouse_id` | String | The ID of the warehouse associated with the package's actual fulfillment. |\n```JSON\n{\n  \"data\": {\n    \"package_id\": \"5433567853345\",\n    \"warehouse_id\": \"7317467398322308906\"\n  }\n}\n```\n\n\n# How to integrate\n## Update your response model\n\n1. Add `warehouse_id` as a string under the response `data` object.\n2. Keep your parser forward-compatible with additive response fields.\n3. Treat the field as optional until the rollout and unset-value behavior are confirmed.\n\n\n\n# Timeline and enforcement\n| Date | What happens |\n| --- | --- |\n| 7/16 | Get Package Detail begins returning `data.warehouse_id` for in-scope US packages. |\n\n\n# FAQ\n## Does this change the Get Package Detail request?\nNo. Continue sending the existing `GET /fulfillment/202309/packages/{package_id}` request.\n## Should I store the warehouse ID as a number?\nNo. Store `warehouse_id` as a string to preserve the complete identifier.\n",
+  "update_time": "1785897689",
+  "view_count": 0,
+  "prev_document_id": "6a041512404e8ddd87b5d72b",
+  "prev_document_path": "8syhoy40",
+  "next_document_id": "6a72d7e58c54fa052a4e153e",
+  "next_document_path": "9ohh0qnw",
+  "is_api_doc": false,
+  "document_id": "6a72a290b9e53b04ead33ec5",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "xehvl72m"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Overview",
+  "content": "Use this section when you need to understand what the Toolkit installs, select an installation target, look up exact command groups, or integrate CLI output into an agent or script.\n# Browse the reference\n| Topic | Page |\n| --- | --- |\n| What each bundled skill knows | [Built-in skills](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-built-in-skills) |\n| Install targets, state, and updates | [Choose and manage skills](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-manage-skills) |\n| All CLI command groups | [CLI command reference](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-command-reference) |\n| Config precedence, local files, and output | [Configuration, output, and local files](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-configuration-output-files) |\n> 💡\n> Run `tts_open_toolkit --help` on the installed version when this documentation and a local installation differ. Installed-version help is the final source of truth for accepted commands and flags.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143843",
+  "view_count": 0,
+  "prev_document_id": "6a6716fbd8f53d04f11537b4",
+  "prev_document_path": "tts-open-toolkit-about-cli",
+  "next_document_id": "6a6716fc194d4e04bd313d37",
+  "next_document_path": "tts-open-toolkit-built-in-skills",
+  "is_api_doc": false,
+  "document_id": "6a6716fb8930d50523f18c2e",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-cli-reference"
+}

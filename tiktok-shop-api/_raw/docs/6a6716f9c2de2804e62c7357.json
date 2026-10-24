@@ -1,0 +1,21 @@
+{
+  "title": "Upgrade and verify",
+  "content": "# Check before updating\n```bash\ntts_open_toolkit update --check\n```\n\nThis command checks for a newer package without installing it.\n# Update the CLI\n```bash\ntts_open_toolkit update --yes\n```\n\nIf a registry mirror is stale, explicitly use npmjs:\n```bash\ntts_open_toolkit update --yes --registry https://registry.npmjs.org\n```\n\n# Refresh managed skills\n```bash\ntts_open_toolkit skill add --agent codex --update\ntts_open_toolkit skill state --agent codex --json\n```\n\nUse the same target that you used during installation. Do not combine `--scope`, `--agent`, and `--target`.\n# Run a health check\n```bash\ntts_open_toolkit version\ntts_open_toolkit doctor\ntts_open_toolkit auth doctor --json\n```\n\n| Check | Expected result |\n| --- | --- |\n| CLI | The expected version and executable path are shown. |\n| Skills | Managed skills report `current`; modified or unmanaged copies are identified. |\n| OAuth | Profile metadata and protected credential-store status are available without exposing secrets. |\nFor failures, continue to [Troubleshooting](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-troubleshooting).\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143840",
+  "view_count": 0,
+  "prev_document_id": "6a6716f8194d4e04bd313d24",
+  "prev_document_path": "tts-open-toolkit-auth-profiles",
+  "next_document_id": "6a6716fbd8f53d04f11537b4",
+  "next_document_path": "tts-open-toolkit-about-cli",
+  "is_api_doc": false,
+  "document_id": "6a6716f9c2de2804e62c7357",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-upgrade-verify"
+}

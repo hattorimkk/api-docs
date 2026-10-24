@@ -1,0 +1,21 @@
+{
+  "title": "All Markets: Order APIs Add LIVE Session ID and Buyer Nickname Fields",
+  "content": "# What is changing?\nAs of October 22, 2026, two response fields have been added to Order APIs to support LIVE Auction workflows.\n\n* `orders[].line_items[].room_id`: A string containing the LIVE session ID for the order line item. For line items not created from LIVE, this field returns an empty string.\n* `orders[].buyer_nickname`: A string containing the TikTok buyer nickname for identifying the buyer in LIVE workflows.\n\nThe fields are included in these API specifications:\n| API | Version | Method and path | API reference |\n| --- | --- | --- | --- |\n| Get Order List | 202309 | `POST /order/:version/orders/search` | [Get Order List 202309](https://partner.tiktokshop.com/docv2/page/get-order-list-202309) |\n| Get Order Detail | 202309 | `GET /order/:version/orders` | [Get Order Detail 202309](https://partner.tiktokshop.com/docv2/page/get-order-detail-202309) |\n| Get Order Detail | 202507 | `GET /order/:version/orders` | [Get Order Detail 202507](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) |\n# Which markets are affected?\nThis change applies to the following markets: UK, EU, SEA, LATAM, JP.\n# Who is affected?\nDevelopers of ERP, OMS, MCM, and connectors applications; and TikTok Shop sellers using LIVE workflows.\n# What action is required?\n\n1. Review the response schema for the API version your integration uses.\n2. If you intend to consume the new fields, update your response parser and data model for `orders[].line_items[].room_id` and `orders[].buyer_nickname`.\n3. Use `room_id` to attribute each LIVE order line item to its LIVE session, and use `buyer_nickname` to identify the buyer in LIVE workflows.\n4. Test non-LIVE order behavior: `room_id` returns an empty string when an order line item was not created from a LIVE session.\n",
+  "update_time": "1792664965",
+  "view_count": 0,
+  "prev_document_id": "6ad9e1656d07c302db7de682",
+  "prev_document_path": "l0aungg9",
+  "next_document_id": "65a848f4ea874002e1f672d1",
+  "next_document_path": "us-only-order-cancellation-workflow-updates",
+  "is_api_doc": false,
+  "document_id": "6ad9e3bf489b3a02be5d8a7c",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "gfhiex0q"
+}

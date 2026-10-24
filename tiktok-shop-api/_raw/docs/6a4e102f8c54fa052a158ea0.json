@@ -1,0 +1,21 @@
+{
+  "title": "For Indonesia Market:  Get Toko Product Mappers API Release ",
+  "content": "# 1. Overview\nThis release introduces a new open API, **Get Toko Product Mappers**, which converts **Tokopedia (Toko) product IDs into their corresponding TikTok Shop (TTS) product IDs**. It is designed for affiliate / rebate partners who operate on Tokopedia product identifiers but need to retrieve the equivalent TikTok Shop product information (such as price and commission) to power their offer and rebate services.\nPreviously, partners serving Toko affiliate rebate channels had no reliable way to map a Toko product ID to its TTS counterpart, which prevented them from surfacing TikTok Shop product prices and commission rates on the rebate side. This API closes that gap with a simple batch lookup.\n\n* **Service object:** This API is built for **Creators (affiliates) in Indonesia** and the ISVs / rebate applications that serve them on the Tokopedia affiliate channel.\n* **What it does:** for each Tokopedia (Toko) product, it returns the corresponding TikTok Shop (TTS) product, so that Toko-side affiliate and rebate services can retrieve the matching TikTok Shop product details.\n\n# 2. New API\n## Get Toko Product Mappers\n| **Method & Path** | `GET /affiliate_creator/202606/toko_product_mappers` |\n| --- | --- |\n| **Category** | Affiliate Creator |\n| **Purpose** | Return TikTok Shop format product ID information using a Tokopedia format product ID. |\n| **Authentication** | Requires a Creator (affiliate) access token; standard app authentication applies. |\n# 3. Impact & Affected Parties\n| **Who is affected** | **Creators (affiliates) in Indonesia** are the primary service object, together with the ISVs, affiliate agencies and rebate applications that serve them on the Tokopedia affiliate / offer channel. |\n| --- | --- |\n| **Benefit** | Partners can now map Toko product IDs to TTS product IDs, enabling them to fetch TikTok Shop prices and commission data for their rebate / offer services on Toko affiliate traffic. |\n# 4. Recommended Actions for ISVs\n\n1. Ensure your integration is authorized with a valid Creator (affiliate) access token.\n2. Call the Get Toko Product Mappers API to obtain the TikTok Shop products corresponding to your Tokopedia products.\n3. Use the returned TikTok Shop products to look up details such as price and commission through existing product / commission APIs, and surface them in your rebate / offer flows for Indonesian creators.\n\n[API Reference: Get Toko Product Mappers](https://partner.tiktokshop.com/docv2/page/get-toko-product-mappers-202606)\n",
+  "update_time": "1783500946",
+  "view_count": 0,
+  "prev_document_id": "69d8c2294ce9a804deec62c3",
+  "prev_document_path": "4brha1mn",
+  "next_document_id": "6a6321abeb705304fd582ec1",
+  "next_document_path": "d5oa8gw3",
+  "is_api_doc": false,
+  "document_id": "6a4e102f8c54fa052a158ea0",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "xbd5dfga"
+}

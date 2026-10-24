@@ -1,0 +1,21 @@
+{
+  "title": "US & EMEA Markets: Get Review Decisions API (NEW)",
+  "content": "**Effective date:** Aug 24, 2026\n## What's changing\nFor returns decision management, TikTok has released a new endpoint called **Get Review Decisions API**, which allows sellers to evaluate which seller decisions are currently allowed for the specified aftersales request. The API returns one result per requested decision, including whether the decision is currently eligible and any rejection reasons that are applicable for an eligible reject decision.\n\n***How is this different from the existing*** [Get Decisions Eligibility API](https://partner.tiktokshop.com/docv2/page/get-decision-eligibility-202601)***?***\nHistorically, when a buyer submits a return with multiple `sku_id`(s), TikTok would **not** create a unified `return_id` that included both skus. TikTok decouples each unique `sku_id` into a separate `return_id`. Recently we built a new workflow and API to shield sellers/partner systems from this decoupling return_id behavior, and to expose an `RMA_ID` that represents a \"parent\" value, with all unique `sku_id` and their quantities as unique `return_line_item_id`(s) in a single unified payload.  (see [batch return ARD documentation here](https://bytedance.us.larkoffice.com/docx/MpW6dVMv4ooDtUxsFbbu3PThsaf) to learn full details about this use-case)\n\nThe legacy **Get Decisions Eligibility API** requires sellers to make multiple API calls for each unique `sku_id` level `return_id`.\n\nThe new **Get Review Decisions API** allows sellers to query using the new batch return parent RMA_ID as a search parameter, and the response will include every single sku associated with the buyers original return submission, and the seller can see **all possible** review decisions that are eligible in the **single** response payload. \n\n\n# Impact\nThis is a brand new API, which includes the same functionality as the legacy Get Decisions Eligibility API, but now simplifies the use-case when sellers are using our new batch return RMA APIs. There is no immediate plan this year to deprecate the Get Decisions Eligibility API, but at some point in the future there will be an announcement of the sunset plan. We highly encourage all seller/developers to use the Get Review Decisions API going forward if they need to check decision options for a specific return/Aftersales request. \n\n| **Impacted Markets** <br>  | * United States (US) <br> * EU and UK |\n| --- | --- |\n| **Returns APIs** | **Parameter / Feature Update** |\n| --- | --- |\n| [Get Review Decisions API](https://partner.tiktokshop.com/docv2/page/get-review-decision-202606) | Query Parameter: <br> `return_or_cancel_id`  <br> Sellers can still use the legacy TTS `return_id` which is sku_id based <br> Sellers can now also use the batch RMA `id` which will give a comprehensive view of all `sku_id`(s) associated with the buyers original return submission and break out eligible decisions for each unique `return_line_item_id` |\n\n# FAQ\n**Question 1:** Is this a breaking change?\n**Answer:** No. This is a new API endpoint with added query functionality. Existing integrations using the Get Decision Eligibility API will continue to work for now, until the future state sunsetting plan is announced.\n\n**Question 2**: Does my app need a new authorization scope? \n**Answer:** Apps that already have access to the **Return & Refund Basic** scopes do not need new authorization. \n\n",
+  "update_time": "1787627124",
+  "view_count": 0,
+  "prev_document_id": "6a2932e91c4e66e01e8f57c7",
+  "prev_document_path": "27kia292",
+  "next_document_id": "6a56f681ec170f04e2c1a21f",
+  "next_document_path": "hhw7w40d",
+  "is_api_doc": false,
+  "document_id": "6a8d002aa799a804c343dd8e",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "k9sj1xw5"
+}

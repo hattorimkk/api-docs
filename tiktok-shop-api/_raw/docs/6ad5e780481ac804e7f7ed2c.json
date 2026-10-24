@@ -1,0 +1,21 @@
+{
+  "title": "For SEA L2L Market: Update on SLA fields for Order Fulfillment in Open API",
+  "content": "# Change Summary\nFrom 15 October 2026, this update adds two new response fields to the Order Open API, covering both **getorderlist** and **getorderdetail**. The fields expose fast fulfillment SLA timestamps for shipping and collection actions, so sellers and partners can identify the required SLA time directly from order data.\n| Field | Data type | Description |\n| --- | --- | --- |\n| `fast_rts_sla_time` | int | Indicates the fast fulfillment SLA for shipping action. The value is a Unix timestamp and applies to the SEA market only. |\n| `fast_collection_sla_time` | int | Indicates the fast fulfillment SLA for collection action. The value is a Unix timestamp and applies to the SEA market only. |\n# What is changing in detail?\nTwo new fields will be added under the response parameter path **Data > Orders** for both **getorderlist** and **getorderdetail**.\nUse this field to ensure you can meet the Fast Delivery Rate (FDR) SLA to increase your FDR performance (applicable for SEA Local to Local market).\nShipping according to the FDR timeline helps merchants improve their FDR, which in turn **boosts your SES scores** and allows you to **obtain relevant benefits.** \nLearn more below :\n- [Malaysia](https://seller-my.tiktok.com/university/essay?knowledge_id=3651539487557377&role=1&course_type=1&from=search)\n- [Thailand](https://seller-th.tiktok.com/university/essay?knowledge_id=3470372616095489&role=1&course_type=1&from=search)\n- [Vietnam](https://seller-vn.tiktok.com/university/essay?knowledge_id=3689018080577297&role=1&course_type=1&from=search)\n- [Singapore](https://seller-sg.tiktok.com/university/essay?knowledge_id=3689018080495377&role=1&course_type=1&from=search)\n- [Indonesia](https://seller-id.tokopedia.com/university/essay?knowledge_id=3448561695213313&role=1&course_type=&from=search)\n- [Philippines](https://seller-ph.tiktok.com/university/essay?knowledge_id=3651539487819521&role=1&course_type=1&from=search)\n# Which markets are affected?\nThis change applies to the **SEA market (Local to Local) only** . No impact is expected for markets outside SEA. \n# Who is affected?\nThis change affects sellers, partners, and internal systems that consume **getorderlist** or **getorderdetail** response data and need to read fast fulfillment SLA timestamps for order fulfillment, shipping, collection, or SLA monitoring scenarios.\n# Which version is applicable?\nGet Order List - 202309\nGet Order Detail - 202309, 202507\n# What action is required?\nFor API consumers: update response parsing logic to read `fast_rts_sla_time` and `fast_collection_sla_time` under **Data > Orders** when needed to map the two fields to the corresponding fulfillment SLA to ensure fulfillment within FDR SLA \n",
+  "update_time": "1792403771",
+  "view_count": 0,
+  "prev_document_id": "6a90094168dd4704b4785595",
+  "prev_document_path": "fqmbs42f",
+  "next_document_id": "6ad9e1656d07c302db7de682",
+  "next_document_path": "l0aungg9",
+  "is_api_doc": false,
+  "document_id": "6ad5e780481ac804e7f7ed2c",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "vh1mgiuw"
+}

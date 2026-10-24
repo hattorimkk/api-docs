@@ -1,0 +1,21 @@
+{
+  "title": "About TTS Open Toolkit CLI",
+  "content": "TTS Open Toolkit CLI helps developers use TikTok Shop context and supported Partner Center operations from a terminal or AI coding agent. It can install skills, find current API guidance, connect authorized App/Shop context, and automate supported developer tasks.\n# Features\n\n* Installs TikTok Shop skills for Codex, Claude Code, Trae, and Trae CN.\n* Uses bundled OpenAPI and developer knowledge instead of model memory alone.\n* Signs in through Partner Center OAuth and manages protected profiles.\n* Lists supported Apps and sandbox accounts and runs fixed DevAPI operations.\n* Returns machine-readable JSON for supported agent and automation workflows.\n\n# Requirements\n\n* Node.js 18 or later.\n* A supported AI coding agent when you want agent-guided workflows.\n* A Partner Center developer account for OAuth-backed operations.\n\n# Getting started\n```bash\nnpm install -g @tts-open-toolkit/cli\ntts_open_toolkit skill add --agent codex --update\ntts_open_toolkit doctor\n```\n\nIf you previously installed the beta version, use `tts_open_toolkit update` and run `doctor` again.\n# Where to get help\nRun `tts_open_toolkit doctor` first, then open [Help and feedback](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-help-feedback).\n# Command reference\n[CLI command reference](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-command-reference)\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143859",
+  "view_count": 0,
+  "prev_document_id": "6a6716f9c2de2804e62c7357",
+  "prev_document_path": "tts-open-toolkit-upgrade-verify",
+  "next_document_id": "6a6716fb8930d50523f18c2e",
+  "next_document_path": "tts-open-toolkit-cli-reference",
+  "is_api_doc": false,
+  "document_id": "6a6716fbd8f53d04f11537b4",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-about-cli"
+}

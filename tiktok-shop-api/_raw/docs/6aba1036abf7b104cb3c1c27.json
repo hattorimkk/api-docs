@@ -1,0 +1,21 @@
+{
+  "title": "Predict Product Package Dimensions and Weight",
+  "content": "",
+  "update_time": "1790578742",
+  "view_count": 0,
+  "prev_document_id": "6aa1271d41c44a049f0bc1d4",
+  "prev_document_path": "update-stock-operation-settings-202608",
+  "next_document_id": "6aba10380c118504c745cbc1",
+  "next_document_path": "recommend-required-product-properties-202609",
+  "is_api_doc": true,
+  "document_id": "6aba1036abf7b104cb3c1c27",
+  "doc_type": 1,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "predict-product-package-dimensions-and-weight-202609"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Inventory Changed by Shop: New Webhook for SKU Inventory Updates",
+  "content": "## What is changing?\nTikTok Shop is introducing the **Inventory Changed by Shop** webhook (`type: 71`) to notify developers when SKU inventory quantities change.\nThis webhook covers inventory changes caused by order creation, cancellation, and shipment; manual adjustments in Seller Center; inventory updates through OpenAPIs; inventory locking and release for marketing campaigns or creator collaborations; and automatic replenishment by the system.\nEach notification includes:\n\n* **Affected product and SKU:** Identifies the shop, product, and SKU associated with the inventory change.\n* **Post-change inventory snapshot:** Provides total inventory, available inventory, committed inventory, in-shop inventory, and inventory locked for campaigns or creator collaborations.\n* **Individual change details:** Provides the trigger source, occurrence time, and quantity changes for each inventory category.\n* **Idempotency identifiers:** Includes `event_id` for event-level deduplication and `idempotency_key` for deduplicating individual change operations.\n\nDevelopers can use these notifications to synchronize inventory and track the reasons for inventory changes, reducing the need to infer stock movements from separate business events.\n## Which markets are affected?\nThis webhook applies to all markets, as specified in the [Inventory changed announcement](https://partner.tiktokshop.com/docv2/page/7u0ofsrd).\n## Who is affected?\nThis update applies to developers and service providers using TikTok Shop APIs to manage or synchronize merchants’ product inventory, including integrations with ERP, inventory management, and multichannel commerce systems.\n## Which version is applicable?\nThis is a new webhook event and does not introduce a new API version. Notifications are delivered to the webhook URL configured for your application. See the [Inventory changed announcement](https://partner.tiktokshop.com/docv2/page/7u0ofsrd).\n## What action is required?\nWe recommend integrating this webhook if your application needs to track SKU inventory changes.\nRecommended actions:\n\n* Configure your application to receive and process the **Inventory Changed by Shop** webhook (`type: 71`).\n* Update your webhook handler to parse `quantity_snapshot_after_change` and the `change_detail` array, including the trigger source, occurrence time, and quantity deltas.\n* Use `event_id` and `idempotency_key` to prevent duplicate processing at the event and individual-change levels.\n* Distinguish inventory snapshots from quantity deltas. A snapshot represents inventory after the change; a delta represents an increase or decrease. Avoid applying both to the same inventory balance.\n* Test inventory synchronization across order events, manual adjustments, API updates, campaign and creator inventory reservations, and automatic replenishment.\n\nFor the complete payload structure, field descriptions, and event example, refer to the [Inventory Changed by Shop Webhook documentation](https://partner.tiktokshop.com/docv2/page/qk9yta93).\n",
+  "update_time": "1789555560",
+  "view_count": 0,
+  "prev_document_id": "6aaa66e258389604b5ba4e16",
+  "prev_document_path": "tfdpn5tm",
+  "next_document_id": "6aacded7e2cbce04e4c4b0cb",
+  "next_document_path": "ewba9wve",
+  "is_api_doc": false,
+  "document_id": "6aaa72d6c7ea6c04a26f05c9",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "nn6csp5o"
+}

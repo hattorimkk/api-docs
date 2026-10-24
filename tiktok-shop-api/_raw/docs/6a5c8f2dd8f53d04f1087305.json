@@ -1,0 +1,21 @@
+{
+  "title": "For All markets：New Republish Activity API ",
+  "content": "# Summary\nThe Promotion category adds a new Republish Activity API that lets sellers bring an expired or deactivated promotion activity (product discount or flash deal) back online for a new effective period. There is no need to recreate the activity or re-associate products and SKUs — promotions can be restored in a single call.\n# Value & Use Cases\n\n* **Lower cost, higher efficiency:** Previously, restoring an expired activity meant recreating it and re-adding every product/SKU one by one — many calls, tedious work. The new API reuses the products and SKUs already tied to the original activity and only requires a new effective period, **significantly cutting the number of add-products calls**.\n* **Typical scenarios:** Extending or reopening a promotion after it expires (e.g., mega-sale returns, flash-deal renewals); quickly recovering an activity that was deactivated by mistake; running periodic, rolling promotions on the same set of products.\n* After republishing, the activity can be edited as usual — you can continue to add or remove products and SKUs.\n\n# Scope of Impact\n\n* **New endpoint:**`POST /promotion/202607/activities/{activity_id}/republish`\n* **Supported activity types:** Only FIXED_PRICE, FLASHSALE, and DIRECT_DISCOUNT activities.\n* **Applicable seller types:** both local and cross-border.\n* **Preconditions:** The target activity must have expired or been deactivated within the last 7 days; begin_time must be greater than the current time; otherwise error code 17003243 (This activity dont allow republishing) is returned.\n\n# Works With / Replaces\n\n* **Before:** Search Promotion Activities / Get Activity — locate the target activity_id and its status.\n* **After (optional):** Update Promotion Activity / Update Promotion Activity Products / Remove Promotion Activity Products — adjust the activity and its products as needed once republished.\n* **Replaces:** The old flow of recreate activity + Create Promotion Activity + re-add products one by one. TikTok Shop recommends using this API instead to reduce API requests.\n\n# Timeline\n\n* Effective version: 202607; launch: 2026-07.\n* RC / preview version: None.\n\n# Quick Start\nIntegration: standard TTS signed authentication (app_key + sign + timestamp), pass x-tts-access-token in the header (seller access_token where user_type=0); cross-border shops must pass shop_cipher in the query.\n**Request sample:**\n```Bash\nPOST /promotion/202607/activities/{activity_id}/republish?app_key={app_key}&sign={sign}&timestamp={timestamp}&shop_cipher={shop_cipher}\nContent-Type: application/json\nx-tts-access-token: {access_token}\n\n{\n  \"begin_time\": 1784538000,\n  \"end_time\": 1785142800\n}\n```\n\n**Success response sample (data.activity_id is the ID of the successfully republished activity):**\n```JSON\n{\n  \"code\": 0,\n  \"data\": {\n    \"activity_id\": \"7136104329798256386\"\n  },\n  \"message\": \"Success\",\n  \"request_id\": \"202203070749000101890810281E8C70B7\"\n}\n```\n\n# Links\n\n* API Reference: [Republish Activity](https://partner.tiktokshop.com/docv2/page/republish-activity-202607)\n* Quick Start / Overview: [Promotion API Overview](https://partner.tiktokshop.com/docv2/page/promotion-api-overview)\n",
+  "update_time": "1784450996",
+  "view_count": 0,
+  "prev_document_id": "6740642f29926a030df796bd",
+  "prev_document_path": "maintenance-scheduled-downtime-for-promotion-apis",
+  "next_document_id": "6a9bd47ec7ea6c04a260c9dd",
+  "next_document_path": "xiqhn3o4",
+  "is_api_doc": false,
+  "document_id": "6a5c8f2dd8f53d04f1087305",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "xvrcifoa"
+}

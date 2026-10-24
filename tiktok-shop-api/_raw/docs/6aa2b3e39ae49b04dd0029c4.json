@@ -1,0 +1,21 @@
+{
+  "title": "Get Opportunity Detail and List Opportunity APIs: New Fields Added",
+  "content": "## Summary\nGet Opportunity Detail and List Opportunity APIs add new response fields to provide opportunity tag codes and reference product information. Get Opportunity Detail also adds opportunity tags, while List Opportunity adds information about rewards sellers can receive for listing products as required.\nList Opportunity also supports filtering opportunities by tag codes through a new optional request field, `tag_codes`.\n## What is changing\n**Get Opportunity Detail — 4 new response fields**\n| Field | Type | Description |\n| --- | --- | --- |\n| `tags` | String | Tags associated with the opportunity. |\n| `tag_codes` | List<String> | Tag codes mapped one-to-one, in order, to `tags`. Supported values for LATAM include `CORE_PRODUCT` and `TOP_PRODUCT`. |\n| `external_product_id` | String | Product ID on the reference source. **-Only for LATAM** |\n| `reference_source` | String | Reference source code. Returned only when `external_product_id` is present. **-Only for LATAM** |\n\n**List Opportunity — 1 new request field**\n| Field | Type | Required | Description |\n| --- | --- | --- | --- |\n| `tag_codes` | List<String> | No | Filters opportunities by tag codes. Example: `[\"CORE_PRODUCT\", \"TOP_PRODUCT\"]`. |\n\n**List Opportunity — 4 new response fields under** **`data.opportunities[]`**\n| Field | Type | Description |\n| --- | --- | --- |\n| `tag_codes` | List<String> | Tag codes mapped one-to-one, in order, to `tags`. Supported values for LATAM include `CORE_PRODUCT` and `TOP_PRODUCT`. |\n| `reward_info` | String | Rewards sellers can receive for listing products as required. |\n| `external_product_id` | String | Product ID on the reference source. **-Only for LATAM** |\n| `reference_source` | String | Reference source code. Returned only when `external_product_id` is present. **-Only for LATAM** |\n## What action is required\nIf your app uses Get Opportunity Detail or List Opportunity, review the following updates.\nRecommended actions:\n\n* Update your response models to support the new fields. Note that `tags` is a string, while `tag_codes` is an array of strings.\n* Include the optional `tag_codes` request field in List Opportunity when filtering opportunities by tag.\n* Use `reward_info` to display available listing rewards, and `external_product_id` together with `reference_source` to identify reference products.\n* Handle responses where `reference_source` is absent.\n* Test the updated request and response handling before deploying your integration changes.\n",
+  "update_time": "1789047827",
+  "view_count": 0,
+  "prev_document_id": "6aa1880ea1d62b04bcb7f950",
+  "prev_document_path": "k0ubfjdt",
+  "next_document_id": "6aaa66e258389604b5ba4e16",
+  "next_document_path": "tfdpn5tm",
+  "is_api_doc": false,
+  "document_id": "6aa2b3e39ae49b04dd0029c4",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "57me406k"
+}

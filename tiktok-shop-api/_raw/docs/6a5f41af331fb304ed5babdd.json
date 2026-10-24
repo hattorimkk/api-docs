@@ -1,0 +1,26 @@
+{
+  "title": "Shop Performance Score (SPS) APIs v202606 for US Shops: Five New APIs Added",
+  "content": "# Summary\nFive new read-only Shop Performance Score (SPS) APIs are now available in v202606 for US-region shops. They allow apps to retrieve a shop's SPS overview and metric details, diagnose individual metrics, and drill down into the products, logistics providers, aftersales types, orders, or chats associated with performance issues.\nApps can retrieve the SPS overview and metrics, then request diagnosis and affected-object details for a selected metric. The APIs return SPS data only and do not modify products, orders, logistics settings, or customer service settings.\n# What is changing\nThe following APIs are added in v202606.\nThe currently documented SPS metric codes are `NRR`, `NBFR`, `SFCR`, `OTDR`, `AHT`, and `IM_DSAT`.\n| API | Method | Endpoint | Description |\n| --- | --- | --- | --- |\n| [Get SPS Overview](https://partner.tiktokshop.com/docv2/page/get-sps-overview-202606) | `GET` | `/analytics/202606/shop_performances/overview` | Returns the SPS score, tier, dimensions, benefits, and top issues. |\n| [Get SPS Metrics](https://partner.tiktokshop.com/docv2/page/get-sps-metrics-202606) | `GET` | `/analytics/202606/shop_performances/metrics` | Returns SPS metric details and benchmark thresholds. |\n| [Get SPS Metric Diagnosis](https://partner.tiktokshop.com/docv2/page/get-sps-metric-diagnosis-202606) | `GET` | `/analytics/202606/shop_performances/metrics/{metric_code}/diagnosis` | Returns benchmarks, trends, calculation details, distribution details, and diagnostic insights for one metric. |\n| [Get SPS Metric Top Items](https://partner.tiktokshop.com/docv2/page/get-sps-metric-top-items-202606) | `GET` | `/analytics/202606/shop_performances/metrics/{metric_code}/top_items` | Returns the top products, logistics providers, or aftersales types for the selected metric. |\n| [Get SPS Metric Problem Details](https://partner.tiktokshop.com/docv2/page/get-sps-metric-problem-details-202606) | `GET` | `/analytics/202606/shop_performances/metrics/{metric_code}/problem_details` | Returns the problem orders or chats associated with the selected metric. |\n## Common request requirements\nAll five APIs:\n\n* Require the `data.shop_analytics.public.read` scope and a seller access token.\n* Require `shop_cipher` in the query and `content-type: application/json` in the header.\n* Accept the optional `locale` query parameter to localize response text.\n* Support US-region shops only.\n\n`Get SPS Metric Diagnosis` also accepts the optional `trend_duration_days` query parameter. Its default value is `30`.\n# What action is required\nIf your app displays or diagnoses SPS data for US shops, review the following updates.\nRecommended actions:\n\n* Review the five v202606 API references and confirm that your app has the `data.shop_analytics.public.read` scope.\n* Add `shop_cipher` to each request and pass `locale` when localized response text is required.\n* Call Overview first. If SPS is available, call Metrics, then request Diagnosis for a selected metric. Use Top Items for `NRR`, `NBFR`, `OTDR`, and `AHT`; use Problem Details to retrieve affected orders or chats for any of the six metrics.\n* Use the API-returned `status`, `benefits.is_unlocked`, `benchmarks`, `top_reason_text`, and `update_time` as the source of truth. Do not hard-code tier thresholds or predict benefit eligibility from the displayed score.\n* Treat `page_token` as an opaque value when paginating problem details, and do not request more than `50` records per page.\n* Handle `NIL`, empty or partial results, authorization errors, and unknown future `metric_code` values gracefully.\n* Test the full workflow with an authorized US shop in API Testing Tool before rolling it out to production traffic.\n\nIf you need implementation guidance, field-to-page mappings, or recommended merchant actions for each SPS metric, review the related use case documents below.\n**Related documents**：\n[SPS API Merchant Performance Diagnosis: ISV Integration Use Cases (English)](https://bytedance.my.larkoffice.com/docx/EATEdylefoc4zPx1b8KmgN9yyte)\n[SPS API 商家绩效诊断：ISV 集成 User Case（中文）](https://bytedance.my.larkoffice.com/docx/TvT1dS2yxoADChx6hMMm0nyFyNf)\n",
+  "update_time": "1784628207",
+  "view_count": 0,
+  "prev_document_id": "6a0ecd701c4e66e01e6e0d96",
+  "prev_document_path": "kpkfccsa",
+  "next_document_id": "6ab4ce4054895d04ee564925",
+  "next_document_path": "46di8q34",
+  "is_api_doc": false,
+  "document_id": "6a5f41af331fb304ed5babdd",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    },
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "3t9j6tz0"
+}

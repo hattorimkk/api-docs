@@ -1,0 +1,21 @@
+{
+  "title": "Create a test seller account",
+  "content": "Now that you've [created your TikTok Shop App](https://partner.tiktokshop.com/docv2/page/create-tts-app-oauth-client), you're ready to create a test Seller account that you can use to generate test access tokens to make your first call to the TikTok Shop API.\nBecause you're on the journey of making your first API call, you will most likely not have Sellers or Creators that can consent to sharing their data with you. To solve this problem, we've created a Development Shop Sandbox in which you can create a test TikTok Shop Seller account that you can use to generate authorization codes, access tokens, and refresh tokens.\nTest Seller accounts come in two types — a **core function account** and a **full function account**. Choose based on what you need to test:\n| Dimension | Core function account | Full function account |\n| --- | --- | --- |\n| Business info required | Minimal | More complete business details |\n| APIs you can test | Product listings, order updates, fulfillment | End-to-end, including payments and buyer-side order flows |\n| Test buyer account needed | No | Yes |\n| Payment / card info needed | No | Yes |\n| Best for | Getting started / your first API call | Testing payments, checkout, and full fulfillment |\n\nChoose a **full function account** when you need to test scenarios that require real buyer and payment information, such as checkout, payments, and end-to-end fulfillment. For how to create and use one, see [Seller Center development shops](https://partner.tiktokshop.com/docv2/page/seller-center-development-shops). The rest of this tutorial uses a core function account.\n**Before you create a test account:**\n\n* Binding a test Seller account to your developer account is **permanent and cannot be undone**, so set it up deliberately.\n* The account must match its target **market/region**, and access may be affected by **regional restrictions or VPN**. Use a network consistent with the market you select.\n\nTo set up your core function account, follow these steps:\n\n1. In Partner Center Console, select **Development Kits** from the navigation pane. Then select **Development Shops** from the list of options.\n2. Click the **create test account** button on the **Seller Center Development Shops** panel.\n3. Select **\"Core Function\"**.\n4. For **\"Shop Type\"**, select **\"Local\"**. A **Local** shop sells to buyers in the same market and fulfills domestically, while a **cross-border** shop sells into another market and ships internationally. For getting started, choose **Local**.\n5. Provide an **\"Account Nickname\"**. This is the name that will be displayed in the user interface once the account is created, so you should name this something that you'll easily recognize in the future.\n6. For **\"Onboarding type\"**, select **individual**. An **individual** seller onboards with minimal personal details, while a **business** seller must provide company and registration documents. For getting started, choose **individual**.\n7. Click the **create** button.\n\nYou're now ready to move on to the next step in making your first API call, but if you want to learn more about test Seller accounts and the test functionality you can use such as creating products and simulating sales and shipping, see [Seller Center development shops](https://partner.tiktokshop.com/docv2/page/seller-center-development-shops).\n# Next steps\nNow that you've got a test Seller account, you can [generate a test access token](https://partner.tiktokshop.com/docv2/page/generate-test-access-token).\n",
+  "update_time": "1782728898",
+  "view_count": 0,
+  "prev_document_id": "686da778633023048bd10368",
+  "prev_document_path": "create-tts-app-oauth-client",
+  "next_document_id": "686da77b1aa957049adb3410",
+  "next_document_path": "generate-test-access-token",
+  "is_api_doc": false,
+  "document_id": "686da7797cac2a04985d83a1",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "create-test-seller-account"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Product APIs: Selling Format Support Added for Fixed-Price Sales and LIVE Auctions",
+  "content": "## Summary\nProduct APIs now support the `selling_format` field, allowing developers to specify whether a product supports fixed-price sales only or both fixed-price sales and LIVE auctions.\nThe field is added to the request bodies of Create Product, Edit Product (202309 and 202509), and Check Product Listing. Get Product and Search Products also return this field, with an additional response value, `LIVE_AUCTION`, to identify products that support LIVE auctions only.\n## What is changing\n**New request body field**\nThe following APIs add the optional `selling_format` field to their request bodies:\n| API | Change |\n| --- | --- |\n| Create Product | Specify the selling format when creating a product. |\n| Edit Product (202309) | Specify the selling format when editing a product. |\n| Edit Product (202509) | Specify the selling format when editing a product. |\n| Check Product Listing | Include the selling format when checking a product listing. |\n\n\n| Field | Type | Required | Description |\n| --- | --- | --- | --- |\n| `selling_format` | String | No | Specifies the product’s selling format. Defaults to `FIXED_PRICE`. |\n\nSupported **request values**:\n| Value | Description |\n| --- | --- |\n| `FIXED_PRICE` | The product supports fixed-price sales only. This is the default selling format. |\n| `FIXED_PRICE_AND_LIVE_AUCTION` | The product supports both fixed-price sales and LIVE auctions. A starting bid price is required for LIVE auctions. |\n\n**New response field**\nGet Product and Search Products add `selling_format` to their product response information.\n| API | Field | Type | Description |\n| --- | --- | --- | --- |\n| Get Product | `selling_format` | String | Returns the product’s selling format. |\n| Search Products | `selling_format` | String | Returns the selling format for each product. |\n\nSupported **response values**:\n| Value | Description |\n| --- | --- |\n| `FIXED_PRICE` | The product supports fixed-price sales only. |\n| `FIXED_PRICE_AND_LIVE_AUCTION` | The product supports both fixed-price sales and LIVE auctions. |\n| `LIVE_AUCTION` | The product supports LIVE auctions only. |\n\n`LIVE_AUCTION` is a response-only value and is not supported in the request bodies listed above.\n## What action is required\nIf your app uses these Product APIs, review the following updates.\nRecommended actions:\n\n* Update your request models to support the optional `selling_format` field and its two supported request values.\n* Set `selling_format` to `FIXED_PRICE_AND_LIVE_AUCTION` when enabling both fixed-price sales and LIVE auctions, and ensure a starting bid price is provided as required.\n* Update your Get Product and Search Products response models to handle all three response values, including `LIVE_AUCTION`.\n* When reusing retrieved product data in creation, editing, or listing-check requests, ensure the response-only value `LIVE_AUCTION` is not passed as a request value.\n* Test request handling for both supported request values and response handling for all three selling formats before deploying your integration changes.\n",
+  "update_time": "1789552943",
+  "view_count": 0,
+  "prev_document_id": "6aa2b3e39ae49b04dd0029c4",
+  "prev_document_path": "57me406k",
+  "next_document_id": "6aaa72d6c7ea6c04a26f05c9",
+  "next_document_path": "nn6csp5o",
+  "is_api_doc": false,
+  "document_id": "6aaa66e258389604b5ba4e16",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "tfdpn5tm"
+}

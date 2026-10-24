@@ -1,0 +1,26 @@
+{
+  "title": "For Philippines Market: Product Certification for Pest Control Category will to be changed from FPA to FDA",
+  "content": "# What is changing?\nStarting from 22 September 2026, partners will be required to change from FPA Handler's License to FDA Certificate of Product Registration (CPR) when listing or editing products by using API for Pest Control category. This information will be put into the \"certifications\" parameter in the API. \n# Which markets are affected?\nThe updates of the requirements apply to cross border and local to local sellers in the Philippines market.\n# Who is affected?\nDevelopers with applications that use [Create Product](https://partner.tiktokshop.com/docv2/page/create-product-202309), [Edit Product](https://partner.tiktokshop.com/docv2/page/edit-product-202509), and [Partial Edit Product](https://partner.tiktokshop.com/docv2/page/partial-edit-product-202509#Back%20To%20Top)\n# Which version is applicable?\nThe updates of the requirements apply to all versions of the related APIs\n# What action is required?\nWithout this product certification change sellers will not be able to create or update products.\nUse the Get Category Rules API to check what certification requirements are mandatory for specific categories when using Create Product, Edit Product and Partial Edit Product API.\n",
+  "update_time": "1785295192",
+  "view_count": 0,
+  "prev_document_id": "6a5e2af456bf6f04b00f23a2",
+  "prev_document_path": "ct8iyu95",
+  "next_document_id": "6a83d8768930d50523141bad",
+  "next_document_path": "e119x000",
+  "is_api_doc": false,
+  "document_id": "6a69709cc2de2804e62f47d3",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "q6srthav"
+}

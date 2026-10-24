@@ -1,0 +1,21 @@
+{
+  "title": "For EU Markets: Removal of approved couriers for Shipped by Seller (3PL) domestic orders",
+  "content": "# What is changing?\nTikTok Shop periodically reviews the couriers approved for the **Shipped by Seller (3PL)** fulfillment method.\nEffective **October 14, 2026**, the couriers listed below will be removed from the approved courier list for **domestic EU orders**. This change applies to **local-to-local (L2L) sellers only**.\n| EU (L2L ONLY) | Provider name | Provider ID |\n| --- | --- | --- |\n| ES | SEUR | 7038836933132289793 |\n| ES | Ontime | 7447770919805650695 |\n| ES | Sending | 7038808610033370882 |\n| ES | Zeleris | 7203274924226512642 |\n| ES | Redur | 7563974390129968914 |\n| ES | Dachser | 7038795162650150658 |\n| IT | TNT | 7073775627609835266 |\n| IT | TNT Italy | 7038838469963024129 |\n| IT | Arco Spedizzione | 7641130961962452756 |\n| IT | TWS | 7615212966140774151 |\n| IT | Fercam | 7533260542899652372 |\n| FR | Geodis | 7359034210140555014 |\n| FR | Relais Colis | 7470765163365271304 |\n| FR | Vente-unique Delivery | 7642687585852065556 |\n| FR | heppner FR | 7643733649539991303 |\n| DE | GEL | 7533260804896851719 |\n| DE | TNT | 7073775627609835266 |\n| DE | Kuehne + Nagel | 7572505951475861256 |\n# Which markets are affected?\nThis change affects domestic orders in **Spain (ES), Italy (IT), France (FR), and Germany (DE)**. The scope is **L2L only**.\n# Who is affected?\nThis change affects developers and applications that support sellers using **Shipped by Seller (3PL)** for domestic orders in ES, IT, FR, and DE, where those integrations use or maintain approved courier selections for L2L workflows.\n# What action is required?\n\n1. **Update your applications.** Use the most current shipping provider IDs returned by the [Get Shipping Providers endpoint](https://partner.tiktokshop.com/docv2/page/get-shipping-providers-202309). <span style=\"background-color: rgba(255,246,122, 0.8)\">***</span><span style=\"background-color: rgba(255,246,122, 0.8)\"><u>This endpoint should be called dynamically as some sellers may be whitelisted and still have access to removed provider ids.***</u></span>\n2. **Inform your seller base.** Notify sellers of this change and the available options below to help them avoid order sync issues.\n3. **Ask sellers to choose one of the following options:**\n   * **Option A — Switch to an approved courier.** Sellers must switch to an approved courier before **October 14, 2026** to avoid order cancellations. See the [approved courier list](https://seller-ie.tiktok.com/university/essay?knowledge_id=3317258248472321&identity=1).\n   * **Option B — Switch to Shipped via Platform.** TikTok provides shipping labels in Seller Center and updates tracking information automatically. Read the [Shipped via Platform guidance](https://seller-es.tiktok.com/university/essay?knowledge_id=3148241730815745&role=1&course_type=1&from=search&identity=1&account_ts=1754407463061&register_libra={).\n   * **Option C — Switch to Fulfilled by TikTok.** TikTok stores, packs, and ships sellers’ orders.\n4. **No action is required for existing tracking numbers.** Tracking numbers updated before **October 14, 2026** will continue to be tracked normally after that date.\n",
+  "update_time": "1791470878",
+  "view_count": 0,
+  "prev_document_id": "6aa2ae1058389604b5b34d25",
+  "prev_document_path": "tovst8vl",
+  "next_document_id": "68704c5d6e6e7404973b5cea",
+  "next_document_path": "order_orders_post_town",
+  "is_api_doc": false,
+  "document_id": "6ac7ab91828c6704b7f6ec76",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "7oobdgft"
+}

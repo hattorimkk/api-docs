@@ -1,0 +1,21 @@
+{
+  "title": "Post Shoppable Photos and Post Shoppable Video APIs: Auction-Only Product Restriction Added",
+  "content": "## Summary\nPost Shoppable Photos and Post Shoppable Video APIs now validate whether an attached product only supports auction sales. Auction-only products cannot be used in shoppable videos or carousels.\nBoth APIs return the new error code `170001063` when an auction-only product is added.\n## What is changing\nThe following validation and error code are added to both APIs.\n| API | Validation |\n| --- | --- |\n| Post Shoppable Photos | Rejects auction-only products attached to shoppable carousels. |\n| Post Shoppable Video | Rejects auction-only products attached to shoppable videos. |\n\n\n| Error code | Error message |\n| --- | --- |\n| `170001063` | The product you added only supports auction sales and cannot be used in shoppable videos or Carousels |\n\n## What action is required\nIf your app uses Post Shoppable Photos or Post Shoppable Video, review the following updates.\nRecommended actions:\n\n* Update your error handling to recognize `170001063` and explain the product restriction to users.\n* Prompt users to replace the auction-only product with another eligible product before retrying.\n* Test the error handling for auction-only products before deploying your integration changes.\n\n\n",
+  "update_time": "1789048635",
+  "view_count": 0,
+  "prev_document_id": "6ad452cf93887204bb300ce8",
+  "prev_document_path": "5daswqdc",
+  "next_document_id": "6ab49358793c00050c7ccb2c",
+  "next_document_path": "9kaaw0r4",
+  "is_api_doc": false,
+  "document_id": "6aa2b6d39ae49b04dd002c0a",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "t9vttkxw"
+}

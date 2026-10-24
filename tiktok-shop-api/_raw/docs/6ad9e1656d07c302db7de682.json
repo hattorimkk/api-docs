@@ -1,0 +1,21 @@
+{
+  "title": "For US, EU, UK, JP markets: New Order Tags in Order APIs",
+  "content": "# What is changing?\nTikTok Shop Seller Center and app already surfaces order tags that help sellers identify refundable samples, authentication-required orders, subscription orders, and auction orders. This update brings the corresponding order indicators into Open API responses so order-management and fulfillment integrations can interpret the same order context.\nAcross the listed API versions, three boolean fields are added or extended in `orders[]`, while `AUCTION` is added to `orders[].order_type` only for Get Order Detail `202507`. Market availability and endpoint coverage differ by field, as summarized below.\n\n* `orders[].is_refundable_sample` (`bool`, example: `true`) indicates whether an order is a refundable sample. \n* `orders[].authentication_required` (`bool`, example: `true`) indicates whether an order requires authentication. It is included in all three API schemas. \n* `orders[].is_subscription_order` (`bool`, example: `true`) identifies an order generated from a subscription. It extends support to UK, EU, and JP; US is already supported. \n* `orders[].order_type` (`string`) adds the enum value `AUCTION` for an order placed during an auction where the product price is not fixed. This enum is included only for Get Order Detail `202507`; it is not specified for either `202309` API.\n\n## API support matrix\n| API | `is_refundable_sample` | `authentication_required` | `is_subscription_order` | `order_type=AUCTION` |\n| --- | --- | --- | --- | --- |\n| Get Order Detail `202507` <br> `GET /order/:version/orders` | Included | Included | Included <br>  | Included |\n| Get Order Detail `202309` <br> `GET /order/:version/orders` | Included | Included | Included | Not specified |\n| Get Order List `202309` <br> `POST /order/:version/orders/search` | Included | Included | Included | Not specified |\n# Which markets are affected?\n\n* `orders[].is_refundable_sample`: US, UK, EU, JP.\n* `orders[].authentication_required`: US, UK, EU.\n* `orders[].is_subscription_order`: UK, EU, JP; US is already supported.\n* `orders[].order_type=AUCTION`: US, UK, EU, JP, LATAM, SEA; limited to Get Order Detail `202507`.\n\n# Who is affected?\nDevelopers and applications that retrieve, manage, or fulfill seller orders using the listed Get Order Detail and Get Order List endpoints are affected. Applications that parse the `orders[]` response or map `order_type` values should review these changes.\n# What action is required?\n\n1. Review the relevant Get Order Detail and Get Order List response schemas. Where these fields are consumed, update response parsers and data models to recognize the new boolean fields: `is_refundable_sample`, `authentication_required`, and `is_subscription_order`.\n2. For Get Order Detail version `202507`, update `order_type` enum handling to recognize `AUCTION`.\n3. Use `is_refundable_sample` to identify refundable sample orders, and use `is_subscription_order` to identify subscription orders where supported.\n4. When `authentication_required` is `true`, authentication must be completed before shipment using an approved in-house authentication service.\n",
+  "update_time": "1792664505",
+  "view_count": 0,
+  "prev_document_id": "6ad5e780481ac804e7f7ed2c",
+  "prev_document_path": "vh1mgiuw",
+  "next_document_id": "6ad9e3bf489b3a02be5d8a7c",
+  "next_document_path": "gfhiex0q",
+  "is_api_doc": false,
+  "document_id": "6ad9e1656d07c302db7de682",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "l0aungg9"
+}

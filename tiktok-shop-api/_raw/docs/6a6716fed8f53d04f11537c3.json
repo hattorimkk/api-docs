@@ -1,0 +1,21 @@
+{
+  "title": "CLI command reference",
+  "content": "The executable is `tts_open_toolkit`. Use `--json` where supported when another program or AI agent consumes the result.\n# Command groups\n| Group | Purpose |\n| --- | --- |\n| `version`, `doctor` | Print version, executable, platform, Node version, config layers, cache, and default skill directory. |\n| `skill` | Install, update, list, and inspect bundled or custom coding-agent skills. |\n| `auth` | Sign in with Partner Center OAuth, manage profiles, inspect health, and run explicit diagnostics. |\n| `devapi` | List and call the fixed OAuth Toolkit method catalog. |\n| `app` | List developer Apps through the supported Developer Center route. |\n| `sandbox` | List sandbox accounts, inspect the endpoint catalog, and call supported non-delete operations. |\n| `openapi proxy` | Start a local, context-bound proxy for supported OpenAPI requests using the active OAuth profile. |\n| `mcp` | Register and list MCP servers at user or project scope. |\n| `setup` | Install managed Codex or Claude Code hooks, with dry-run and backup behavior. |\n| `history` | Record and query local prompt and skill-usage history. |\n| `update` | Check for or install a CLI package update. |\n# Common commands\n```bash\ntts_open_toolkit --help\ntts_open_toolkit version\ntts_open_toolkit doctor\n\ntts_open_toolkit skill add --agent codex\ntts_open_toolkit skill list --agent codex --json\ntts_open_toolkit skill state --agent codex --json\n\ntts_open_toolkit auth login\ntts_open_toolkit auth status --json\ntts_open_toolkit auth list --json\n\ntts_open_toolkit devapi list --json\ntts_open_toolkit app list --json\ntts_open_toolkit sandbox endpoints --json\n\ntts_open_toolkit update --check\n```\n\n# Advanced OpenAPI proxy\n```bash\ntts_open_toolkit openapi proxy --app-key <app_key> --shop-cipher <shop_cipher> --json\n```\n\nThe proxy binds to localhost, injects the selected App and Shop context, uses the active protected OAuth profile, and validates a short-lived local request signature. Use it only with an explicit App/Shop selection and a supported API workflow.\n# Exit and output behavior\n\n* A non-zero exit indicates validation, authentication, transport, or business failure.\n* Preserve sanitized error text and request or log IDs for troubleshooting.\n* Never log OAuth callbacks, authorization codes, access tokens, refresh tokens, App Secrets, or protected-store contents.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143796",
+  "view_count": 0,
+  "prev_document_id": "6a6716fd8930d50523f18c44",
+  "prev_document_path": "tts-open-toolkit-manage-skills",
+  "next_document_id": "6a6717006fc1a104e5ac8d75",
+  "next_document_path": "tts-open-toolkit-configuration-output-files",
+  "is_api_doc": false,
+  "document_id": "6a6716fed8f53d04f11537c3",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-command-reference"
+}

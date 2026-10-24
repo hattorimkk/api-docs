@@ -1,0 +1,21 @@
+{
+  "title": "TikTok Shop developer guide",
+  "content": "Welcome to the TikTok Shop API Developer Guide. The TikTok Shop API gives application and service integrators programmatic access to the TikTok Shop platform — products, orders, fulfillment, finance, affiliate, and more.\n## Which developer are you?\nBefore you dive in, identify your developer type — it determines which path you follow and which `user_type` you receive during authorization.\n| You are… | Build type | Data you access | During authorization you are |\n| --- | --- | --- | --- |\n| **Seller (in-house) developer** — a seller building for your own shop | Custom app | Your own shop's data only | Seller (`user_type=0`) |\n| **App developer / ISV / system integrator** — serving multiple merchants | Public app | Authorized sellers' data | Seller (`user_type=0`) on behalf of the seller |\n| **Creator / affiliate integrator** | Public app | Creator-side affiliate data | Creator (`user_type=1`) |\n| **Partner (TAP) integrator** | Public app | Partner business data (Affiliate Partner / TAP) | Partner (`user_type=3`) |\nSee Get started overview for the full breakdown of developer types.\n## Getting started — the 4-step path\nIf this is your first time, follow these steps in order:\n\n1. **Onboard** — Create a Partner Center account and register as a developer. See Developer onboarding. (US/UK and some markets also require a compliance & legal review — budget 3+ weeks.)\n2. **Create your app** — Register a TikTok Shop app (OAuth client) and enable the API scopes you need. See Create a TikTok Shop App (OAuth client).\n3. **Authorize and get a token** — Have a seller/creator/partner authorize your app, then exchange the `auth_code` for an `access_token`. Start with the Authorization overview.\n4. **Make your first API call** — Sign and send your first request. See Make your first API call overview.\n\n## API reference\nA full API reference is organized by TikTok Shop data domain. Open the **API Reference** tab in the top navigation of Partner Center, or start with these overviews:\n\n   * [Seller API overview](https://partner.tiktokshop.com/docv2/page/seller-api-overview)\n   * [Products API overview](https://partner.tiktokshop.com/docv2/page/products-api-overview)\n   * [Order API overview](https://partner.tiktokshop.com/docv2/page/order-api-overview)\n   * [Fulfillment API overview](https://partner.tiktokshop.com/docv2/page/fulfillment-api-overview)\n   * [Logistic API overview](https://partner.tiktokshop.com/docv2/page/logistic-api-overview)\n   * [Finance API overview](https://partner.tiktokshop.com/docv2/page/finance-api-overview)\n\nAll remaining domains are available under the **API Reference** tab.\n## Use case guides and webhooks\n\n* **Use case guides** walk you through common integration scenarios (connecting shops, product categories, and more) with code-flow diagrams. See the **Use case guides** section of this guide.\n* **Webhooks** let your app subscribe to platform notifications. See the Webhooks overview.\n* To list your app in the TikTok Shop App Store, see the App development overview.\n\n## Next steps\nPick the next step that matches your goal:\n\n* **I need to set up access** → [Developer onboarding](https://partner.tiktokshop.com/docv2/page/developer-onboarding)\n* **I'm ready to build and authorize** → [Authorization overview](https://partner.tiktokshop.com/docv2/page/authorization-overview-202407)\n* **I want to call an API now** → [Make your first API call overview](https://partner.tiktokshop.com/docv2/page/make-your-first-api-call-overview)\n\n> Stuck at any point? See How to contact support for the right channel.\n\n\n\n",
+  "update_time": "1786430707",
+  "view_count": 0,
+  "prev_document_id": "6746beaec77842030e83274c",
+  "prev_document_path": "6746beaec77842030e83274c",
+  "next_document_id": "6789f72c92b0f403149035d0",
+  "next_document_path": "tts-developer-types",
+  "is_api_doc": false,
+  "document_id": "656559fcf4488c02dfe8ce82",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-developer-guide"
+}

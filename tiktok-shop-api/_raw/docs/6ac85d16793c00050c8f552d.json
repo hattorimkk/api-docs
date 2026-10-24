@@ -1,0 +1,21 @@
+{
+  "title": "Buyer Personal Information Masking",
+  "content": "**Developer Notice**: TikTok Shop will control access to unmasked buyer personal information based on the app category; apps without unmasked-data access will receive masked values, so please review your app category and data-processing logic in advance.\n\n## 1. What Is Changing\nStarting from <span style=\"color: #D83931\"><strong>October 12</strong></span>, To reduce unnecessary exposure of buyer personal information, TikTok Shop will determine whether relevant APIs return unmasked or masked buyer information based on the shop market and App Category.\nThe controlled information includes the buyer's name, phone number, email address, and shipping address*;\n> * Tax information is also included for Brazil market.\n\n## 2. APIs Affected\n\n* Order: [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) and [Get Order List](https://partner.tiktokshop.com/docv2/page/get-order-list-202309)\n* Fulfillment: [Get Package Detail](https://partner.tiktokshop.com/docv2/page/get-package-detail-202309)\n\nNon-sensitive fields are not affected; sensitive fields will be returned as unmasked or masked values according to the app-category rules.\n## 3. App Category Rules\nThe following App Categories may receive unmasked buyer personal information under platform rules because they require such information for order processing or fulfillment:\n| App Category | Typical Use Case |\n| --- | --- |\n| Connectors | Connecting merchant systems with e-commerce platforms for order or fulfillment processing |\n| Enterprise Resource Planning | ERP-based order and fulfillment management |\n| Multi-Channel Management | Multi-channel order and inventory management |\n| Print On Demand | On-demand production and fulfillment |\n| Order Management (OMS/WMS) | Order, warehouse, and shipping management |\n| Shipping | Logistics, shipping-label, and delivery services |\n| TikTok Shop Seller | Merchant-operated order and fulfillment processing |\n| Dropshipping | Dropshipping fulfillment |\n| Loyalty & Rewards | Customer loyalty and rewards services |\n| CRM | Customer relationship management |\n| Semi Consignment | Semi-consignment fulfillment |\n\nOther App Categories will receive masked data by default. Apps must select the category that accurately reflects their actual capabilities, and TikTok Shop may review access to unmasked information based on the app's functions and data-use purpose.\nIf an app's category returns masked data by default but the app provides order fulfillment or third-party logistics (3PL) services, the developer may contact TikTok Shop Customer Support to apply for an App Key allowlist.\n## FAQ\n### Which fields can my app receive in unmasked form?\nThe fields depend on the market, App Category, and App Key permissions; sensitive fields without unmasked-data access will be returned as masked values.\n### Our category is not on the list, but we need buyer information to fulfill orders. What should we do?\nContact TikTok Shop Customer Support to apply for the allowlist and prepare materials that demonstrate a genuine fulfillment need.\n### Will non-sensitive fields also be masked?\nNo. This control applies only to fields classified as sensitive information.\n\n\nIf you encounter API response or permission issues, contact us through the Partner Center Customer Support channel.\n",
+  "update_time": "1791515951",
+  "view_count": 0,
+  "prev_document_id": "6ad8da21c3e0a102b5e2e31a",
+  "prev_document_path": "8z0tllw9",
+  "next_document_id": "68417994603891048c65f4c2",
+  "next_document_path": "deprecating-tts-api-v1",
+  "is_api_doc": false,
+  "document_id": "6ac85d16793c00050c8f552d",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "pgd9hfyy"
+}

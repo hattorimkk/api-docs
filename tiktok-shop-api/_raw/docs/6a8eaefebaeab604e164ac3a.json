@@ -1,0 +1,26 @@
+{
+  "title": "For Indonesia Market: Add Mandatory Attribute \"Imported Goods\" to All Categories except Digital Category",
+  "content": "# What is changing?\nStarting from 27 October 2026, partners will be required to provide mandatory product attribute \"Imported Goods\"(Attribute ID `102254`, values `Yes` = `1000058` / `No` = `1000059`) when listing or editing products by using API to all categories except digital category.\n# Which markets are affected?\nThe updates of the requirements apply to local to local sellers in the Indonesian market.\n# Who is affected?\nDevelopers with applications that use [Create Product](https://partner.tiktokshop.com/docv2/page/create-product-202309), [Edit Product](https://partner.tiktokshop.com/docv2/page/edit-product-202509), and [Partial Edit Product](https://partner.tiktokshop.com/docv2/page/partial-edit-product-202509#Back%20To%20Top)\n# Which version is applicable?\nThe updates of the requirements apply to all versions of the related APIs\n# What action is required?\nWithout this mandatory attribute sellers will not be able to create and update products.\nUse the Get Attributes to check what attributes are mandatory and pass attribute values via the Create Product, Edit Product, and Partial Edit Product to help sellers fill in the attribute values.\n",
+  "update_time": "1787735881",
+  "view_count": 0,
+  "prev_document_id": "6a8e9a23e2cbce04e4a6138f",
+  "prev_document_path": "6z874qqu",
+  "next_document_id": "6a8ebc81c7ea6c04a2538f1f",
+  "next_document_path": "39qm5hge",
+  "is_api_doc": false,
+  "document_id": "6a8eaefebaeab604e164ac3a",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "dmo81egx"
+}

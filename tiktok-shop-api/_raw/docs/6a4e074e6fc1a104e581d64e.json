@@ -1,0 +1,21 @@
+{
+  "title": "For All Markets : New properties added to Finance transaction APIs",
+  "content": "## Overview\nThree Finance transaction APIs are getting new return properties. The change is **additive and backward compatible** — no existing field is removed or modified. The affected APIs are:\n\n* **Get Transactions by Order**\n* **Get Transactions by Statement**\n* **Get Unsettled Transaction**\n\nIn summary, the three new properties are:\n\n* **tiktok_shop_shipping_incentive_amount** — the shipping incentive granted by the platform to the merchant.\n* **cps_shop_ads_commission_tax_amount** — the tax charged on the commission of CPS Shop Ads.\n* **gmv_max_coupon_fee** — the coupon fee associated with GMV Max (QCPX) advertising.\n* **shipping_insurance_fee_tax_amount**— Tax applied to the shipping protection fee.\n\n# What is changing, by API\n## Get Transactions by Order\nAdds three new amount properties to the transaction object:\n| New property | Description |\n| --- | --- |\n| tiktok_shop_shipping_incentive_amount | Shipping incentive granted by the platform to the merchant |\n| cps_shop_ads_commission_tax_amount | Tax on the commission of CPS Shop Ads |\n| gmv_max_coupon_fee | Coupon fee associated with GMV Max (QCPX) advertising |\n| shipping_insurance_fee_tax_amount | Tax applied to the shipping protection fee. |\n## Get Transactions by Statement\nAdds three new amount properties to the transaction object:\n| New property | Description |\n| --- | --- |\n| tiktok_shop_shipping_incentive_amount | Shipping incentive granted by the platform to the merchant |\n| cps_shop_ads_commission_tax_amount | Tax on the commission of CPS Shop Ads |\n| gmv_max_coupon_fee | Coupon fee associated with GMV Max (QCPX) advertising |\n| shipping_insurance_fee_tax_amount | Tax applied to the shipping protection fee. |\n## Get Unsettled Transaction\nAdds two new amount properties to the transaction object:\n| New property | Description |\n| --- | --- |\n| tiktok_shop_shipping_incentive_amount | Shipping incentive granted by the platform to the merchant |\n| cps_shop_ads_commission_tax_amount | Tax on the commission of CPS Shop Ads |\n| shipping_insurance_fee_tax_amount | Tax applied to the shipping protection fee. |\n**Note:** Get Unsettled Transaction does not include gmv_max_coupon_fee.\n# Affected markets and merchants\nThe new properties apply to the markets and merchants below. Each property returns a non-zero value only when the corresponding fee/incentive occurs; otherwise it returns 0 and there is no impact.\n| Property | Markets |\n| --- | --- |\n| tiktok_shop_shipping_incentive_amount | Global |\n| cps_shop_ads_commission_tax_amount | EU / UK / US / JP |\n| gmv_max_coupon_fee | Global |\n| shipping_insurance_fee_tax_amount | Global |\n# How to integrate\nThis change applies automatically on the effective date. No API version upgrade or declaration is required. Ensure your JSON parsing tolerates the new fields, then include the new amounts in reconciliation and reporting where relevant.\n",
+  "update_time": "1783498692",
+  "view_count": 0,
+  "prev_document_id": "6a2f939b0a0aa9e23abe5a94",
+  "prev_document_path": "p48h74af",
+  "next_document_id": "695a2d45100d4504979a63ee",
+  "next_document_path": "u62dh98s",
+  "is_api_doc": false,
+  "document_id": "6a4e074e6fc1a104e581d64e",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "jli5x787"
+}

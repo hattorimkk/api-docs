@@ -1,0 +1,21 @@
+{
+  "title": "Combined Listing: Merge into Variants and API Integration Updates",
+  "content": "Combined Listing now supports **Merge into Variants**, allowing sellers to consolidate same-style products listed under separate links into one main product detail page. New sales and reviews generated through the main listing are aggregated under the main product. Historical sales and reviews are not fully transferred, and orders placed through the original child listings continue to contribute to those child products. [Feature guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1016792318773006)\n**This feature uses the existing virtual bundle response structure. ISVs should review how they map main listing SKUs to original child SKUs.** Merged child products receive newly generated SKUs under the main product, while their original SKU IDs are returned in the component SKU fields:\n| API | Main listing SKU ID | Original child SKU ID |\n| --- | --- | --- |\n| Get Product | `data.skus[].id` | `data.skus[].combined_skus[].sku_id` |\n| Get Order Detail | `data.orders[].line_items[].sku_id` | `data.orders[].line_items[].combined_listing_skus[].sku_id` |\n\nISVs should use [Get Product](https://partner.tiktokshop.com/docv2/page/get-product-202309) to synchronize SKU mappings and read `combined_listing_skus` in [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202309) to identify the original `product_id`, `sku_id`, `seller_sku`, and component quantity (`sku_count`) for fulfillment. **Integrations that rely solely on the order line’s** **`sku_id` to identify the original child SKU require adaptation.** Validate SKU mapping, order synchronization, and fulfillment before supporting merged listings.\nThe following seller and product restrictions apply:\n\n* **Seller availability:** This announcement applies to US sellers with the feature enabled. Availability is subject to the feature being accessible in Seller Center.\n* **Brand and category:** Select at least two same-style products from the **same brand and the same leaf category**.\n* **Product types:** Only regular products are supported. Flash sale products, auction products, and certain special distribution, GPR, or POP scenario products are excluded. Eligibility is determined by the validation shown in Seller Center.\n* **Existing relationships and SKU limits:** Products must not already belong to another active product combination or combined listing relationship. Remove any existing relationship first. The total SKU count across selected products must remain within the platform limit. [Full eligibility rules](https://seller-us.tiktok.com/university/essay?knowledge_id=1016792318773006)\n\nSellers can configure the feature in **Seller Center → Manage Products → Combined Listing → Merge into Variants**. Prices and inventory for SKUs linked to child products are synchronized from the original child SKUs; updates should be made to those original child products. [Setup guide](https://seller-us.tiktok.com/university/essay?knowledge_id=1016792318773006)\n",
+  "update_time": "1788971082",
+  "view_count": 0,
+  "prev_document_id": "6a98119cd7ff2a050230aebf",
+  "prev_document_path": "h6c7xadr",
+  "next_document_id": "6aa2b3e39ae49b04dd0029c4",
+  "next_document_path": "57me406k",
+  "is_api_doc": false,
+  "document_id": "6aa1880ea1d62b04bcb7f950",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "k0ubfjdt"
+}

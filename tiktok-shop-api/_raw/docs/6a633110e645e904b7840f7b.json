@@ -1,0 +1,21 @@
+{
+  "title": "For US Market: POD Customization Details Are Now Available",
+  "content": "| **Market** | US |\n| --- | --- |\n| **Audience** | Apps that retrieve and manage order data for US sellers |\n| **Change type** | Additive, non-breaking API enhancement |\n# Overview\nTikTok Shop has added POD customization identifiers to the **Get Order Detail API** and introduced the **Get Pod Detail API**. Together, these changes let your app detect a customized POD SKU and retrieve the customization JSON needed to display or process it.\nThis change is additive. Existing apps that ignore unknown response fields can continue to process orders. Apps that support POD fulfillment, use strict response models, or maintain field allowlists should update their integration.\n\n# What is changing\n## Identify customized POD line items\nThe **Get Order Detail API** now returns two fields in each object in `data.orders[].line_items[]`.\n| Field | Type | Description |\n| --- | --- | --- |\n| `is_pod_customized` | Boolean | Indicates whether the SKU contains print-on-demand customization. |\n| `pod_info_id` | String | Identifies the POD customization data associated with the order line item. |\n## Retrieve POD customization details\nFor each customized POD line item, call the **Get Pod Detail API** to retrieve its customization payload.\n| **API** | Get Pod Detail |\n| --- | --- |\n| **Endpoint** | `POST /fulfillment/202606/pod_details/get` |\n| **Version** <br>  | `v202606` |\n| **Request** | `main_order_id` and `query_order_lines[]`, including `order_line_id`, `product_id`, `sku_id`, and `pod_order_data_id`. |\n| **Response** | `data.pod_details[]`, including `order_line_id` and `pod_info_json`, plus `data.status_code`. |\n\n# How to integrate\n## Step 1: Update your order response model\n\n1. Continue calling `GET /order/202507/orders`.\n2. Add `is_pod_customized` and `pod_info_id` to your line-item response model.\n3. Keep both fields optional so non-POD line items and historical orders remain compatible.\n\n## Step 2: Detect line items that require POD data\n| Condition | Meaning | Required action |\n| --- | --- | --- |\n| `is_pod_customized = true` | Customized POD line item | Collect its order, line-item, product, SKU, and POD data identifiers. |\n| `is_pod_customized = false` or absent | Standard line item | Continue your existing order flow. |\n## Step 3: Request POD details\nCall **Get Pod Detail** at `POST /fulfillment/202606/pod_details/get` with the main order ID and customized line items. This endpoint requires the `seller.redeem_info.write` scope. Use the POD identifier returned for the line item as `query_order_lines[].pod_order_data_id`.\n```JSON\n{\n  \"main_order_id\": \"576461413038785752\",\n  \"query_order_lines\": [\n    {\n      \"order_line_id\": \"577086512123755123\",\n      \"product_id\": \"1732453831920750867\",\n      \"sku_id\": \"1732453830297817363\",\n      \"pod_order_data_id\": \"123456\"\n    }\n  ]\n}\n```\n\n## Step 4: Match and parse the response\n\n1. Match each object in `data.pod_details[]` to your order line item by `order_line_id`.\n2. Parse the JSON string returned in `pod_info_json` before using the customization data.\n3. Do not start production or fulfillment when the required customization data is missing or cannot be parsed.\n\nRequest POD details only for line items where `is_pod_customized` is `true`. This keeps the standard order flow unchanged.\n\n\n\n# FAQ\n## Does this change affect every US order?\nNo. Use the new flow only for line items identified as customized POD items. Standard orders continue through the existing order and fulfillment flow.\n## Can I ignore the new fields?\nYes, if your app does not support POD customization and can safely ignore unknown response fields. Apps with strict schemas should add the fields to prevent parsing failures.\n\n",
+  "update_time": "1784885553",
+  "view_count": 0,
+  "prev_document_id": "6a4dcc81b6498104e9a8f563",
+  "prev_document_path": "tm34wba8",
+  "next_document_id": "6a729e19eb705304fd69759f",
+  "next_document_path": "a1wu1nlb",
+  "is_api_doc": false,
+  "document_id": "6a633110e645e904b7840f7b",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "18u5qdc2"
+}

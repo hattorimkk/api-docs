@@ -1,0 +1,21 @@
+{
+  "title": "Built-in skills",
+  "content": "The CLI bundles focused skills instead of one oversized prompt. Your AI agent selects the relevant skill for the task and can combine skills when a question spans platform knowledge, onboarding, and an exact API contract.\n# Skill catalog\n| Skill | Use it for |\n| --- | --- |\n| `tts-open-toolkit` | CLI installation, upgrades, health checks, OAuth profiles, Apps, sandbox operations, DevAPI calls, configuration, and safety guidance. |\n| `tts-openapi-guide` | Exact endpoint, method, path, headers, request, response, field, version, and scope questions using the bundled OAS first. |\n| `tts-developer-onboarding-guide` | Developer registration, App creation, development shops, authorization, and integration prerequisites. |\n| `tts-openapi-faq-index` | Common TikTok Shop OpenAPI questions and the correct source or next check. |\n| `tts-seller-university-basic-knowledge-index` | Seller-facing business concepts and Seller University source discovery. |\n| `tts-open-platform-glossary` | Consistent definitions for Open Platform terminology. |\n# How skills work together\n### Example: product publishing\nOnboarding confirms App and shop prerequisites. OpenAPI Guide checks the product endpoints and schema. Toolkit handles account context and supported CLI operations.\n### Example: API update\nOpenAPI Guide checks the contract. FAQ and business indexes provide surrounding context. The agent compares the evidence with the repository.\n# Important boundary\nA skill can guide, inspect a local repository, and invoke tools exposed by the agent. It does not make generated code correct by default. Review source evidence, diffs, tests, and live responses before production use.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143791",
+  "view_count": 0,
+  "prev_document_id": "6a6716fb8930d50523f18c2e",
+  "prev_document_path": "tts-open-toolkit-cli-reference",
+  "next_document_id": "6a6716fd8930d50523f18c44",
+  "next_document_path": "tts-open-toolkit-manage-skills",
+  "is_api_doc": false,
+  "document_id": "6a6716fc194d4e04bd313d37",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-built-in-skills"
+}

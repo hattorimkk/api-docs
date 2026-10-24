@@ -1,0 +1,21 @@
+{
+  "title": "Choose and manage skills",
+  "content": "# Choose one installation target\n| Target | Use when | Command |\n| --- | --- | --- |\n| Agent user directory | You want skills available across projects in one agent. | `skill add --agent codex` |\n| Current project | You want a repository-specific managed copy. | `skill add --scope project` |\n| User scope | You want the default Codex user skill directory. | `skill add --scope user` |\n| Explicit path | You manage a custom skill directory. | `skill add --target /path/to/skills` |\n`--scope`, `--agent`, and `--target` are mutually exclusive.\n# Install all or one skill\n```bash\ntts_open_toolkit skill add --agent codex\ntts_open_toolkit skill add tts-openapi-guide --scope project\n```\n\n# Inspect managed state\n```bash\ntts_open_toolkit skill list --scope project --json\ntts_open_toolkit skill state --scope project --json\n```\n\n| State | Meaning |\n| --- | --- |\n| `current` | The managed copy matches the bundled version. |\n| `outdated` | A newer managed version is available. |\n| `modified` | Local content differs from the managed copy; review before overwriting. |\n| `unmanaged` | The directory exists but was not installed as a managed Toolkit skill. |\n| `unknown` | The CLI cannot determine a reliable state. |\n# Update managed skills\n```bash\ntts_open_toolkit skill add --scope project --update\n```\n\n> 💡\n> Use `--force` only when you intentionally want to overwrite local changes. Check state first.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143793",
+  "view_count": 0,
+  "prev_document_id": "6a6716fc194d4e04bd313d37",
+  "prev_document_path": "tts-open-toolkit-built-in-skills",
+  "next_document_id": "6a6716fed8f53d04f11537c3",
+  "next_document_path": "tts-open-toolkit-command-reference",
+  "is_api_doc": false,
+  "document_id": "6a6716fd8930d50523f18c44",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-manage-skills"
+}

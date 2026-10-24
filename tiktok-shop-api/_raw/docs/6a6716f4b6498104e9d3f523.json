@@ -1,0 +1,21 @@
+{
+  "title": "Review API and Changelog impact",
+  "content": "Use this workflow to decide whether a TikTok Shop API or webhook update requires code, configuration, testing, or no action.\n# Review one change\n> 📝\n> **Prompt to copy**\n> Compare [API OR WEBHOOK CHANGE] with this repository. Identify affected endpoints, events, versions, fields, scopes, data mappings, retries, idempotency, and downstream business flows. Classify each finding as contract-breaking, behavior-changing, or no action. Cite official evidence and produce a prioritized migration plan with code locations, tests, rollout order, rollback checks, and explicit unknowns.\n\n# Review changes since a date\n> 📝\n> **Prompt to copy**\n> Review the TikTok Shop Partner Platform Changelog since [DATE] and compare relevant changes with this repository. For each change, provide the effective date, endpoint or event, change type, affected code and business flow, severity, required action, owner, and verification evidence. Notify me only when action is required.\n\n# Use three impact layers\n| Layer | Examples |\n| --- | --- |\n| Contract | Endpoint, version, required field, response shape, enum, or scope changed. |\n| Behavior | The contract is compatible, but business meaning, timing, validation, or status handling changed. |\n| Consumption | The change exists, but the repository does not read, map, persist, or branch on it. |\nA new optional field is not automatically breaking. The final decision depends on whether the integration consumes it and whether business behavior changed.\n[TikTok Shop developer Changelog](https://partner.tiktokshop.com/docv2/changelog)\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143783",
+  "view_count": 0,
+  "prev_document_id": "6a6716f3194d4e04bd313d12",
+  "prev_document_path": "tts-open-toolkit-integration-plan-demo",
+  "next_document_id": "6a6716f6d8f53d04f11537a2",
+  "next_document_path": "tts-open-toolkit-developer-api-operations",
+  "is_api_doc": false,
+  "document_id": "6a6716f4b6498104e9d3f523",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-api-changelog-impact"
+}

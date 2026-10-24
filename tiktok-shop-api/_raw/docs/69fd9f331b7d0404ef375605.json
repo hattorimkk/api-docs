@@ -1,0 +1,21 @@
+{
+  "title": "EU Markets: Introducing VAT Calculation Service (VCS) — New Product and Order API Fields",
+  "content": "# What is changing?\nTikTok Shop has introduced the VAT Calculation Service (VCS), a feature that automatically calculates the correct VAT on every sale made to customers in the European Union.\n\nWhen a seller enables VCS, two areas of the API are affected:\n\n1. **Product listing — Product Tax Code (PTC)**\n\nA new product attribute has been added to support PTC. Use the [Get Attributes](https://partner.tiktokshop.com/docv2/page/get-attributes-202309) endpoint to retrieve the available `Product Tax Code (PTC)` options by category.\n\n* PTC can be set at the shop level (default) or overridden at the product level.\n* Product-level `PTC` takes precedence over shop-level PTC.\n* Shop Level PTC can only be configured and viewed in the TikTok Shop Seller Center.\n\n\n\n2. **Orders — VAT fields**\n\nThe following fields will return VAT values in the [Get Order Detail](https://partner.tiktokshop.com/docv2/page/get-order-detail-202507) endpoint when VCS is enabled:\n| **Field** | **Description** |\n| --- | --- |\n| `item_tax` | VAT applied based on the PTC at shop or product level |\n| `shipping_tax_amount` | Shipping tax configured in Seller Center tax settings |\n| `shipping_tax_rate` | Shipping tax rate configured in Seller Center tax settings |\n\n**Seller configuration requirements:** \nFor VCS to work, sellers must configure it in Seller Center. For requirements and setup instructions, refer to the guides by market:\n\n* [Ireland TikTok Shop Academy ](https://seller-ie.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8455415202449174&from=feature_guide)\n* [Germany TikTok Shop Academy](https://seller-de.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8476689265035030&from=feature_guide)\n* [France TikTok Shop Academy ](https://seller-fr.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8454779321419543&from=feature_guide)\n* [Spain TikTok Shop Academy ]( https://seller-es.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8454779322730263&from=feature_guide)\n* [Italy TikTok Shop Academy ](https://seller-it.tiktok.com/university/essay?identity=1&role=1&knowledge_id=8455415202629398&from=feature_guide)\n\n# Which markets are affected?\nThis change applies to EU markets: DE, ES, FR, IE, IT. \n# Who is affected?\nDevelopers with applications that are used for product catalog and order management. \n# What action is required?\n\n1. Product listing and management\n   * Add a PTC selector field in your product listing UI\n   * Populate available PTC options using the Get Attributes endpoint (attribute ID: `103356`)\n2. Order management\n\n  Update your order handling logic to read and display the new fields and values:\n\n   * `item_tax`\n   * `shipping_tax_amount`\n   * `shipping_tax_rate`\n3. Seller guidance\n\nGuide sellers to complete the following steps in Seller Center before using VCS:\n\n* Configure VCS: set a default PTC and shipping tax rate.\n* Review the PTC reference table in TikTok Shop Academy to understand applicable tax rates per PTC. \n",
+  "update_time": "1778231687",
+  "view_count": 0,
+  "prev_document_id": "69fc0c4a186bcf04b4429734",
+  "prev_document_path": "digvqy0x",
+  "next_document_id": "6a0b1ee80a0aa9e23a94b492",
+  "next_document_path": "07q2huia",
+  "is_api_doc": false,
+  "document_id": "69fd9f331b7d0404ef375605",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "pnlwkbnq"
+}

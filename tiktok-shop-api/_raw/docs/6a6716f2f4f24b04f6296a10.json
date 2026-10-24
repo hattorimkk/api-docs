@@ -1,0 +1,21 @@
+{
+  "title": "Work with apps and sandbox accounts",
+  "content": "Use authenticated App and sandbox context when a workflow depends on the developer account rather than documentation alone.\n# Sign in and confirm context\n```bash\ntts_open_toolkit auth login\ntts_open_toolkit auth status --json\n```\n\n# List developer Apps\n```bash\ntts_open_toolkit app list --json\ntts_open_toolkit app list --page-no 1 --page-size 20 --json\ntts_open_toolkit app list --app-key <app_key> --json\n```\n\nUse `app_key` as an identifier in the workflow. Never request or print an App Secret.\n# List sandbox accounts\n```bash\ntts_open_toolkit sandbox list --json\ntts_open_toolkit sandbox list --region-code 840 --json\ntts_open_toolkit sandbox endpoints --json\n```\n\nInspect the endpoint catalog before running a sandbox operation:\n```bash\ntts_open_toolkit sandbox call account-basic-list --query region_code=840 --json\n```\n\n# Use the context in an agent task\n> 📝\n> **Prompt to copy**\n> Using the active Partner Center profile, list the developer Apps and sandbox accounts available to me. Use JSON output, keep App Secrets and OAuth credentials hidden, and ask me to select the App and sandbox account before continuing. Then produce a readiness checklist for [BUSINESS SCENARIO] without making a write change.\n> 💡\n> Sandbox account deletion is intentionally excluded from the CLI catalog. Do not construct a raw request to recreate it. Other sandbox operations can still be restricted by the OAuth allowlist or session type; report the returned authorization error instead of bypassing it.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143437",
+  "view_count": 0,
+  "prev_document_id": "6a6716f18c54fa052a407b43",
+  "prev_document_path": "tts-open-toolkit-find-api-webhook",
+  "next_document_id": "6a6716f3194d4e04bd313d12",
+  "next_document_path": "tts-open-toolkit-integration-plan-demo",
+  "is_api_doc": false,
+  "document_id": "6a6716f2f4f24b04f6296a10",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-apps-sandbox"
+}

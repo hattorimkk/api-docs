@@ -1,0 +1,21 @@
+{
+  "title": "For All Markets: Create FBT MCF Order Request Parameter district_or_county now optional",
+  "content": "# 1. Overview\nThis release updates the **Create FBT MCF Order** API. The request parameter `district_or_county` has been changed from **required** to **optional**.\nPreviously, callers had to always provide `district_or_county` when creating a Fulfilled by TikTok (FBT) Merchant-Configured Fulfillment (MCF) order. With this change, the field is no longer mandatory, so orders can be created even when the district or county information is not available on the caller's side.\n# 2. Change Details\n| **API** | Create FBT MCF Order |\n| --- | --- |\n| **Parameter** | `district_or_county` (request parameter) |\n| **Before** | Required |\n| **After** | Optional |\n# 3. Impact & Affected Parties\n| **Who is affected** | ISVs and merchants who create FBT MCF orders through the Create FBT MCF Order API. |\n| --- | --- |\n| **Nature of change** | Non-breaking. Relaxing a required field to optional is backward compatible — existing requests that still pass `district_or_county` continue to work exactly as before. |\n| **Benefit** | Orders can now be created without supplying `district_or_county`, reducing failures caused by missing district / county data and simplifying integration. |\n# 4. Recommended Actions for ISVs\n\n1. No mandatory action is required — existing integrations that still send `district_or_county` will keep working.\n2. If your integration previously failed or blocked order creation due to a missing `district_or_county` value, you may now omit the field and let the order be created.\n3. Review any client-side validation that enforced `district_or_county` as required and relax it accordingly.\n\n[API Reference: Create FBT MCF Order](https://partner.tiktokshop.com/docv2/page/create-fbt-mcf-order-202601)\n",
+  "update_time": "1783501931",
+  "view_count": 0,
+  "prev_document_id": "6ab49358793c00050c7ccb2c",
+  "prev_document_path": "9kaaw0r4",
+  "next_document_id": "6a6c5d8bf4f24b04f62fff73",
+  "next_document_path": "t8h58fcy",
+  "is_api_doc": false,
+  "document_id": "6a4e13d18930d50523c711d2",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "dinqyhzz"
+}

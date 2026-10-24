@@ -1,0 +1,26 @@
+{
+  "title": "For All Markets: Sandbox Shops Rate Limiting & Inactive Seller Access Control",
+  "content": "# 1. Overview\nTo improve platform data security and ensure fair use of the Open API, the API Gateway will introduce two new control policies:\n\n1. **Sandbox shop rate limiting** — all sandbox shops will be subject to a unified **QPH limit of 1000**.\n2. **Inactive seller/shop access control** — Open API requests from shops or sellers in inactive states will be rejected.\n\nBoth changes apply at the API Gateway layer and affect how ISV integrations behave under the listed conditions.\n# 2. What Is Changing\n##  1 、 Sandbox User QPH Rate Limiting\n\n* **Policy:** Requests from sandbox shops are now rate-limited on a per-hour basis. The unified limit is **QPH = 1000** (1000 requests per hour per sandbox user).\n* **Scope:** Applies to sandbox shops only. Production  shops are not affected by this sandbox limit.\n\n**Behavior on exceeding the limit:**\n| **HTTP status** | `429` |\n| --- | --- |\n| **error_code** | `36009037` |\n| **error_message** | `Too many requests. Current sandbox user made too many requests in a short period of time.` |\n## 2、Inactive Seller / Shop Access Control\n**Effective date — 2026-07-20.** The inactive seller / shop access control policy will take effect on **2026-07-20**. From this date, Open API requests on behalf of shops/sellers in blocked states (`DEACTIVATED`, `REJECTED`, `WITHDRAW`, `CLOSING`) will be rejected. ISVs should complete the required handling before this date.\n\nThe Gateway will validate the **shop/seller status** on each Open API request. Only the following statuses are allowed to access the Open API; all other statuses are blocked.\n| Access | Statuses |\n| --- | --- |\n| ✅ Allowed | `NEW_CREATE`, `PENDING`, `ACTIVE` |\n| ❌ Blocked | `DEACTIVATED`, `REJECTED`, `WITHDRAW`, `CLOSING` |\n### 2.1 Error responses\n| Scenario | HTTP status | error_code | error_message |\n| --- | --- | --- | --- |\n| Shop inactive | `401` | `36009043` | `Your shop has been deactivated or is closing. Access denied.` |\n| Seller inactive | `401` | `36009044` | `Your seller account has been deactivated. Access denied.` |\n# 3. Impact & Affected Parties\n**Who is affected**\n\n* ISVs using sandbox / test users for any traffic beyond legitimate testing → will hit the QPH limit (`429` / `36009037`).\n* ISVs whose integrations call the Open API on behalf of shops/sellers in inactive states (`DEACTIVATED` / `REJECTED` / `WITHDRAW` / `CLOSING`) → those requests will be rejected (`401` / `36009043` / `36009044`).\n\n**Nature of change**\n\n* These are Gateway-level access policies. Requests from active, properly-authorized sellers using production users within the limit are unaffected.\n\n# 4. Required Actions for ISVs\n\n1. Keep sandbox / test user traffic within **QPH = 1000**; do not use sandbox users for production-scale or data-scraping workloads.\n2. Add handling for the new error responses: `429` + `36009037` → sandbox rate limit exceeded, apply back-off and retry after the hourly reset; `401` + `36009043` / `36009044` → shop/seller is inactive, stop calling the Open API for that shop/seller and prompt the merchant to resolve their account status.\n3. Review integrations to confirm they only call the Open API for shops/sellers in allowed statuses (`NEW_CREATE`, `PENDING`, `ACTIVE`).\n\n\n",
+  "update_time": "1781518555",
+  "view_count": 0,
+  "prev_document_id": "6539de15a3d5b702be6167e4",
+  "prev_document_path": "black-friday-cyber-monday-campaign-developer-update",
+  "next_document_id": "655d791328310802de8aa39d",
+  "next_document_path": "tts-open-api-release-update-november-2023",
+  "is_api_doc": false,
+  "document_id": "6a2fcefe4dcf9be6fd930820",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    },
+    {
+      "keyword": "Breaking Change",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "p9x5je85"
+}

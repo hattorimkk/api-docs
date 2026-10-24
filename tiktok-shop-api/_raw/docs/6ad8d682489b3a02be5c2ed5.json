@@ -1,0 +1,21 @@
+{
+  "title": "New API: Suggest Brands (202609) Is Now Available",
+  "content": "The **Suggest Brands API** is now available on TikTok Shop Open Platform. ISVs can use product information to retrieve brand suggestions and incorporate them into their product listing workflows.\n**Availability:** Available now\n**API version:** 202609\n**Endpoint:** `POST /product/202609/brands/suggest`\n# What's new\n\n* **Product-based brand suggestions:** Provide the required `product_title` to request suggested brands. You can also supply `category_id`, `description`, and `images` as optional inputs.\n* **Brand details and authorization status:** The response lists brands in recommendation order. Each entry includes the brand's `id`, `name`, and `is_authorized` status for the shop.\n\n# Integration notes\n\n* If images are provided, the recommendation service currently uses only the first image.\n* The `brands` list is empty when no suggestions are available. Handle this case in your brand-selection flow.\n\n# Get started\nAdd brand suggestions to your listing workflow so sellers can review the returned options when selecting a product's brand.\nSee the [Suggest Brands API documentation](https://partner.tiktokshop.com/docv2/page/suggest-brands-202609) for authentication requirements, request and response schemas, and error handling.\n",
+  "update_time": "1792595638",
+  "view_count": 0,
+  "prev_document_id": "6ab62fd9793c00050c7e6af0",
+  "prev_document_path": "m8p624yr",
+  "next_document_id": "6740642f29926a030df796bd",
+  "next_document_path": "maintenance-scheduled-downtime-for-promotion-apis",
+  "is_api_doc": false,
+  "document_id": "6ad8d682489b3a02be5c2ed5",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "New",
+      "font_color": "#7EB712",
+      "background_color": "#EDF8BB"
+    }
+  ],
+  "redirect_document_path": "xntktl90"
+}

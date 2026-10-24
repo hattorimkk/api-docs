@@ -1,0 +1,21 @@
+{
+  "title": "Call supported developer APIs",
+  "content": "The `devapi` command group exposes fixed OAuth-backed methods for supported Partner Center and Developer Center operations. It does not accept an arbitrary caller-provided path.\n# Discover the installed method catalog\n```bash\ntts_open_toolkit auth login\ntts_open_toolkit devapi list --json\n```\n\nAlways use the installed CLI as the source of truth for method names and accepted inputs.\n# Call a method\n```bash\ntts_open_toolkit devapi call partner-profile --json\ntts_open_toolkit devapi call developer-app-detail --query app_key=<app_key> --json\ntts_open_toolkit devapi call partner-service-detail --query service_id=<service_id> --query locale=en-US --json\n```\n\n# Published fixed methods\n| Method | Purpose |\n| --- | --- |\n| `account-basic-info` | Read basic developer-account information. |\n| `account-certification-info` | Read account certification information. |\n| `developer-app-list` | List developer Apps, optionally filtered by keyword. |\n| `developer-app-detail` | Read one App by required `app_key`. |\n| `developer-app-exists` | Check whether a developer App exists. |\n| `document-api-meta` | Read API-document metadata by source document ID. |\n| `authorization-open-api-list` | Read authorized OpenAPI items for a package and optional App. |\n| `sandbox-shop-list` | List sandbox shops. |\n| `sandbox-account-list` | List sandbox accounts with supported filters. |\n| `partner-service-list` | List partner services. |\n| `partner-profile` | Read the active partner profile. |\n| `partner-service-detail` | Read one partner service by service ID. |\n| `open-app-list` | List open Apps with pagination and filters. |\n# Use JSON for automation\n\n* Use `--json` when an agent or script consumes the response.\n* Preserve safe error text, HTTP status, and request or log IDs for diagnosis.\n* Do not parse human-readable output when JSON is available.\n* Secret-bearing response fields are recursively removed. Public identifiers such as `app_key` remain available.\n\n> 💡\n> Prefer fixed `devapi call` methods. Use `auth request` only for an explicit diagnostic against a known existing route, never to bypass an allowlist.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143785",
+  "view_count": 0,
+  "prev_document_id": "6a6716f4b6498104e9d3f523",
+  "prev_document_path": "tts-open-toolkit-api-changelog-impact",
+  "next_document_id": "6a6716f7b87b9804f0e99a90",
+  "next_document_path": "tts-open-toolkit-install-setup",
+  "is_api_doc": false,
+  "document_id": "6a6716f6d8f53d04f11537a2",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-developer-api-operations"
+}

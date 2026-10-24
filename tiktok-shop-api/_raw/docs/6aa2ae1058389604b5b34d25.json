@@ -1,0 +1,21 @@
+{
+  "title": "For UK and EU Markets: Shipped by Platform - Edit Parcel Dimensions and Weight for Shipping Label Creation",
+  "content": "# What is changing?\nThis update expands the existing **Create Packages** endpoint to **UK and EU** sellers and ISVs. Previously, this endpoint was used by US sellers and ISVs; With this change, UK/EU integrations can use it for shipping label creation and package submission flows.\nFor the updated fulfillment flow, refer to the [Fulfillment API Overview](https://partner.tiktokshop.com/docv2/page/fulfillment-api-overview), specifically the **Purchase shipping** diagram.\nThe change responds to shipping issues in Shipped by Platform (4PL orders), where auction-driven package consolidation and inaccurate product sizes can create shipping fee deviations. Sellers will be able to modify package size and weight during the shipping process, while Box Management supports commonly used box types and default box selection. The expected outcome is to reduce shipping fee deviations, merchant disputes, and carrier chargebacks.\n## Affected API endpoints\n| API | Change |\n| --- | --- |\n| [Create Packages](https://partner.tiktokshop.com/docv2/page/create-packages-202512) <br> /fulfillment/202512/packages | Existing endpoint is now supported for **UK/EU** shipping flows. Request supports passing **dimension** and **weight** per order/line item; the platform uses the latest values for routing and shipping label purchase. |\n## Request parameters (Create Packages)\nThe following request fields should be used when passing seller-edited package dimensions and weight:\n| Field | Type | Notes |\n| --- | --- | --- |\n| data.orders[].line_items[].dimension.length | string | Package length. **Length/width/height must be passed together.** |\n| data.orders[].line_items[].dimension.width | string | Package width. **Length/width/height must be passed together.** |\n| data.orders[].line_items[].dimension.height | string | Package height. **Length/width/height must be passed together.** |\n| data.orders[].line_items[].dimension.unit | string | Allowed: CM, INCH. **EU: use CM.** |\n| data.orders[].line_items[].weight.value | number | Numerical value of package weight. |\n| data.orders[].line_items[].weight.unit | string | Allowed: GRAM, POUND. **EU: use GRAM (g).** |\n# Which markets are affected?\nThis change applies to **EU and UK** fulfillment/shipping flows.\n# Who is affected?\nISVs whose integrations cover any of the following in EU/UK:\n\n* **Shipping label download / package creation** via Open API\n* **Order fulfillment operations** that need to reflect the seller’s latest packaging info\n\n# **What action is required?**\n\n1. **Update your Shipped by Platform (4PL) fulfillment flow** to support the Create Packages endpoint for UK/EU shipping label creation and package submission. **++This is not a required flow change — ISVs should implement this as a configurable option++**, choosing to either pass product-level dimensions and weight directly without seller confirmation, or present sellers with a review and edit step for length, width, height, and weight before creating the shipping label. Sellers with consistently accurate product dimensions may not need the additional confirmation step.\n2. **Pass dimensions and weight** in the Create Packages request, using CM for dimensions and GRAM for weight in EU/UK flows.\n3. **Validate complete package data:** when sending dimensions, always provide length + width + height together, and keep the values available for fulfillment, re-ship, dispute, and carrier chargeback workflows.\n\n\n",
+  "update_time": "1789046625",
+  "view_count": 0,
+  "prev_document_id": "6a79a518b6498104e9eb3ee2",
+  "prev_document_path": "lnhl0afk",
+  "next_document_id": "6ac7ab91828c6704b7f6ec76",
+  "next_document_path": "7oobdgft",
+  "is_api_doc": false,
+  "document_id": "6aa2ae1058389604b5b34d25",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Updated",
+      "font_color": "#FF7D00",
+      "background_color": "#FFF7E8"
+    }
+  ],
+  "redirect_document_path": "tovst8vl"
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Plan an integration and generate a runnable demo",
+  "content": "Turn a business requirement into an implementation plan first, then ask the agent to generate code only after the API contract and prerequisites are confirmed.\n# Step 1: create the integration plan\n> 📝\n> **Prompt to copy**\n> Design an implementation-ready TikTok Shop integration for [BUSINESS SCENARIO] in [MARKET]. Use the current official API and webhook definitions. Specify the sequence, endpoint versions, scopes, App and Shop prerequisites, data mapping, pagination, webhook handling, retries, idempotency, test plan, success criteria, rollout steps, and known constraints. Separate mandatory steps from optional recommendations and cite the sources used.\n\n# Step 2: generate a runnable demo\n> 📝\n> **Prompt to copy**\n> Create a runnable [LANGUAGE / FRAMEWORK] demo for the approved integration plan. Confirm the endpoint version, required scopes, prerequisites, and request fields before writing code. Include environment-variable based credentials, request construction, pagination or webhook handling when relevant, error handling, test data, run commands, and objective success checks. List any unsupported or unverified step instead of fabricating it.\n\n# Definition of runnable\n\n* The project installs and starts with documented commands.\n* Credentials are read from environment variables and are never committed.\n* The endpoint, version, scope, and required fields match the checked source.\n* The happy path and at least one failure path have observable success criteria.\n* Generated code is reviewed and tested by the developer before production use.\n\n# Recommended review\n| Review | Question |\n| --- | --- |\n| Contract | Does the code match the current request and response schema? |\n| Business flow | Are prerequisites, ordering, retries, and status transitions complete? |\n| Security | Are secrets excluded from code, logs, prompts, and screenshots? |\n| Evidence | Can each important implementation choice be traced to an official source? |\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143780",
+  "view_count": 0,
+  "prev_document_id": "6a6716f2f4f24b04f6296a10",
+  "prev_document_path": "tts-open-toolkit-apps-sandbox",
+  "next_document_id": "6a6716f4b6498104e9d3f523",
+  "next_document_path": "tts-open-toolkit-api-changelog-impact",
+  "is_api_doc": false,
+  "document_id": "6a6716f3194d4e04bd313d12",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-integration-plan-demo"
+}

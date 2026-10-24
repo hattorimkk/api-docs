@@ -1,0 +1,21 @@
+{
+  "title": "Sign in and manage profiles",
+  "content": "> 🔐\n> App/Shop sign-in and authorization are available in the current release. Partner Center sign-in uses OAuth; the active profile provides protected authorization for supported App, Shop, sandbox, and DevAPI workflows. Profile metadata is stored locally, while access and refresh tokens are kept in macOS Keychain or Windows CurrentUser DPAPI and are not printed by status commands.\n\n# Sign in\n```bash\ntts_open_toolkit auth login\n```\n\nThe CLI opens Partner Center authorization in your browser and returns to a localhost callback after approval.\n# Check the active profile\n```bash\ntts_open_toolkit auth status --json\ntts_open_toolkit auth list --json\n```\n\n# Use more than one account\n```bash\ntts_open_toolkit auth login --add --profile work\ntts_open_toolkit auth list --json\ntts_open_toolkit auth switch work --json\n```\n\nThe active profile determines which protected OAuth session is used. Select the intended App/Shop context before running a supported API, sandbox, or DevAPI workflow.\n# Verify account context\n```bash\ntts_open_toolkit auth basic-info --json\ntts_open_toolkit app list --json\ntts_open_toolkit sandbox list --json\n```\n\n# Sign out\n```bash\ntts_open_toolkit auth logout --profile work --json\ntts_open_toolkit auth logout --all --json\n```\n\n> 💡\n> Never paste OAuth tokens, authorization codes, App Secrets, PKCE verifiers, or Partner Center cookies into an AI prompt. If authentication state is unclear, run `tts_open_toolkit auth doctor --json`.\n\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143788",
+  "view_count": 0,
+  "prev_document_id": "6a6716f7b87b9804f0e99a90",
+  "prev_document_path": "tts-open-toolkit-install-setup",
+  "next_document_id": "6a6716f9c2de2804e62c7357",
+  "next_document_path": "tts-open-toolkit-upgrade-verify",
+  "is_api_doc": false,
+  "document_id": "6a6716f8194d4e04bd313d24",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-auth-profiles"
+}

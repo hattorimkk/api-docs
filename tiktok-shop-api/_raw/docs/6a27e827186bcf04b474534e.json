@@ -1,0 +1,26 @@
+{
+  "title": "All Market：Adjust product dimensions  to two decimal places",
+  "content": "# Background\nTo support a more consistent product publishing experience across all markets, TikTok Shop will standardize product dimension values to two decimal places.\nThis update is a data-format standardization for dimension fields only. It does not affect weight fields, does not introduce a new business rule, and does not change the data type of the related Product API fields.\nAccording to the current Product API design, the affected dimension fields are already defined as string values. This means requests and responses at the API protocol level remain compatible with decimal-formatted values.\n\nWhat Is Changing\nStarting on June 17, 2026, TikTok Shop will support and return product dimension values in a standardized decimal format with up to two decimal places across all markets. Weight fields are not affected by this change.\n\nExamples:\n\n* 10 remains 10\n* 10.5 remains 10.5\n* 10.55 remains 10.55\n* Values with more than two decimal places will be normalized according to the platform rule before downstream use\n\nImpacted APIs and Fields\nThis change applies to product-related dimension fields used in TikTok Shop Product APIs. Based on the current technical design, these fields are already defined as string types.\n\nTypical impacted fields include:\n\n* Dimension fields such as package_length, package_width, and package_height\n* Related product and SKU dimension fields in create, edit, query, and calculation flows\n\n> Note: package_weight and other weight-related fields are not impacted by this change.\n\nCompatibility Note\nBecause the related Product API fields are already string typed, this update does not require an API schema change and does not create a protocol-level breaking change.\n\nWhat Developers Need to Do\nAlthough the TikTok Shop API schema remains compatible, ISVs should review their own downstream implementations carefully for dimension fields.\n\nSome developers may have interpreted previous marketplace rules in their own systems and stored dimension values as integers in ERP, PIM, OMS, or other internal systems. After this change takes effect, those assumptions may cause issues such as:\n\n1. Decimal values being truncated or rounded unexpectedly\n1. Validation logic rejecting decimal-formatted inputs\n1. Synchronization failures between TikTok Shop and internal systems\n1. Incorrect value display in merchant-facing or operator-facing tools\n\nTo ensure compatibility, developers should review and update the following if needed:\n\n1. Parsing logic: confirm your application accepts decimal-formatted strings for dimension fields\n1. Validation logic: remove any integer-only assumptions for dimension fields\n1. Storage schema: ensure your database or ERP model can store decimal dimension values without precision loss\n1. Transformation logic: check any conversion logic between TikTok Shop dimension data and internal data models\n1. Display logic: verify that front-end or reporting systems can correctly present decimal dimension values\n\nRecommended Action Timeline\n| Time | Recommended Action |\n| --- | --- |\n| Before June 17, 2026 | Review all product dimension handling logic in your systems, especially if any dimension fields are currently stored as integers. |\n| On and after June 17, 2026 | Support decimal-formatted values with up to two decimal places in parsing, validation, storage, synchronization, and display flows for dimension fields. |\n",
+  "update_time": "1781000461",
+  "view_count": 0,
+  "prev_document_id": "6a257b5370d83304e2ddc3d6",
+  "prev_document_path": "mm5jh8jj",
+  "next_document_id": "6a412b536fc1a104e5600f5c",
+  "next_document_path": "5pylr6nx",
+  "is_api_doc": false,
+  "document_id": "6a27e827186bcf04b474534e",
+  "doc_type": 3,
+  "keywords": [
+    {
+      "keyword": "Coming Soon",
+      "font_color": "#3B87F6",
+      "background_color": "#EBF3FE"
+    },
+    {
+      "keyword": "Action Required",
+      "font_color": "#F754A8",
+      "background_color": "#FFE8F1"
+    }
+  ],
+  "redirect_document_path": "c00mfi6i"
+}

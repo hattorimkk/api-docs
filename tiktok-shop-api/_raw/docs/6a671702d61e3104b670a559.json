@@ -1,0 +1,21 @@
+{
+  "title": "Troubleshooting",
+  "content": "> 💡\n> **Run doctor first.** It distinguishes installation and configuration problems from OAuth, skill-state, transport, and business errors.\n\n```bash\ntts_open_toolkit version\ntts_open_toolkit doctor\ntts_open_toolkit auth doctor --json\n```\n\n# Common problems\n| Symptom | Next check |\n| --- | --- |\n| `command not found` | Confirm global npm installation and that the npm global bin directory is on `PATH`. Reopen the terminal after installation. |\n| Wrong or old skills | Run `skill state --json`. Update the same target used for installation. Review `modified` state before overwriting. |\n| Login does not complete | Run `auth doctor --json`, confirm the browser callback can reach localhost, and retry `auth login`. |\n| Missing auth record | Run `auth list --json` and `auth status --json`. Sign in again rather than copying tokens between profiles. |\n| Protected credential store unavailable | OAuth token storage currently requires macOS Keychain or Windows CurrentUser DPAPI. Skill-only workflows can still run where Node is supported. |\n| DevAPI method rejected | Run `devapi list --json` and use the exact installed method name, declared queries, and supported JSON body. |\n| Sandbox operation rejected | Run `sandbox endpoints --json`. Confirm the operation is published, non-delete, and allowed for the active profile. |\n| Business error | Preserve the sanitized message, HTTP status, and request or log ID. Check App, market, scope, and prerequisite context. |\n# Update recovery\n```bash\ntts_open_toolkit update --check\ntts_open_toolkit update --yes --registry https://registry.npmjs.org\ntts_open_toolkit doctor\n```\n\n# What to include in a report\n\n* Operating system, Node version, CLI version, and AI agent.\n* The exact safe command, intended outcome, and actual result.\n* Sanitized JSON error, request ID, log ID, or screenshot.\n* Whether the problem occurs before login, after login, or during one fixed method.\n\nDo not attach secrets, OAuth callbacks, authorization codes, cookies, or protected-store contents.\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785143801",
+  "view_count": 0,
+  "prev_document_id": "6a671701d61e3104b670a547",
+  "prev_document_path": "tts-open-toolkit-help-feedback",
+  "next_document_id": "6a671703b6498104e9d3f549",
+  "next_document_path": "tts-open-toolkit-security-boundaries",
+  "is_api_doc": false,
+  "document_id": "6a671702d61e3104b670a559",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-troubleshooting"
+}

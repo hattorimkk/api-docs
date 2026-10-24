@@ -1,0 +1,21 @@
+{
+  "title": "Explanation of the impact of CA65 attributes on California sales eligibility",
+  "content": "### 1.Summary\nCA65-related attributes will permanently remain optional on the API side. However, if these attributes are not provided, the product will not be eligible for sale in California. Consumers in California will see the message “This item cannot be delivered to your region.”\n### 2. Impacted Fields\nThe following core attribute fields are related to California sale eligibility:\n| Attribute Name | Attribute ID | Attribute Value | Attribute Value ID |\n| --- | --- | --- | --- |\n| CA Prop 65: Carcinogens | 101400 | Yes | 1000058 |\n|  |  | No | 1000059 |\n| CA Prop 65: Repro. Chems | 101395 | Yes | 1000058 |\n|  |  | No | 1000059 |\n| Carcinogen (Cascading Field) | 101397 | Specific chemical substance enum values (multi-select) | - |\n**Note**: `Carcinogen` is a cascading field. It is triggered only when `CA Prop 65: Carcinogens` is set to `Yes`.\n### 3. API Behavior\nAt the API integration level, the system will return warning messages in the following ways:\n\n* [preCheck API](https://partner.tiktokshop.com/docv2/page/check-product-listing-202309): If CA65 attributes are missing, a warning will be returned in `pre_check_results`.\n\n```JSON\n{\n  \"pre_check_item\": \"CA65_COMPLIANCE_MISSING\",\n  \"pre_check_details\": [\n    {\n      \"short_reason\": \"Missing CA65 Compliance Information\",\n      \"long_reason\": \"This product is missing required CA65 compliance information and will be restricted from selling in California. Please complete the required CA65 attributes in the Compliance section.\",\n      \"related_fields\": [\n        \"PRE_CHECK_FIELD_CA65_COMPLIANCE\"\n      ]\n    }\n  ]\n}\n```\n\n\n* [Create Product API](https://partner.tiktokshop.com/docv2/page/create-product-202309): If CA65 attributes are not included when creating a product, a warning will be returned in `warnings`.\n\n```JSON\n\"warnings\": [\n  {\n    \"message\": \"The CA65 compliance information is missing. This product will be restricted from selling in California. Please complete the required CA65 attributes in the Compliance section.\"\n  }\n]\n```\n\n**Important**: Missing CA65 attributes will not block product publication. The product can still be published successfully, but its sale eligibility in California will be restricted.\n### 4. Recommended Integration Approach\nTo help merchants maintain California sale eligibility and avoid unnecessary sales coverage restrictions, APP / ISV developers are advised to guide merchants to complete CA65-related attributes during the product creation or editing flow.\n",
+  "update_time": "1782467183",
+  "view_count": 0,
+  "prev_document_id": "681c193813f96804a772023f",
+  "prev_document_path": "map-product-categories",
+  "next_document_id": "6a8db1d85bdca404ec781bcb",
+  "next_document_path": "ph0ccose",
+  "is_api_doc": false,
+  "document_id": "6a3e49e1c2de2804e6dde987",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "zj95mjex"
+}

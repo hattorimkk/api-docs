@@ -1,0 +1,21 @@
+{
+  "title": "Overview",
+  "content": "Diagnose the current installation, understand security and capability boundaries, follow releases, or submit feedback.\n# Get help\n| Need | Page |\n| --- | --- |\n| Fix installation, skill, OAuth, or API failures | [Troubleshooting](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-troubleshooting) |\n| Understand safe-use and current-release boundaries | [Security and capability boundaries](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-security-boundaries) |\n| Check releases or report an issue | [Releases and feedback](https://partner.tiktokshop.com/docv2/page/tts-open-toolkit-releases-feedback) |\n# Start with evidence\n```bash\ntts_open_toolkit version\ntts_open_toolkit doctor\ntts_open_toolkit auth doctor --json\ntts_open_toolkit skill state --scope project --json\n```\n\nInclude the safe command output, operating system, Node version, intended task, actual result, and reproduction steps when asking for help. Remove credentials before sharing.\n# Send feedback\nUse the English form to report a problem, request a capability, or tell us where the documentation was unclear.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n# Join the developer community\nJoin **TTS Open Toolkit | Developer Community** to discuss integration questions, exchange implementation practices, and share product feedback with other developers.\n[Join TTS Open Toolkit | Developer Community](https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=758l2012-4347-4bfb-a0b5-65f4f3mjqair)\n\n---\n\n\n## Was this page helpful?\nTell us what worked, what was unclear, or what should be added.\n[TTS Open Toolkit Feedback Form](https://bytedance.my.larkoffice.com/share/base/form/shrmygRoEmJHrxjcSX1v81MHVnh)\n\n",
+  "update_time": "1785144632",
+  "view_count": 0,
+  "prev_document_id": "6a6717006fc1a104e5ac8d75",
+  "prev_document_path": "tts-open-toolkit-configuration-output-files",
+  "next_document_id": "6a671702d61e3104b670a559",
+  "next_document_path": "tts-open-toolkit-troubleshooting",
+  "is_api_doc": false,
+  "document_id": "6a671701d61e3104b670a547",
+  "doc_type": 2,
+  "keywords": [
+    {
+      "keyword": "",
+      "font_color": "#141414",
+      "background_color": "#E6E6E6"
+    }
+  ],
+  "redirect_document_path": "tts-open-toolkit-help-feedback"
+}
