@@ -1,0 +1,105 @@
+{
+ "batch_id": "b28",
+ "units": [
+  {
+   "key": "apiref:Mentions",
+   "out": "docs/api-reference/51-mentions.md",
+   "title_vi": "Lượt nhắc (Mentions)",
+   "mode": "full",
+   "doc_ids": [
+    "1825107837430850",
+    "1825107955294402",
+    "1831359360477185",
+    "1825107971247170",
+    "1825107978583042",
+    "1825108001123522",
+    "1833862470219842",
+    "1833831427732481",
+    "1833832557996034",
+    "1833833401871362",
+    "1825107985360898",
+    "1831358502098946",
+    "1825107991945218",
+    "1825108008121346",
+    "1825108014565442",
+    "1825108021550082"
+   ],
+   "chars": 87667,
+   "unit_id": "u60"
+  },
+  {
+   "key": "apiref:Music",
+   "out": "docs/api-reference/52-music.md",
+   "title_vi": "Âm nhạc (Music)",
+   "mode": "full",
+   "doc_ids": [
+    "1740052369141761",
+    "1740052650395650",
+    "1740053909509122"
+   ],
+   "chars": 22899,
+   "unit_id": "u61"
+  },
+  {
+   "key": "apiref:Negative Keywords",
+   "out": "docs/api-reference/53-negative-keywords.md",
+   "title_vi": "Từ khóa loại trừ (Negative Keywords)",
+   "mode": "full",
+   "doc_ids": [
+    "1775103049049090",
+    "1775104887052289",
+    "1775104895291393",
+    "1775104902283266",
+    "1775104910010369",
+    "1775104916876290"
+   ],
+   "chars": 18553,
+   "unit_id": "u62"
+  },
+  {
+   "key": "apiref:Page",
+   "out": "docs/api-reference/54-page.md",
+   "title_vi": "Trang đích (Page)",
+   "mode": "full",
+   "doc_ids": [
+    "1737719918220290",
+    "1820826387779586",
+    "1820826755283969",
+    "1820826826000385",
+    "1820826847199234"
+   ],
+   "chars": 16184,
+   "unit_id": "u63"
+  },
+  {
+   "key": "apiref:Pangle",
+   "out": "docs/api-reference/55-pangle.md",
+   "title_vi": "Pangle",
+   "mode": "full",
+   "doc_ids": [
+    "1739091153164290",
+    "1740039957181441",
+    "1740040139110466",
+    "1740040177229826"
+   ],
+   "chars": 7661,
+   "unit_id": "u64"
+  },
+  {
+   "key": "apiref:Playable Ads",
+   "out": "docs/api-reference/56-playable-ads.md",
+   "title_vi": "Quảng cáo Playable (Playable Ads)",
+   "mode": "full",
+   "doc_ids": [
+    "1737730803189826",
+    "1737730926765057",
+    "1737732054892545",
+    "1737732203851777",
+    "1737732758495234",
+    "1737733368940546"
+   ],
+   "chars": 14249,
+   "unit_id": "u65"
+  }
+ ]
+}

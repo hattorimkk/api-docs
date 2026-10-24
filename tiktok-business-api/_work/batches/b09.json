@@ -1,0 +1,73 @@
+{
+ "batch_id": "b09",
+ "units": [
+  {
+   "key": "apiref:Automated Rules",
+   "out": "docs/api-reference/11-automated-rules.md",
+   "title_vi": "Quy tắc tự động (Automated Rules)",
+   "mode": "full",
+   "doc_ids": [
+    "1738763978290178",
+    "1738767670852610",
+    "1738768750822466",
+    "1738768861976578",
+    "1738769076676609",
+    "1738769098314754",
+    "1738769123170306",
+    "1738769144119298",
+    "1738769164954626"
+   ],
+   "chars": 67415,
+   "unit_id": "u15"
+  },
+  {
+   "key": "apiref:BC Management",
+   "out": "docs/api-reference/12-bc-management.md",
+   "title_vi": "Quản lý Business Center (BC Management)",
+   "mode": "full",
+   "doc_ids": [
+    "1737115635521538",
+    "1737115687501826",
+    "1820767460168705"
+   ],
+   "chars": 13271,
+   "unit_id": "u16"
+  },
+  {
+   "key": "apiref:BC Payments",
+   "out": "docs/api-reference/13-bc-payments.md",
+   "title_vi": "Thanh toán BC (BC Payments)",
+   "mode": "full",
+   "doc_ids": [
+    "1739939078695937",
+    "1739939095321601",
+    "1739939106470913",
+    "1739939128198145",
+    "1792849810925569",
+    "1739939116353538",
+    "1739939140408322",
+    "1830173979548674",
+    "1829079287639041"
+   ],
+   "chars": 71860,
+   "unit_id": "u17"
+  },
+  {
+   "key": "apiref:BC Payment Portfolios",
+   "out": "docs/api-reference/14-bc-payment-portfolios.md",
+   "title_vi": "Danh mục thanh toán BC (BC Payment Portfolios)",
+   "mode": "full",
+   "doc_ids": [
+    "1839151483689986",
+    "1839151931301954",
+    "1839151986039809",
+    "1839151992566081",
+    "1839151998450754",
+    "1839152005599234",
+    "1839152031645121"
+   ],
+   "chars": 22225,
+   "unit_id": "u18"
+  }
+ ]
+}

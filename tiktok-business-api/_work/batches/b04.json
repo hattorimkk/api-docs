@@ -1,0 +1,80 @@
+{
+ "batch_id": "b04",
+ "units": [
+  {
+   "key": "apiref:Ads",
+   "out": "docs/api-reference/02-ads-p2.md",
+   "title_vi": "Quảng cáo (Ads) — phần 2/2",
+   "mode": "full",
+   "doc_ids": [
+    "1739953405142018",
+    "1739953422970882"
+   ],
+   "chars": 80012,
+   "unit_id": "u04"
+  },
+  {
+   "key": "apiref:Ad Accounts",
+   "out": "docs/api-reference/03-ad-accounts.md",
+   "title_vi": "Tài khoản quảng cáo (Ad Accounts)",
+   "mode": "full",
+   "doc_ids": [
+    "1738455259137026",
+    "1738455508553729",
+    "1739593083610113"
+   ],
+   "chars": 17524,
+   "unit_id": "u05"
+  },
+  {
+   "key": "apiref:Ad Comments",
+   "out": "docs/api-reference/04-ad-comments.md",
+   "title_vi": "Bình luận quảng cáo (Ad Comments)",
+   "mode": "full",
+   "doc_ids": [
+    "1738086266983426",
+    "1738086301876225",
+    "1738086824859650",
+    "1738086844585985",
+    "1738957702411265",
+    "1738957772267522",
+    "1738088144215041",
+    "1738088242659330",
+    "1738088341958658"
+   ],
+   "chars": 31099,
+   "unit_id": "u06"
+  },
+  {
+   "key": "apiref:Ad Comments - Blocked Words",
+   "out": "docs/api-reference/05-ad-comments-blocked-words.md",
+   "title_vi": "Từ khóa bị chặn trong bình luận (Blocked Words)",
+   "mode": "full",
+   "doc_ids": [
+    "1739029198660609",
+    "1739029218470913",
+    "1739029234526209",
+    "1739029247961089",
+    "1739029260837889",
+    "1739029277346817",
+    "1739029296119809",
+    "1739029311687681",
+    "1739029325203457"
+   ],
+   "chars": 14491,
+   "unit_id": "u07"
+  },
+  {
+   "key": "apiref:Ad Diagnosis",
+   "out": "docs/api-reference/06-ad-diagnosis.md",
+   "title_vi": "Chẩn đoán quảng cáo (Ad Diagnosis)",
+   "mode": "full",
+   "doc_ids": [
+    "1738674938808321",
+    "1738674986981378"
+   ],
+   "chars": 9393,
+   "unit_id": "u08"
+  }
+ ]
+}

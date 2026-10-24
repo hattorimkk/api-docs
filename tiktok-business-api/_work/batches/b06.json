@@ -1,0 +1,16 @@
+{
+ "batch_id": "b06",
+ "units": [
+  {
+   "key": "apiref:Ad Groups",
+   "out": "docs/api-reference/07-ad-groups-p2.md",
+   "title_vi": "Nhóm quảng cáo (Ad Groups) — phần 2/3",
+   "mode": "full",
+   "doc_ids": [
+    "1739499616346114"
+   ],
+   "chars": 125024,
+   "unit_id": "u10"
+  }
+ ]
+}

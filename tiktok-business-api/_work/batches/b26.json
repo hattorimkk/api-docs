@@ -1,0 +1,50 @@
+{
+ "batch_id": "b26",
+ "units": [
+  {
+   "key": "apiref:GMV Max",
+   "out": "docs/api-reference/45-gmv-max-p3.md",
+   "title_vi": "GMV Max — phần 3/3",
+   "mode": "full",
+   "doc_ids": [
+    "1824722485971009"
+   ],
+   "chars": 87898,
+   "unit_id": "u54"
+  },
+  {
+   "key": "apiref:Identity",
+   "out": "docs/api-reference/46-identity.md",
+   "title_vi": "Danh tính (Identity)",
+   "mode": "full",
+   "doc_ids": [
+    "1740133137507393",
+    "1740654203526146",
+    "1759155939236865",
+    "1740218420781057",
+    "1740218453385217",
+    "1740218475032577",
+    "1785238052792321",
+    "1740218495869954",
+    "1740218522178562"
+   ],
+   "chars": 58291,
+   "unit_id": "u55"
+  },
+  {
+   "key": "apiref:Images",
+   "out": "docs/api-reference/47-images.md",
+   "title_vi": "Hình ảnh (Images)",
+   "mode": "full",
+   "doc_ids": [
+    "1739067422728193",
+    "1739067433456642",
+    "1740039806891010",
+    "1740051721711618",
+    "1740052016789506"
+   ],
+   "chars": 26298,
+   "unit_id": "u56"
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "batch_id": "b23",
+ "units": [
+  {
+   "key": "apiref:Events 1.0",
+   "out": "docs/api-reference/43-events-1-0-p2.md",
+   "title_vi": "Sự kiện 1.0 (Events 1.0) — phần 2/2",
+   "mode": "full",
+   "doc_ids": [
+    "1780896521680898",
+    "1861366342223874",
+    "1816986081880065",
+    "1816979158055937"
+   ],
+   "chars": 12047,
+   "unit_id": "u50"
+  },
+  {
+   "key": "apiref:Files",
+   "out": "docs/api-reference/44-files.md",
+   "title_vi": "Tệp (Files)",
+   "mode": "full",
+   "doc_ids": [
+    "1737719988918274",
+    "1737720893061122",
+    "1737721229896705",
+    "1737721489945601",
+    "1737721642924033",
+    "1759130033155073"
+   ],
+   "chars": 17677,
+   "unit_id": "u51"
+  }
+ ]
+}

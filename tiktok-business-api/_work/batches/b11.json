@@ -1,0 +1,80 @@
+{
+ "batch_id": "b11",
+ "units": [
+  {
+   "key": "apiref:BC Partners",
+   "out": "docs/api-reference/18-bc-partners.md",
+   "title_vi": "Đối tác BC (BC Partners)",
+   "mode": "full",
+   "doc_ids": [
+    "1739432611975170",
+    "1739662727395330",
+    "1739662756510721",
+    "1739662779301890",
+    "1739662800930817",
+    "1739662828320769"
+   ],
+   "chars": 18447,
+   "unit_id": "u22"
+  },
+  {
+   "key": "apiref:BC Members",
+   "out": "docs/api-reference/19-bc-members.md",
+   "title_vi": "Thành viên BC (BC Members)",
+   "mode": "full",
+   "doc_ids": [
+    "1739516035501058",
+    "1739939404802049",
+    "1739939455765505",
+    "1739696704424961",
+    "1739939482851329"
+   ],
+   "chars": 13730,
+   "unit_id": "u23"
+  },
+  {
+   "key": "apiref:BC Invoices",
+   "out": "docs/api-reference/20-bc-invoices.md",
+   "title_vi": "Hóa đơn BC (BC Invoices)",
+   "mode": "full",
+   "doc_ids": [
+    "1740132803511297",
+    "1740295890332674",
+    "1740295904843777",
+    "1740295923474433",
+    "1754000198430722",
+    "1754000224141313",
+    "1754000448122882",
+    "1754000480307265",
+    "1754000504437762"
+   ],
+   "chars": 25185,
+   "unit_id": "u24"
+  },
+  {
+   "key": "apiref:BC Reporting",
+   "out": "docs/api-reference/21-bc-reporting.md",
+   "title_vi": "Báo cáo BC (BC Reporting)",
+   "mode": "full",
+   "doc_ids": [
+    "1775752272288770",
+    "1775752357139457"
+   ],
+   "chars": 3056,
+   "unit_id": "u25"
+  },
+  {
+   "key": "apiref:Brand Safety",
+   "out": "docs/api-reference/22-brand-safety.md",
+   "title_vi": "An toàn thương hiệu (Brand Safety)",
+   "mode": "full",
+   "doc_ids": [
+    "1830112418755778",
+    "1830112550443073",
+    "1830112569774274"
+   ],
+   "chars": 12942,
+   "unit_id": "u26"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "batch_id": "b37",
+ "units": [
+  {
+   "key": "apiref:Spark Ads Recommendation",
+   "out": "docs/api-reference/63-spark-ads-recommendation.md",
+   "title_vi": "Gợi ý Spark Ads",
+   "mode": "full",
+   "doc_ids": [
+    "1825128584099841",
+    "1825128684907522",
+    "1825128700959746",
+    "1829744071179330",
+    "1829744101665810"
+   ],
+   "chars": 39709,
+   "unit_id": "u78"
+  },
+  {
+   "key": "apiref:Spark Ads Using Authorized Posts",
+   "out": "docs/api-reference/64-spark-ads-using-authorized-posts.md",
+   "title_vi": "Spark Ads từ bài đăng được ủy quyền",
+   "mode": "full",
+   "doc_ids": [
+    "1738376238825474",
+    "1738376324021250",
+    "1738376435339265",
+    "1738376465972226",
+    "1738376509936641"
+   ],
+   "chars": 28106,
+   "unit_id": "u79"
+  },
+  {
+   "key": "apiref:Super Split Test",
+   "out": "docs/api-reference/65-super-split-test.md",
+   "title_vi": "Super Split Test",
+   "mode": "full",
+   "doc_ids": [
+    "1742666215544834",
+    "1742666471475201",
+    "1742666501911553",
+    "1742666522399746",
+    "1742666557045761",
+    "1742666543736834"
+   ],
+   "chars": 21906,
+   "unit_id": "u80"
+  },
+  {
+   "key": "apiref:Subscription",
+   "out": "docs/api-reference/66-subscription.md",
+   "title_vi": "Đăng ký webhook (Subscription)",
+   "mode": "full",
+   "doc_ids": [
+    "1739091185604609",
+    "1739092028876801",
+    "1739093832125442",
+    "1739094758789122"
+   ],
+   "chars": 22796,
+   "unit_id": "u81"
+  },
+  {
+   "key": "apiref:Terms",
+   "out": "docs/api-reference/67-terms.md",
+   "title_vi": "Điều khoản (Terms)",
+   "mode": "full",
+   "doc_ids": [
+    "1737191804348417",
+    "1737191909315585",
+    "1737192284435457",
+    "1737192304571394"
+   ],
+   "chars": 5913,
+   "unit_id": "u82"
+  }
+ ]
+}

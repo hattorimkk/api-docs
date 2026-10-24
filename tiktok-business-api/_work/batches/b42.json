@@ -1,0 +1,89 @@
+{
+ "batch_id": "b42",
+ "units": [
+  {
+   "key": "apiref:Tools",
+   "out": "docs/api-reference/70-tools-p3.md",
+   "title_vi": "Công cụ tra cứu (Tools) — phần 3/3",
+   "mode": "full",
+   "doc_ids": [
+    "1874392516418561",
+    "1879581236824514",
+    "1879581240885250"
+   ],
+   "chars": 26244,
+   "unit_id": "u88"
+  },
+  {
+   "key": "apiref:Video",
+   "out": "docs/api-reference/71-video.md",
+   "title_vi": "Video",
+   "mode": "full",
+   "doc_ids": [
+    "1737587293087810",
+    "1737587322856449",
+    "1740049987749890",
+    "1740050161973250",
+    "1740050472224769",
+    "1740051189071873"
+   ],
+   "chars": 41078,
+   "unit_id": "u89"
+  },
+  {
+   "key": "apiref:Verification",
+   "out": "docs/api-reference/72-verification.md",
+   "title_vi": "Xác minh (Verification)",
+   "mode": "full",
+   "doc_ids": [
+    "1870687451913217",
+    "1870687810081794",
+    "1870687812502530",
+    "1870687936881281",
+    "1870687815670786"
+   ],
+   "chars": 21456,
+   "unit_id": "u90"
+  },
+  {
+   "key": "apiref:Welcome Messages",
+   "out": "docs/api-reference/73-welcome-messages.md",
+   "title_vi": "Tin nhắn chào mừng (Welcome Messages)",
+   "mode": "full",
+   "doc_ids": [
+    "1822106064917506",
+    "1822106113771521",
+    "1822106498804738"
+   ],
+   "chars": 10592,
+   "unit_id": "u91"
+  },
+  {
+   "key": "guide:About the Guide",
+   "out": "docs/tong-quan/gioi-thieu-bo-tai-lieu.md",
+   "title_vi": "Giới thiệu bộ tài liệu",
+   "mode": "full",
+   "doc_ids": [
+    "1877109209998337"
+   ],
+   "chars": 8649,
+   "unit_id": "u92"
+  },
+  {
+   "key": "guide:Overview",
+   "out": "docs/tong-quan/tong-quan-va-phien-ban.md",
+   "title_vi": "Tổng quan, phiên bản và thay đổi v1.3",
+   "mode": "full",
+   "doc_ids": [
+    "1735712062490625",
+    "1740029169927169",
+    "1740578661644289",
+    "1740579480076290",
+    "1740591846408194",
+    "1749537346290689"
+   ],
+   "chars": 30986,
+   "unit_id": "u93"
+  }
+ ]
+}

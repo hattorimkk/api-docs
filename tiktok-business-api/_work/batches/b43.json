@@ -1,0 +1,64 @@
+{
+ "batch_id": "b43",
+ "units": [
+  {
+   "key": "guide:Get Started",
+   "out": "docs/tong-quan/bat-dau.md",
+   "title_vi": "Bắt đầu: khái niệm, quy trình, rate limit, sandbox",
+   "mode": "full",
+   "doc_ids": [
+    "1735713609895937",
+    "1738928364967937",
+    "1740029179343874",
+    "1781888800300034",
+    "1738855099573250",
+    "1738855176671234",
+    "1738855242728450",
+    "1781891256601602",
+    "1832209711206401",
+    "1781892384100354",
+    "1740029171730433",
+    "1738855280338946",
+    "1738855331457026",
+    "1747849403155521",
+    "1768657234981890",
+    "1795190020378625"
+   ],
+   "chars": 57012,
+   "unit_id": "u94"
+  },
+  {
+   "key": "guide:TikTok for Business MCP Server",
+   "out": "docs/mcp/mcp-server.md",
+   "title_vi": "TikTok for Business MCP Server",
+   "mode": "full",
+   "doc_ids": [
+    "1869388085523458",
+    "1879193110871042",
+    "1874027802752002",
+    "1878917016654850"
+   ],
+   "chars": 30097,
+   "unit_id": "u95"
+  },
+  {
+   "key": "guide:TikTok for Business MCP Server:digest",
+   "out": "docs/mcp/mcp-server-tom-tat.md",
+   "title_vi": "TikTok for Business MCP Server (tóm tắt)",
+   "mode": "digest",
+   "doc_ids": [
+    "1869389950974978",
+    "1876677898348545",
+    "1876678060056257",
+    "1876678063526450",
+    "1876678103250945",
+    "1873497625216513",
+    "1878653463547282",
+    "1879095943307394",
+    "1869389953319233"
+   ],
+   "chars": 97974,
+   "unit_id": "u96"
+  }
+ ]
+}

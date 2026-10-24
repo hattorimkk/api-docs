@@ -1,0 +1,38 @@
+{
+ "batch_id": "b30",
+ "units": [
+  {
+   "key": "apiref:Smart Creative",
+   "out": "docs/api-reference/60-smart-creative.md",
+   "title_vi": "Smart Creative",
+   "mode": "full",
+   "doc_ids": [
+    "1739472835319809",
+    "1739473020978177",
+    "1739473063234626",
+    "1739473077112833",
+    "1739506701165570"
+   ],
+   "chars": 72514,
+   "unit_id": "u69"
+  },
+  {
+   "key": "apiref:(To be deprecated) Legacy Smart+",
+   "out": "docs/api-reference/61-to-be-deprecated-legacy-smartplus.md",
+   "title_vi": "Smart+ phiên bản cũ (sắp ngừng hỗ trợ)",
+   "mode": "digest",
+   "doc_ids": [
+    "1765314260115458",
+    "1831564498409473",
+    "1767334204047362",
+    "1767334250066945",
+    "1767334299811842",
+    "1837969177953361",
+    "1776454619412481",
+    "1776461365424129"
+   ],
+   "chars": 268954,
+   "unit_id": "u70"
+  }
+ ]
+}

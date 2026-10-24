@@ -1,0 +1,18 @@
+{
+ "batch_id": "b03",
+ "units": [
+  {
+   "key": "apiref:Ads",
+   "out": "docs/api-reference/02-ads-p1.md",
+   "title_vi": "Quảng cáo (Ads) — phần 1/2",
+   "mode": "full",
+   "doc_ids": [
+    "1735735524758530",
+    "1735735588640770",
+    "1739953377508354"
+   ],
+   "chars": 124357,
+   "unit_id": "u03"
+  }
+ ]
+}

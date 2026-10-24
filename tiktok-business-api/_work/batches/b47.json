@@ -1,0 +1,92 @@
+{
+ "batch_id": "b47",
+ "units": [
+  {
+   "key": "guide:Use Cases/Lead generation",
+   "out": "docs/huong-dan/use-case-lead-generation.md",
+   "title_vi": "Use case: Lead generation",
+   "mode": "full",
+   "doc_ids": [
+    "1739289524101122",
+    "1806817494948930",
+    "1806817505894402"
+   ],
+   "chars": 14066,
+   "unit_id": "u103"
+  },
+  {
+   "key": "guide:Use Cases/Reporting",
+   "out": "docs/huong-dan/use-case-bao-cao.md",
+   "title_vi": "Use case: Báo cáo",
+   "mode": "full",
+   "doc_ids": [
+    "1758528841973762"
+   ],
+   "chars": 2490,
+   "unit_id": "u104"
+  },
+  {
+   "key": "guide:Use Cases/Webhook subscription",
+   "out": "docs/huong-dan/use-case-webhook.md",
+   "title_vi": "Use case: đăng ký Webhook",
+   "mode": "full",
+   "doc_ids": [
+    "1810521709205505",
+    "1810521730276354",
+    "1825113658431489",
+    "1832190670631937",
+    "1810521739537409"
+   ],
+   "chars": 109341,
+   "unit_id": "u105"
+  },
+  {
+   "key": "guide:Use Cases/Media Mix Modeling data request",
+   "out": "docs/huong-dan/use-case-mmm.md",
+   "title_vi": "Use case: yêu cầu dữ liệu Media Mix Modeling",
+   "mode": "full",
+   "doc_ids": [
+    "1825298892472513"
+   ],
+   "chars": 4607,
+   "unit_id": "u106"
+  },
+  {
+   "key": "guide:Marketing API/",
+   "out": "docs/huong-dan/marketing-api-gioi-thieu.md",
+   "title_vi": "Marketing API — giới thiệu",
+   "mode": "full",
+   "doc_ids": [
+    "1781891416235009"
+   ],
+   "chars": 1472,
+   "unit_id": "u107"
+  },
+  {
+   "key": "guide:Marketing API/Overview",
+   "out": "docs/huong-dan/marketing-api-tong-quan.md",
+   "title_vi": "Marketing API — tổng quan",
+   "mode": "full",
+   "doc_ids": [
+    "1781891506567170"
+   ],
+   "chars": 1922,
+   "unit_id": "u108"
+  },
+  {
+   "key": "guide:Marketing API/Get started",
+   "out": "docs/huong-dan/marketing-api-xac-thuc-uy-quyen.md",
+   "title_vi": "Marketing API — bắt đầu, xác thực và ủy quyền",
+   "mode": "full",
+   "doc_ids": [
+    "1781891830241281",
+    "1738373141733378",
+    "1766037914914818",
+    "1738373164380162",
+    "1766041812130817"
+   ],
+   "chars": 22912,
+   "unit_id": "u109"
+  }
+ ]
+}

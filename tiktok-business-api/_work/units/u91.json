@@ -1,0 +1,13 @@
+{
+ "key": "apiref:Welcome Messages",
+ "out": "docs/api-reference/73-welcome-messages.md",
+ "title_vi": "Tin nhắn chào mừng (Welcome Messages)",
+ "mode": "full",
+ "doc_ids": [
+  "1822106064917506",
+  "1822106113771521",
+  "1822106498804738"
+ ],
+ "chars": 10592,
+ "unit_id": "u91"
+}

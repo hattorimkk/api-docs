@@ -1,0 +1,32 @@
+{
+ "batch_id": "b07",
+ "units": [
+  {
+   "key": "apiref:Ad Groups",
+   "out": "docs/api-reference/07-ad-groups-p3.md",
+   "title_vi": "Nhóm quảng cáo (Ad Groups) — phần 3/3",
+   "mode": "full",
+   "doc_ids": [
+    "1739586761631745",
+    "1739591716326402",
+    "1739591133130817"
+   ],
+   "chars": 99180,
+   "unit_id": "u11"
+  },
+  {
+   "key": "apiref:Ad Review",
+   "out": "docs/api-reference/08-ad-review.md",
+   "title_vi": "Duyệt quảng cáo (Ad Review)",
+   "mode": "full",
+   "doc_ids": [
+    "1740554223900674",
+    "1740554277061634",
+    "1740559669226498",
+    "1740571821728770"
+   ],
+   "chars": 20877,
+   "unit_id": "u12"
+  }
+ ]
+}

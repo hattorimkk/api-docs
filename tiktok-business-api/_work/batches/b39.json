@@ -1,0 +1,38 @@
+{
+ "batch_id": "b39",
+ "units": [
+  {
+   "key": "apiref:TikTok One",
+   "out": "docs/api-reference/68-tiktok-one-p2.md",
+   "title_vi": "TikTok One — phần 2/2",
+   "mode": "full",
+   "doc_ids": [
+    "1815693573340162",
+    "1751098904942594",
+    "1751098935842817",
+    "1826564934723585",
+    "1826564965840066",
+    "1826564985760770",
+    "1836584318657537",
+    "1836584551347201",
+    "1837247726007298",
+    "1837247744649345"
+   ],
+   "chars": 89774,
+   "unit_id": "u84"
+  },
+  {
+   "key": "apiref:TikTok Store",
+   "out": "docs/api-reference/69-tiktok-store.md",
+   "title_vi": "TikTok Store",
+   "mode": "full",
+   "doc_ids": [
+    "1740661959804929",
+    "1752267762718722",
+    "1793482248880130"
+   ],
+   "chars": 17174,
+   "unit_id": "u85"
+  }
+ ]
+}

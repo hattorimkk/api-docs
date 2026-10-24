@@ -1,0 +1,61 @@
+{
+ "batch_id": "b27",
+ "units": [
+  {
+   "key": "apiref:Leads",
+   "out": "docs/api-reference/48-leads.md",
+   "title_vi": "Khách hàng tiềm năng (Leads)",
+   "mode": "full",
+   "doc_ids": [
+    "1739047069984834",
+    "1739047132614722",
+    "1739048460493826",
+    "1739049313198081",
+    "1739052936772610",
+    "1739053563877378",
+    "1740029915327489",
+    "1740029931324417",
+    "1739054080455681",
+    "1832112377641026",
+    "1832112833212434"
+   ],
+   "chars": 44598,
+   "unit_id": "u57"
+  },
+  {
+   "key": "apiref:Media Mix Modeling",
+   "out": "docs/api-reference/49-media-mix-modeling.md",
+   "title_vi": "Media Mix Modeling (MMM)",
+   "mode": "full",
+   "doc_ids": [
+    "1825299463225345",
+    "1825299567855617",
+    "1825299576698882",
+    "1825299584678017",
+    "1825299591414850"
+   ],
+   "chars": 19434,
+   "unit_id": "u58"
+  },
+  {
+   "key": "apiref:MCP Authorization",
+   "out": "docs/api-reference/50-mcp-authorization.md",
+   "title_vi": "Ủy quyền MCP (MCP Authorization)",
+   "mode": "full",
+   "doc_ids": [
+    "1873496702070273",
+    "1873496729194769",
+    "1873496742612993",
+    "1873496757798466",
+    "1873496771526337",
+    "1873496785750401",
+    "1873496870932225",
+    "1873496798816274",
+    "1873496895169554",
+    "1873496914836802"
+   ],
+   "chars": 38031,
+   "unit_id": "u59"
+  }
+ ]
+}

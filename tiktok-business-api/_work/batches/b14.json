@@ -1,0 +1,56 @@
+{
+ "batch_id": "b14",
+ "units": [
+  {
+   "key": "apiref:Catalog Management",
+   "out": "docs/api-reference/25-catalog-management.md",
+   "title_vi": "Quản lý Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1740132866693122",
+    "1740306481704961",
+    "1740306544966657",
+    "1740310064588801",
+    "1740315452868610",
+    "1740488375815169",
+    "1740490222539778",
+    "1740491257516034",
+    "1740491571747841",
+    "1740492470201345"
+   ],
+   "chars": 40424,
+   "unit_id": "u29"
+  },
+  {
+   "key": "apiref:Catalog Event Sources",
+   "out": "docs/api-reference/26-catalog-event-sources.md",
+   "title_vi": "Nguồn sự kiện Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1740132891438082",
+    "1740492491200513",
+    "1740492512449538",
+    "1740492531343362"
+   ],
+   "chars": 7728,
+   "unit_id": "u30"
+  },
+  {
+   "key": "apiref:Catalog Feeds",
+   "out": "docs/api-reference/27-catalog-feeds.md",
+   "title_vi": "Feed Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1740132921913346",
+    "1740665161957377",
+    "1740665183073281",
+    "1740665197662210",
+    "1740665210863617",
+    "1740665225631810",
+    "1750349624999937"
+   ],
+   "chars": 31477,
+   "unit_id": "u31"
+  }
+ ]
+}

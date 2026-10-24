@@ -1,0 +1,122 @@
+{
+ "batch_id": "b17",
+ "units": [
+  {
+   "key": "apiref:Catalog Products",
+   "out": "docs/api-reference/28-catalog-products-p3.md",
+   "title_vi": "Sản phẩm Catalog — phần 3/3",
+   "mode": "full",
+   "doc_ids": [
+    "1740570027173889"
+   ],
+   "chars": 11423,
+   "unit_id": "u34"
+  },
+  {
+   "key": "apiref:Catalog Product Sets",
+   "out": "docs/api-reference/29-catalog-product-sets.md",
+   "title_vi": "Bộ sản phẩm Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1740132953884673",
+    "1740570556295169",
+    "1740571478441986",
+    "1740572891104257",
+    "1846770644217858",
+    "1740572974725122",
+    "1740573143966722"
+   ],
+   "chars": 23153,
+   "unit_id": "u35"
+  },
+  {
+   "key": "apiref:Catalog Videos",
+   "out": "docs/api-reference/30-catalog-videos.md",
+   "title_vi": "Video Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1803654722508866",
+    "1803655037415489",
+    "1803655061642242",
+    "1803655082498050",
+    "1803655103069185"
+   ],
+   "chars": 26909,
+   "unit_id": "u36"
+  },
+  {
+   "key": "apiref:Catalog Video Templates",
+   "out": "docs/api-reference/31-catalog-video-templates.md",
+   "title_vi": "Mẫu video Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1740132982369282",
+    "1740574099715073",
+    "1740665273039873",
+    "1740665303669761",
+    "1740665332455426",
+    "1740665346584577",
+    "1740665368159233"
+   ],
+   "chars": 17187,
+   "unit_id": "u37"
+  },
+  {
+   "key": "apiref:Catalog Diagnostics",
+   "out": "docs/api-reference/32-catalog-diagnostics.md",
+   "title_vi": "Chẩn đoán Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1771117054564354",
+    "1771117232728066",
+    "1771117279175682",
+    "1771117294731266",
+    "1780799405041665",
+    "1780802101608450"
+   ],
+   "chars": 42726,
+   "unit_id": "u38"
+  },
+  {
+   "key": "apiref:Catalog Insights",
+   "out": "docs/api-reference/33-catalog-insights.md",
+   "title_vi": "Insight Catalog",
+   "mode": "full",
+   "doc_ids": [
+    "1805640759207937",
+    "1805640864553985",
+    "1805640886872066",
+    "1805640900563969"
+   ],
+   "chars": 20309,
+   "unit_id": "u39"
+  },
+  {
+   "key": "apiref:Change Log",
+   "out": "docs/api-reference/34-change-log.md",
+   "title_vi": "Nhật ký thay đổi (Change Log)",
+   "mode": "full",
+   "doc_ids": [
+    "1738811145996290",
+    "1738811219460097",
+    "1739916077352961",
+    "1739924165710849"
+   ],
+   "chars": 10170,
+   "unit_id": "u40"
+  },
+  {
+   "key": "apiref:Creative Pre-review",
+   "out": "docs/api-reference/35-creative-pre-review.md",
+   "title_vi": "Tiền kiểm duyệt creative (Creative Pre-review)",
+   "mode": "full",
+   "doc_ids": [
+    "1874110575134722",
+    "1874110632584577",
+    "1874110636550082"
+   ],
+   "chars": 19115,
+   "unit_id": "u41"
+  }
+ ]
+}

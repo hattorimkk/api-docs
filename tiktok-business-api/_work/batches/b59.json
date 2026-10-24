@@ -1,0 +1,138 @@
+{
+ "batch_id": "b59",
+ "units": [
+  {
+   "key": "guide:Organic API/Mentions API",
+   "out": "docs/organic-api/mentions-api.md",
+   "title_vi": "Organic API — Mentions API",
+   "mode": "full",
+   "doc_ids": [
+    "1825103301081169",
+    "1825103341635586",
+    "1825103402321025",
+    "1825103422736385",
+    "1825103730490434",
+    "1825105003772930",
+    "1825107305621506",
+    "1825107469360130",
+    "1825107519114241",
+    "1825107783639042"
+   ],
+   "chars": 28450,
+   "unit_id": "u127"
+  },
+  {
+   "key": "guide:Organic API/TikTok One API",
+   "out": "docs/organic-api/tiktok-one-api.md",
+   "title_vi": "Organic API — TikTok One API",
+   "mode": "full",
+   "doc_ids": [
+    "1735827019995138",
+    "1763402336271362",
+    "1763403737310209",
+    "1825117808886785",
+    "1825117875361793",
+    "1768506960432130",
+    "1763404664004609",
+    "1830337139853313",
+    "1828929329184770",
+    "1740027794580481",
+    "1825117901366274",
+    "1740302141934593"
+   ],
+   "chars": 31703,
+   "unit_id": "u128"
+  },
+  {
+   "key": "guide:Organic API/Discovery API",
+   "out": "docs/organic-api/discovery-api.md",
+   "title_vi": "Organic API — Discovery API",
+   "mode": "full",
+   "doc_ids": [
+    "1825127388184577",
+    "1825127469285442",
+    "1825127824570434",
+    "1825127842289729"
+   ],
+   "chars": 3634,
+   "unit_id": "u129"
+  },
+  {
+   "key": "guide:Organic API/Spark Ads Recommendation API",
+   "out": "docs/organic-api/spark-ads-recommendation-api.md",
+   "title_vi": "Organic API — Spark Ads Recommendation API",
+   "mode": "full",
+   "doc_ids": [
+    "1825128359356417",
+    "1825128393150530",
+    "1825128519531521",
+    "1825128562548930"
+   ],
+   "chars": 3571,
+   "unit_id": "u130"
+  },
+  {
+   "key": "guide:Business Messaging API",
+   "out": "docs/business-messaging-api/business-messaging-api.md",
+   "title_vi": "Business Messaging API",
+   "mode": "full",
+   "doc_ids": [
+    "1832183871604753",
+    "1832184079395841",
+    "1832184100272338",
+    "1832184116746305",
+    "1832184145137922",
+    "1832184206708737",
+    "1832184219753474",
+    "1832184159540418",
+    "1832184175482945",
+    "1832184236919810",
+    "1854823717597185",
+    "1832184250237954",
+    "1832184264385538",
+    "1832184277518338",
+    "1832184291198977",
+    "1877104214073346",
+    "1839594049581249",
+    "1832184306529874",
+    "1832184321030145"
+   ],
+   "chars": 68509,
+   "unit_id": "u131"
+  },
+  {
+   "key": "guide:API Playground",
+   "out": "docs/tong-quan/api-playground.md",
+   "title_vi": "API Playground",
+   "mode": "full",
+   "doc_ids": [
+    "1826537506816001",
+    "1826537624043586"
+   ],
+   "chars": 8039,
+   "unit_id": "u132"
+  },
+  {
+   "key": "guide:API Service Status Page",
+   "out": "docs/tong-quan/trang-thai-dich-vu.md",
+   "title_vi": "Trang trạng thái dịch vụ API",
+   "mode": "full",
+   "doc_ids": [
+    "1847461383861378"
+   ],
+   "chars": 2245,
+   "unit_id": "u133"
+  },
+  {
+   "key": "guide:SDK",
+   "out": "docs/tong-quan/sdk.md",
+   "title_vi": "SDK",
+   "mode": "full",
+   "doc_ids": [
+    "1764231376750658"
+   ],
+   "chars": 5254,
+   "unit_id": "u134"
+  }
+ ]
+}

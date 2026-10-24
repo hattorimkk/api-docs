@@ -1,0 +1,19 @@
+{
+ "key": "apiref:Ad Comments - Blocked Words",
+ "out": "docs/api-reference/05-ad-comments-blocked-words.md",
+ "title_vi": "Từ khóa bị chặn trong bình luận (Blocked Words)",
+ "mode": "full",
+ "doc_ids": [
+  "1739029198660609",
+  "1739029218470913",
+  "1739029234526209",
+  "1739029247961089",
+  "1739029260837889",
+  "1739029277346817",
+  "1739029296119809",
+  "1739029311687681",
+  "1739029325203457"
+ ],
+ "chars": 14491,
+ "unit_id": "u07"
+}

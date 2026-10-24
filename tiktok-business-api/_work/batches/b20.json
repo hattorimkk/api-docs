@@ -1,0 +1,45 @@
+{
+ "batch_id": "b20",
+ "units": [
+  {
+   "key": "apiref:Creative Tools",
+   "out": "docs/api-reference/38-creative-tools.md",
+   "title_vi": "Công cụ creative (Creative Tools)",
+   "mode": "full",
+   "doc_ids": [
+    "1737583624272897",
+    "1739067004677122",
+    "1739067107903489",
+    "1739403070695426",
+    "1739089635852289",
+    "1739355078757377",
+    "1739352294717441",
+    "1773192725768193",
+    "1797202997456897",
+    "1739084248002626",
+    "1739362202742785",
+    "1741468875279361",
+    "1741469487859714",
+    "1767568466842626"
+   ],
+   "chars": 110152,
+   "unit_id": "u44"
+  },
+  {
+   "key": "apiref:Custom Conversions",
+   "out": "docs/api-reference/39-custom-conversions.md",
+   "title_vi": "Chuyển đổi tùy chỉnh (Custom Conversions)",
+   "mode": "full",
+   "doc_ids": [
+    "1842225078560769",
+    "1842225174460673",
+    "1842225206555074",
+    "1842225226006530",
+    "1842225247176705",
+    "1842225270315074"
+   ],
+   "chars": 36286,
+   "unit_id": "u45"
+  }
+ ]
+}

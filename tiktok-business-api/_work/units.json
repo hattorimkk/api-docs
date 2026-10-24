@@ -1,0 +1,2602 @@
+[
+  {
+    "key": "apiref:Accounts",
+    "out": "docs/12-api-reference/01-accounts-p1.md",
+    "title_vi": "Tài khoản TikTok (Accounts) — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1737944775511041",
+      "1769113205729282",
+      "1765927978092545",
+      "1769113237682177",
+      "1762228399168514",
+      "1762228421622786",
+      "1822388944791617",
+      "1816387951979521",
+      "1769113255352322",
+      "1760232109619202",
+      "1762228430145538",
+      "1762228442072066",
+      "1856212334897154",
+      "1762228448779266",
+      "1762228456608770",
+      "1762228474532865",
+      "1762228483080193",
+      "1769113361610753",
+      "1762228496095234",
+      "1803630424390658",
+      "1816387106635778"
+    ],
+    "chars": 169622,
+    "unit_id": "u01"
+  },
+  {
+    "key": "apiref:Accounts",
+    "out": "docs/12-api-reference/01-accounts-p2.md",
+    "title_vi": "Tài khoản TikTok (Accounts) — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1762228503821314",
+      "1870580030749698",
+      "1815051698931714",
+      "1815051741912066",
+      "1815051784582210",
+      "1815051801257986",
+      "1815051817073665",
+      "1769325247778818",
+      "1769325280876545",
+      "1769325308162050",
+      "1769325351919617",
+      "1769325368603650",
+      "1810521243195393",
+      "1810521279479810",
+      "1810521289122818",
+      "1810521297052673"
+    ],
+    "chars": 64783,
+    "unit_id": "u02"
+  },
+  {
+    "key": "apiref:Ads",
+    "out": "docs/12-api-reference/02-ads-p1.md",
+    "title_vi": "Quảng cáo (Ads) — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1735735524758530",
+      "1735735588640770",
+      "1739953377508354"
+    ],
+    "chars": 124357,
+    "unit_id": "u03"
+  },
+  {
+    "key": "apiref:Ads",
+    "out": "docs/12-api-reference/02-ads-p2.md",
+    "title_vi": "Quảng cáo (Ads) — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1739953405142018",
+      "1739953422970882"
+    ],
+    "chars": 80012,
+    "unit_id": "u04"
+  },
+  {
+    "key": "apiref:Ad Accounts",
+    "out": "docs/12-api-reference/03-ad-accounts.md",
+    "title_vi": "Tài khoản quảng cáo (Ad Accounts)",
+    "mode": "full",
+    "doc_ids": [
+      "1738455259137026",
+      "1738455508553729",
+      "1739593083610113"
+    ],
+    "chars": 17524,
+    "unit_id": "u05"
+  },
+  {
+    "key": "apiref:Ad Comments",
+    "out": "docs/12-api-reference/04-ad-comments.md",
+    "title_vi": "Bình luận quảng cáo (Ad Comments)",
+    "mode": "full",
+    "doc_ids": [
+      "1738086266983426",
+      "1738086301876225",
+      "1738086824859650",
+      "1738086844585985",
+      "1738957702411265",
+      "1738957772267522",
+      "1738088144215041",
+      "1738088242659330",
+      "1738088341958658"
+    ],
+    "chars": 31099,
+    "unit_id": "u06"
+  },
+  {
+    "key": "apiref:Ad Comments - Blocked Words",
+    "out": "docs/12-api-reference/05-ad-comments-blocked-words.md",
+    "title_vi": "Từ khóa bị chặn trong bình luận (Blocked Words)",
+    "mode": "full",
+    "doc_ids": [
+      "1739029198660609",
+      "1739029218470913",
+      "1739029234526209",
+      "1739029247961089",
+      "1739029260837889",
+      "1739029277346817",
+      "1739029296119809",
+      "1739029311687681",
+      "1739029325203457"
+    ],
+    "chars": 14491,
+    "unit_id": "u07"
+  },
+  {
+    "key": "apiref:Ad Diagnosis",
+    "out": "docs/12-api-reference/06-ad-diagnosis.md",
+    "title_vi": "Chẩn đoán quảng cáo (Ad Diagnosis)",
+    "mode": "full",
+    "doc_ids": [
+      "1738674938808321",
+      "1738674986981378"
+    ],
+    "chars": 9393,
+    "unit_id": "u08"
+  },
+  {
+    "key": "apiref:Ad Groups",
+    "out": "docs/12-api-reference/07-ad-groups-p1.md",
+    "title_vi": "Nhóm quảng cáo (Ad Groups) — phần 1/3",
+    "mode": "full",
+    "doc_ids": [
+      "1739314549888002",
+      "1739314558673922",
+      "1768463039162369",
+      "1740302379236353"
+    ],
+    "chars": 87481,
+    "unit_id": "u09"
+  },
+  {
+    "key": "apiref:Ad Groups",
+    "out": "docs/12-api-reference/07-ad-groups-p2.md",
+    "title_vi": "Nhóm quảng cáo (Ad Groups) — phần 2/3",
+    "mode": "full",
+    "doc_ids": [
+      "1739499616346114"
+    ],
+    "chars": 125024,
+    "unit_id": "u10"
+  },
+  {
+    "key": "apiref:Ad Groups",
+    "out": "docs/12-api-reference/07-ad-groups-p3.md",
+    "title_vi": "Nhóm quảng cáo (Ad Groups) — phần 3/3",
+    "mode": "full",
+    "doc_ids": [
+      "1739586761631745",
+      "1739591716326402",
+      "1739591133130817"
+    ],
+    "chars": 99180,
+    "unit_id": "u11"
+  },
+  {
+    "key": "apiref:Ad Review",
+    "out": "docs/12-api-reference/08-ad-review.md",
+    "title_vi": "Duyệt quảng cáo (Ad Review)",
+    "mode": "full",
+    "doc_ids": [
+      "1740554223900674",
+      "1740554277061634",
+      "1740559669226498",
+      "1740571821728770"
+    ],
+    "chars": 20877,
+    "unit_id": "u12"
+  },
+  {
+    "key": "apiref:Audience",
+    "out": "docs/12-api-reference/09-audience.md",
+    "title_vi": "Tệp đối tượng (Audience)",
+    "mode": "full",
+    "doc_ids": [
+      "1739940398505986",
+      "1739940501023746",
+      "1739940567842818",
+      "1739940570793985",
+      "1739940504185857",
+      "1739940583739393",
+      "1739940585975809",
+      "1739940572667906",
+      "1739940506015746",
+      "1739940507792385",
+      "1739940509849601",
+      "1739940511844353",
+      "1758616888158209",
+      "1739940539757569",
+      "1740245803888706",
+      "1740245829978113",
+      "1740245827044354",
+      "1758615097524225",
+      "1758615737388033",
+      "1780154462204930",
+      "1780154541898754",
+      "1780154619404290",
+      "1780154666312706",
+      "1797016417934337",
+      "1797016593782785",
+      "1797023590780930"
+    ],
+    "chars": 137328,
+    "unit_id": "u13"
+  },
+  {
+    "key": "apiref:Authentication",
+    "out": "docs/12-api-reference/10-authentication.md",
+    "title_vi": "Xác thực (Authentication)",
+    "mode": "full",
+    "doc_ids": [
+      "1739965624038402",
+      "1739965703387137",
+      "1739965949088770",
+      "1833997638479041",
+      "1833997679342594",
+      "1833997665030145"
+    ],
+    "chars": 22501,
+    "unit_id": "u14"
+  },
+  {
+    "key": "apiref:Automated Rules",
+    "out": "docs/12-api-reference/11-automated-rules.md",
+    "title_vi": "Quy tắc tự động (Automated Rules)",
+    "mode": "full",
+    "doc_ids": [
+      "1738763978290178",
+      "1738767670852610",
+      "1738768750822466",
+      "1738768861976578",
+      "1738769076676609",
+      "1738769098314754",
+      "1738769123170306",
+      "1738769144119298",
+      "1738769164954626"
+    ],
+    "chars": 67415,
+    "unit_id": "u15"
+  },
+  {
+    "key": "apiref:BC Management",
+    "out": "docs/12-api-reference/12-bc-management.md",
+    "title_vi": "Quản lý Business Center (BC Management)",
+    "mode": "full",
+    "doc_ids": [
+      "1737115635521538",
+      "1737115687501826",
+      "1820767460168705"
+    ],
+    "chars": 13271,
+    "unit_id": "u16"
+  },
+  {
+    "key": "apiref:BC Payments",
+    "out": "docs/12-api-reference/13-bc-payments.md",
+    "title_vi": "Thanh toán BC (BC Payments)",
+    "mode": "full",
+    "doc_ids": [
+      "1739939078695937",
+      "1739939095321601",
+      "1739939106470913",
+      "1739939128198145",
+      "1792849810925569",
+      "1739939116353538",
+      "1739939140408322",
+      "1830173979548674",
+      "1829079287639041"
+    ],
+    "chars": 71860,
+    "unit_id": "u17"
+  },
+  {
+    "key": "apiref:BC Payment Portfolios",
+    "out": "docs/12-api-reference/14-bc-payment-portfolios.md",
+    "title_vi": "Danh mục thanh toán BC (BC Payment Portfolios)",
+    "mode": "full",
+    "doc_ids": [
+      "1839151483689986",
+      "1839151931301954",
+      "1839151986039809",
+      "1839151992566081",
+      "1839151998450754",
+      "1839152005599234",
+      "1839152031645121"
+    ],
+    "chars": 22225,
+    "unit_id": "u18"
+  },
+  {
+    "key": "apiref:BC Assets",
+    "out": "docs/12-api-reference/15-bc-assets.md",
+    "title_vi": "Tài sản BC (BC Assets)",
+    "mode": "full",
+    "doc_ids": [
+      "1739432636922882",
+      "1739939020318721",
+      "1739939050770434",
+      "1752349244331009",
+      "1739938996913218",
+      "1770118680584194",
+      "1813772238056449",
+      "1813772274039809",
+      "1855027199571138",
+      "1739432717798401",
+      "1739433007779841",
+      "1739438211077121",
+      "1739448126749698",
+      "1879660350792706",
+      "1879660354954833",
+      "1846868897541122",
+      "1846868953025538",
+      "1855027260369921",
+      "1855027294743554",
+      "1739659520972802",
+      "1753994928261122",
+      "1753994950327297",
+      "1753994966965249",
+      "1739663268166722",
+      "1739659558931458",
+      "1739657251102722",
+      "1739659584022529"
+    ],
+    "chars": 142846,
+    "unit_id": "u19"
+  },
+  {
+    "key": "apiref:BC Asset Groups",
+    "out": "docs/12-api-reference/16-bc-asset-groups.md",
+    "title_vi": "Nhóm tài sản BC (BC Asset Groups)",
+    "mode": "full",
+    "doc_ids": [
+      "1749001426121730",
+      "1749001658583105",
+      "1749001662156801",
+      "1749001665910786",
+      "1749001669670913",
+      "1749001673406466"
+    ],
+    "chars": 16278,
+    "unit_id": "u20"
+  },
+  {
+    "key": "apiref:BC Billing Groups",
+    "out": "docs/12-api-reference/17-bc-billing-groups.md",
+    "title_vi": "Nhóm thanh toán BC (BC Billing Groups)",
+    "mode": "full",
+    "doc_ids": [
+      "1738458086823938",
+      "1738947780033537",
+      "1738947843447809",
+      "1738944324279297",
+      "1738458108705794"
+    ],
+    "chars": 13845,
+    "unit_id": "u21"
+  },
+  {
+    "key": "apiref:BC Partners",
+    "out": "docs/12-api-reference/18-bc-partners.md",
+    "title_vi": "Đối tác BC (BC Partners)",
+    "mode": "full",
+    "doc_ids": [
+      "1739432611975170",
+      "1739662727395330",
+      "1739662756510721",
+      "1739662779301890",
+      "1739662800930817",
+      "1739662828320769"
+    ],
+    "chars": 18447,
+    "unit_id": "u22"
+  },
+  {
+    "key": "apiref:BC Members",
+    "out": "docs/12-api-reference/19-bc-members.md",
+    "title_vi": "Thành viên BC (BC Members)",
+    "mode": "full",
+    "doc_ids": [
+      "1739516035501058",
+      "1739939404802049",
+      "1739939455765505",
+      "1739696704424961",
+      "1739939482851329"
+    ],
+    "chars": 13730,
+    "unit_id": "u23"
+  },
+  {
+    "key": "apiref:BC Invoices",
+    "out": "docs/12-api-reference/20-bc-invoices.md",
+    "title_vi": "Hóa đơn BC (BC Invoices)",
+    "mode": "full",
+    "doc_ids": [
+      "1740132803511297",
+      "1740295890332674",
+      "1740295904843777",
+      "1740295923474433",
+      "1754000198430722",
+      "1754000224141313",
+      "1754000448122882",
+      "1754000480307265",
+      "1754000504437762"
+    ],
+    "chars": 25185,
+    "unit_id": "u24"
+  },
+  {
+    "key": "apiref:BC Reporting",
+    "out": "docs/12-api-reference/21-bc-reporting.md",
+    "title_vi": "Báo cáo BC (BC Reporting)",
+    "mode": "full",
+    "doc_ids": [
+      "1775752272288770",
+      "1775752357139457"
+    ],
+    "chars": 3056,
+    "unit_id": "u25"
+  },
+  {
+    "key": "apiref:Brand Safety",
+    "out": "docs/12-api-reference/22-brand-safety.md",
+    "title_vi": "An toàn thương hiệu (Brand Safety)",
+    "mode": "full",
+    "doc_ids": [
+      "1830112418755778",
+      "1830112550443073",
+      "1830112569774274"
+    ],
+    "chars": 12942,
+    "unit_id": "u26"
+  },
+  {
+    "key": "apiref:Business Messaging",
+    "out": "docs/12-api-reference/23-business-messaging.md",
+    "title_vi": "Tin nhắn doanh nghiệp (Business Messaging)",
+    "mode": "full",
+    "doc_ids": [
+      "1832184349193282",
+      "1832184367408130",
+      "1832184403754242",
+      "1832184415059970",
+      "1832184425841170",
+      "1832184437720193",
+      "1832184455450626",
+      "1836061597865986",
+      "1843697551083522",
+      "1843697576682497",
+      "1832184379532289",
+      "1832184470423554",
+      "1832184488625234",
+      "1832184497985537",
+      "1832184391220417",
+      "1832184584869890",
+      "1832184596566017",
+      "1832184607786242",
+      "1832184619749377",
+      "1832184630106386",
+      "1832184641212433"
+    ],
+    "chars": 121083,
+    "unit_id": "u27"
+  },
+  {
+    "key": "apiref:Campaign",
+    "out": "docs/12-api-reference/24-campaign.md",
+    "title_vi": "Chiến dịch (Campaign)",
+    "mode": "full",
+    "doc_ids": [
+      "1739315728330753",
+      "1739315828649986",
+      "1739318962329602",
+      "1739320422086657",
+      "1739320994354178",
+      "1752256376677378",
+      "1788434394151938",
+      "1788434463507458",
+      "1739324098894850"
+    ],
+    "chars": 159566,
+    "unit_id": "u28"
+  },
+  {
+    "key": "apiref:Catalog Management",
+    "out": "docs/12-api-reference/25-catalog-management.md",
+    "title_vi": "Quản lý Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1740132866693122",
+      "1740306481704961",
+      "1740306544966657",
+      "1740310064588801",
+      "1740315452868610",
+      "1740488375815169",
+      "1740490222539778",
+      "1740491257516034",
+      "1740491571747841",
+      "1740492470201345"
+    ],
+    "chars": 40424,
+    "unit_id": "u29"
+  },
+  {
+    "key": "apiref:Catalog Event Sources",
+    "out": "docs/12-api-reference/26-catalog-event-sources.md",
+    "title_vi": "Nguồn sự kiện Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1740132891438082",
+      "1740492491200513",
+      "1740492512449538",
+      "1740492531343362"
+    ],
+    "chars": 7728,
+    "unit_id": "u30"
+  },
+  {
+    "key": "apiref:Catalog Feeds",
+    "out": "docs/12-api-reference/27-catalog-feeds.md",
+    "title_vi": "Feed Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1740132921913346",
+      "1740665161957377",
+      "1740665183073281",
+      "1740665197662210",
+      "1740665210863617",
+      "1740665225631810",
+      "1750349624999937"
+    ],
+    "chars": 31477,
+    "unit_id": "u31"
+  },
+  {
+    "key": "apiref:Catalog Products",
+    "out": "docs/12-api-reference/28-catalog-products-p1.md",
+    "title_vi": "Sản phẩm Catalog — phần 1/3",
+    "mode": "full",
+    "doc_ids": [
+      "1740132940622850",
+      "1740496787164161",
+      "1740497429681153"
+    ],
+    "chars": 122637,
+    "unit_id": "u32"
+  },
+  {
+    "key": "apiref:Catalog Products",
+    "out": "docs/12-api-reference/28-catalog-products-p2.md",
+    "title_vi": "Sản phẩm Catalog — phần 2/3",
+    "mode": "full",
+    "doc_ids": [
+      "1740562287852546",
+      "1740562489236481",
+      "1740564136678402"
+    ],
+    "chars": 168589,
+    "unit_id": "u33"
+  },
+  {
+    "key": "apiref:Catalog Products",
+    "out": "docs/12-api-reference/28-catalog-products-p3.md",
+    "title_vi": "Sản phẩm Catalog — phần 3/3",
+    "mode": "full",
+    "doc_ids": [
+      "1740570027173889"
+    ],
+    "chars": 11423,
+    "unit_id": "u34"
+  },
+  {
+    "key": "apiref:Catalog Product Sets",
+    "out": "docs/12-api-reference/29-catalog-product-sets.md",
+    "title_vi": "Bộ sản phẩm Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1740132953884673",
+      "1740570556295169",
+      "1740571478441986",
+      "1740572891104257",
+      "1846770644217858",
+      "1740572974725122",
+      "1740573143966722"
+    ],
+    "chars": 23153,
+    "unit_id": "u35"
+  },
+  {
+    "key": "apiref:Catalog Videos",
+    "out": "docs/12-api-reference/30-catalog-videos.md",
+    "title_vi": "Video Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1803654722508866",
+      "1803655037415489",
+      "1803655061642242",
+      "1803655082498050",
+      "1803655103069185"
+    ],
+    "chars": 26909,
+    "unit_id": "u36"
+  },
+  {
+    "key": "apiref:Catalog Video Templates",
+    "out": "docs/12-api-reference/31-catalog-video-templates.md",
+    "title_vi": "Mẫu video Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1740132982369282",
+      "1740574099715073",
+      "1740665273039873",
+      "1740665303669761",
+      "1740665332455426",
+      "1740665346584577",
+      "1740665368159233"
+    ],
+    "chars": 17187,
+    "unit_id": "u37"
+  },
+  {
+    "key": "apiref:Catalog Diagnostics",
+    "out": "docs/12-api-reference/32-catalog-diagnostics.md",
+    "title_vi": "Chẩn đoán Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1771117054564354",
+      "1771117232728066",
+      "1771117279175682",
+      "1771117294731266",
+      "1780799405041665",
+      "1780802101608450"
+    ],
+    "chars": 42726,
+    "unit_id": "u38"
+  },
+  {
+    "key": "apiref:Catalog Insights",
+    "out": "docs/12-api-reference/33-catalog-insights.md",
+    "title_vi": "Insight Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1805640759207937",
+      "1805640864553985",
+      "1805640886872066",
+      "1805640900563969"
+    ],
+    "chars": 20309,
+    "unit_id": "u39"
+  },
+  {
+    "key": "apiref:Change Log",
+    "out": "docs/12-api-reference/34-change-log.md",
+    "title_vi": "Nhật ký thay đổi (Change Log)",
+    "mode": "full",
+    "doc_ids": [
+      "1738811145996290",
+      "1738811219460097",
+      "1739916077352961",
+      "1739924165710849"
+    ],
+    "chars": 10170,
+    "unit_id": "u40"
+  },
+  {
+    "key": "apiref:Creative Pre-review",
+    "out": "docs/12-api-reference/35-creative-pre-review.md",
+    "title_vi": "Tiền kiểm duyệt creative (Creative Pre-review)",
+    "mode": "full",
+    "doc_ids": [
+      "1874110575134722",
+      "1874110632584577",
+      "1874110636550082"
+    ],
+    "chars": 19115,
+    "unit_id": "u41"
+  },
+  {
+    "key": "apiref:Creative Portfolios",
+    "out": "docs/12-api-reference/36-creative-portfolios.md",
+    "title_vi": "Danh mục creative (Creative Portfolios)",
+    "mode": "full",
+    "doc_ids": [
+      "1739091934311426",
+      "1739091950439426",
+      "1739092113671170",
+      "1766324010279938",
+      "1834560049625089"
+    ],
+    "chars": 95594,
+    "unit_id": "u42"
+  },
+  {
+    "key": "apiref:Creative Reports",
+    "out": "docs/12-api-reference/37-creative-reports.md",
+    "title_vi": "Báo cáo creative (Creative Reports)",
+    "mode": "full",
+    "doc_ids": [
+      "1749092271949826",
+      "1740662135093314",
+      "1861363088053250",
+      "1789700050715650",
+      "1789703614085122",
+      "1738824477276162",
+      "1738824501176321",
+      "1738825259075586"
+    ],
+    "chars": 105394,
+    "unit_id": "u43"
+  },
+  {
+    "key": "apiref:Creative Tools",
+    "out": "docs/12-api-reference/38-creative-tools.md",
+    "title_vi": "Công cụ creative (Creative Tools)",
+    "mode": "full",
+    "doc_ids": [
+      "1737583624272897",
+      "1739067004677122",
+      "1739067107903489",
+      "1739403070695426",
+      "1739089635852289",
+      "1739355078757377",
+      "1739352294717441",
+      "1773192725768193",
+      "1797202997456897",
+      "1739084248002626",
+      "1739362202742785",
+      "1741468875279361",
+      "1741469487859714",
+      "1767568466842626"
+    ],
+    "chars": 110152,
+    "unit_id": "u44"
+  },
+  {
+    "key": "apiref:Custom Conversions",
+    "out": "docs/12-api-reference/39-custom-conversions.md",
+    "title_vi": "Chuyển đổi tùy chỉnh (Custom Conversions)",
+    "mode": "full",
+    "doc_ids": [
+      "1842225078560769",
+      "1842225174460673",
+      "1842225206555074",
+      "1842225226006530",
+      "1842225247176705",
+      "1842225270315074"
+    ],
+    "chars": 36286,
+    "unit_id": "u45"
+  },
+  {
+    "key": "apiref:Discovery",
+    "out": "docs/12-api-reference/40-discovery.md",
+    "title_vi": "Khám phá (Discovery)",
+    "mode": "full",
+    "doc_ids": [
+      "1825119005427714",
+      "1825119032526849",
+      "1825119047070721",
+      "1825119056527362",
+      "1825119063013505",
+      "1825119068941314",
+      "1832798345014338",
+      "1832798361818114"
+    ],
+    "chars": 55504,
+    "unit_id": "u46"
+  },
+  {
+    "key": "apiref:(Deprecated) Dynamic Scene",
+    "out": "docs/12-api-reference/41-deprecated-dynamic-scene.md",
+    "title_vi": "Dynamic Scene (đã ngừng hỗ trợ)",
+    "mode": "digest",
+    "doc_ids": [
+      "1740133053109249",
+      "1740317263937538",
+      "1740317320231938",
+      "1740317337705473",
+      "1740317360823297",
+      "1740317382510593"
+    ],
+    "chars": 30561,
+    "unit_id": "u47"
+  },
+  {
+    "key": "apiref:Events 2.0",
+    "out": "docs/12-api-reference/42-events-2-0.md",
+    "title_vi": "Sự kiện 2.0 (Events 2.0)",
+    "mode": "full",
+    "doc_ids": [
+      "1771101276978178",
+      "1771101303285761"
+    ],
+    "chars": 34694,
+    "unit_id": "u48"
+  },
+  {
+    "key": "apiref:Events 1.0",
+    "out": "docs/12-api-reference/43-events-1-0-p1.md",
+    "title_vi": "Sự kiện 1.0 (Events 1.0) — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1739657891856385",
+      "1740857868662786",
+      "1740859196043266",
+      "1740859218541569",
+      "1740859272887297",
+      "1740859280958466",
+      "1740859300069378",
+      "1740859313270786",
+      "1740859338750977",
+      "1740859371033601",
+      "1740857881469954",
+      "1740858531237890",
+      "1740858565852225",
+      "1740858697598978",
+      "1740858779758593",
+      "1740858799524865",
+      "1740858807646209",
+      "1740858823774210",
+      "1740858862104578",
+      "1740898639412226",
+      "1740858904557570",
+      "1758427539356673",
+      "1758427576470529",
+      "1765596741157889",
+      "1765596790860802",
+      "1765596808589313",
+      "1758428013689857",
+      "1758428053652482",
+      "1780896481480706"
+    ],
+    "chars": 169503,
+    "unit_id": "u49"
+  },
+  {
+    "key": "apiref:Events 1.0",
+    "out": "docs/12-api-reference/43-events-1-0-p2.md",
+    "title_vi": "Sự kiện 1.0 (Events 1.0) — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1780896521680898",
+      "1861366342223874",
+      "1816986081880065",
+      "1816979158055937"
+    ],
+    "chars": 12047,
+    "unit_id": "u50"
+  },
+  {
+    "key": "apiref:Files",
+    "out": "docs/12-api-reference/44-files.md",
+    "title_vi": "Tệp (Files)",
+    "mode": "full",
+    "doc_ids": [
+      "1737719988918274",
+      "1737720893061122",
+      "1737721229896705",
+      "1737721489945601",
+      "1737721642924033",
+      "1759130033155073"
+    ],
+    "chars": 17677,
+    "unit_id": "u51"
+  },
+  {
+    "key": "apiref:GMV Max",
+    "out": "docs/12-api-reference/45-gmv-max-p1.md",
+    "title_vi": "GMV Max — phần 1/3",
+    "mode": "full",
+    "doc_ids": [
+      "1822000911166465",
+      "1826463372290177",
+      "1822000968821762",
+      "1822000988713089",
+      "1822001009002497",
+      "1822001024720897",
+      "1835246967275522",
+      "1835247009119233",
+      "1835246996436162",
+      "1835247031331842",
+      "1835246983475217"
+    ],
+    "chars": 169427,
+    "unit_id": "u52"
+  },
+  {
+    "key": "apiref:GMV Max",
+    "out": "docs/12-api-reference/45-gmv-max-p2.md",
+    "title_vi": "GMV Max — phần 2/3",
+    "mode": "full",
+    "doc_ids": [
+      "1822001044479041",
+      "1822001084174338",
+      "1822001101474882",
+      "1822001136924674",
+      "1822001168512129",
+      "1830215925061633",
+      "1861260625563202",
+      "1866513154013585",
+      "1866513156712449",
+      "1866513159202306",
+      "1866513161692161",
+      "1822001184635905",
+      "1822001200356354",
+      "1824721673497601"
+    ],
+    "chars": 112620,
+    "unit_id": "u53"
+  },
+  {
+    "key": "apiref:GMV Max",
+    "out": "docs/12-api-reference/45-gmv-max-p3.md",
+    "title_vi": "GMV Max — phần 3/3",
+    "mode": "full",
+    "doc_ids": [
+      "1824722485971009"
+    ],
+    "chars": 87898,
+    "unit_id": "u54"
+  },
+  {
+    "key": "apiref:Identity",
+    "out": "docs/12-api-reference/46-identity.md",
+    "title_vi": "Danh tính (Identity)",
+    "mode": "full",
+    "doc_ids": [
+      "1740133137507393",
+      "1740654203526146",
+      "1759155939236865",
+      "1740218420781057",
+      "1740218453385217",
+      "1740218475032577",
+      "1785238052792321",
+      "1740218495869954",
+      "1740218522178562"
+    ],
+    "chars": 58291,
+    "unit_id": "u55"
+  },
+  {
+    "key": "apiref:Images",
+    "out": "docs/12-api-reference/47-images.md",
+    "title_vi": "Hình ảnh (Images)",
+    "mode": "full",
+    "doc_ids": [
+      "1739067422728193",
+      "1739067433456642",
+      "1740039806891010",
+      "1740051721711618",
+      "1740052016789506"
+    ],
+    "chars": 26298,
+    "unit_id": "u56"
+  },
+  {
+    "key": "apiref:Leads",
+    "out": "docs/12-api-reference/48-leads.md",
+    "title_vi": "Khách hàng tiềm năng (Leads)",
+    "mode": "full",
+    "doc_ids": [
+      "1739047069984834",
+      "1739047132614722",
+      "1739048460493826",
+      "1739049313198081",
+      "1739052936772610",
+      "1739053563877378",
+      "1740029915327489",
+      "1740029931324417",
+      "1739054080455681",
+      "1832112377641026",
+      "1832112833212434"
+    ],
+    "chars": 44598,
+    "unit_id": "u57"
+  },
+  {
+    "key": "apiref:Media Mix Modeling",
+    "out": "docs/12-api-reference/49-media-mix-modeling.md",
+    "title_vi": "Media Mix Modeling (MMM)",
+    "mode": "full",
+    "doc_ids": [
+      "1825299463225345",
+      "1825299567855617",
+      "1825299576698882",
+      "1825299584678017",
+      "1825299591414850"
+    ],
+    "chars": 19434,
+    "unit_id": "u58"
+  },
+  {
+    "key": "apiref:MCP Authorization",
+    "out": "docs/12-api-reference/50-mcp-authorization.md",
+    "title_vi": "Ủy quyền MCP (MCP Authorization)",
+    "mode": "full",
+    "doc_ids": [
+      "1873496702070273",
+      "1873496729194769",
+      "1873496742612993",
+      "1873496757798466",
+      "1873496771526337",
+      "1873496785750401",
+      "1873496870932225",
+      "1873496798816274",
+      "1873496895169554",
+      "1873496914836802"
+    ],
+    "chars": 38031,
+    "unit_id": "u59"
+  },
+  {
+    "key": "apiref:Mentions",
+    "out": "docs/12-api-reference/51-mentions.md",
+    "title_vi": "Lượt nhắc (Mentions)",
+    "mode": "full",
+    "doc_ids": [
+      "1825107837430850",
+      "1825107955294402",
+      "1831359360477185",
+      "1825107971247170",
+      "1825107978583042",
+      "1825108001123522",
+      "1833862470219842",
+      "1833831427732481",
+      "1833832557996034",
+      "1833833401871362",
+      "1825107985360898",
+      "1831358502098946",
+      "1825107991945218",
+      "1825108008121346",
+      "1825108014565442",
+      "1825108021550082"
+    ],
+    "chars": 87667,
+    "unit_id": "u60"
+  },
+  {
+    "key": "apiref:Music",
+    "out": "docs/12-api-reference/52-music.md",
+    "title_vi": "Âm nhạc (Music)",
+    "mode": "full",
+    "doc_ids": [
+      "1740052369141761",
+      "1740052650395650",
+      "1740053909509122"
+    ],
+    "chars": 22899,
+    "unit_id": "u61"
+  },
+  {
+    "key": "apiref:Negative Keywords",
+    "out": "docs/12-api-reference/53-negative-keywords.md",
+    "title_vi": "Từ khóa loại trừ (Negative Keywords)",
+    "mode": "full",
+    "doc_ids": [
+      "1775103049049090",
+      "1775104887052289",
+      "1775104895291393",
+      "1775104902283266",
+      "1775104910010369",
+      "1775104916876290"
+    ],
+    "chars": 18553,
+    "unit_id": "u62"
+  },
+  {
+    "key": "apiref:Page",
+    "out": "docs/12-api-reference/54-page.md",
+    "title_vi": "Trang đích (Page)",
+    "mode": "full",
+    "doc_ids": [
+      "1737719918220290",
+      "1820826387779586",
+      "1820826755283969",
+      "1820826826000385",
+      "1820826847199234"
+    ],
+    "chars": 16184,
+    "unit_id": "u63"
+  },
+  {
+    "key": "apiref:Pangle",
+    "out": "docs/12-api-reference/55-pangle.md",
+    "title_vi": "Pangle",
+    "mode": "full",
+    "doc_ids": [
+      "1739091153164290",
+      "1740039957181441",
+      "1740040139110466",
+      "1740040177229826"
+    ],
+    "chars": 7661,
+    "unit_id": "u64"
+  },
+  {
+    "key": "apiref:Playable Ads",
+    "out": "docs/12-api-reference/56-playable-ads.md",
+    "title_vi": "Quảng cáo Playable (Playable Ads)",
+    "mode": "full",
+    "doc_ids": [
+      "1737730803189826",
+      "1737730926765057",
+      "1737732054892545",
+      "1737732203851777",
+      "1737732758495234",
+      "1737733368940546"
+    ],
+    "chars": 14249,
+    "unit_id": "u65"
+  },
+  {
+    "key": "apiref:Reach & Frequency",
+    "out": "docs/12-api-reference/57-reach-and-frequency.md",
+    "title_vi": "Reach & Frequency",
+    "mode": "full",
+    "doc_ids": [
+      "1738235311704065",
+      "1738235487941633",
+      "1738235338194945",
+      "1738235402874882",
+      "1740489099367425",
+      "1740489551354881",
+      "1740489855138818",
+      "1740490147129345"
+    ],
+    "chars": 85941,
+    "unit_id": "u66"
+  },
+  {
+    "key": "apiref:Reporting",
+    "out": "docs/12-api-reference/58-reporting.md",
+    "title_vi": "Báo cáo (Reporting)",
+    "mode": "full",
+    "doc_ids": [
+      "1740302665828417",
+      "1740302848100353",
+      "1740302766489602",
+      "1740302781443073",
+      "1740302808815618",
+      "1803615367145537"
+    ],
+    "chars": 61879,
+    "unit_id": "u67"
+  },
+  {
+    "key": "apiref:Showcase",
+    "out": "docs/12-api-reference/59-showcase.md",
+    "title_vi": "Showcase",
+    "mode": "full",
+    "doc_ids": [
+      "1759233493240834",
+      "1759233549899778",
+      "1759233561597954",
+      "1759233576199169"
+    ],
+    "chars": 11570,
+    "unit_id": "u68"
+  },
+  {
+    "key": "apiref:Smart Creative",
+    "out": "docs/12-api-reference/60-smart-creative.md",
+    "title_vi": "Smart Creative",
+    "mode": "full",
+    "doc_ids": [
+      "1739472835319809",
+      "1739473020978177",
+      "1739473063234626",
+      "1739473077112833",
+      "1739506701165570"
+    ],
+    "chars": 72514,
+    "unit_id": "u69"
+  },
+  {
+    "key": "apiref:(To be deprecated) Legacy Smart+",
+    "out": "docs/12-api-reference/61-to-be-deprecated-legacy-smartplus.md",
+    "title_vi": "Smart+ phiên bản cũ (sắp ngừng hỗ trợ)",
+    "mode": "digest",
+    "doc_ids": [
+      "1765314260115458",
+      "1831564498409473",
+      "1767334204047362",
+      "1767334250066945",
+      "1767334299811842",
+      "1837969177953361",
+      "1776454619412481",
+      "1776461365424129"
+    ],
+    "chars": 268954,
+    "unit_id": "u70"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p1.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 1/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843301794874370",
+      "1843310518576130",
+      "1843312818332930",
+      "1843312852800706",
+      "1843312876001282",
+      "1843312888885314",
+      "1866528879472641",
+      "1866529943741441",
+      "1843310524500993"
+    ],
+    "chars": 123034,
+    "unit_id": "u71"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p2.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 2/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843314879617026"
+    ],
+    "chars": 47540,
+    "unit_id": "u72"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p3.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 3/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843314887930946"
+    ],
+    "chars": 128182,
+    "unit_id": "u73"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p4.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 4/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843314894279682",
+      "1843314908153858",
+      "1843314914438466",
+      "1843310530260097",
+      "1843317378982914"
+    ],
+    "chars": 123675,
+    "unit_id": "u74"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p5.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 5/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843317390059522"
+    ],
+    "chars": 101032,
+    "unit_id": "u75"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p6.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 6/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843317411665921",
+      "1843317423164482",
+      "1843317433577601",
+      "1843317445798914",
+      "1843310536069122",
+      "1843317465695233",
+      "1843317474334722",
+      "1843317522553106",
+      "1843310542601218",
+      "1843317489576961",
+      "1843337892165889"
+    ],
+    "chars": 148004,
+    "unit_id": "u76"
+  },
+  {
+    "key": "apiref:Upgraded Smart+",
+    "out": "docs/12-api-reference/62-upgraded-smartplus-p7.md",
+    "title_vi": "Smart+ nâng cấp (Upgraded Smart+) — phần 7/7",
+    "mode": "full",
+    "doc_ids": [
+      "1843337909199938",
+      "1843317510389761",
+      "1843337879988226"
+    ],
+    "chars": 156523,
+    "unit_id": "u77"
+  },
+  {
+    "key": "apiref:Spark Ads Recommendation",
+    "out": "docs/12-api-reference/63-spark-ads-recommendation.md",
+    "title_vi": "Gợi ý Spark Ads",
+    "mode": "full",
+    "doc_ids": [
+      "1825128584099841",
+      "1825128684907522",
+      "1825128700959746",
+      "1829744071179330",
+      "1829744101665810"
+    ],
+    "chars": 39709,
+    "unit_id": "u78"
+  },
+  {
+    "key": "apiref:Spark Ads Using Authorized Posts",
+    "out": "docs/12-api-reference/64-spark-ads-using-authorized-posts.md",
+    "title_vi": "Spark Ads từ bài đăng được ủy quyền",
+    "mode": "full",
+    "doc_ids": [
+      "1738376238825474",
+      "1738376324021250",
+      "1738376435339265",
+      "1738376465972226",
+      "1738376509936641"
+    ],
+    "chars": 28106,
+    "unit_id": "u79"
+  },
+  {
+    "key": "apiref:Super Split Test",
+    "out": "docs/12-api-reference/65-super-split-test.md",
+    "title_vi": "Super Split Test",
+    "mode": "full",
+    "doc_ids": [
+      "1742666215544834",
+      "1742666471475201",
+      "1742666501911553",
+      "1742666522399746",
+      "1742666557045761",
+      "1742666543736834"
+    ],
+    "chars": 21906,
+    "unit_id": "u80"
+  },
+  {
+    "key": "apiref:Subscription",
+    "out": "docs/12-api-reference/66-subscription.md",
+    "title_vi": "Đăng ký webhook (Subscription)",
+    "mode": "full",
+    "doc_ids": [
+      "1739091185604609",
+      "1739092028876801",
+      "1739093832125442",
+      "1739094758789122"
+    ],
+    "chars": 22796,
+    "unit_id": "u81"
+  },
+  {
+    "key": "apiref:Terms",
+    "out": "docs/12-api-reference/67-terms.md",
+    "title_vi": "Điều khoản (Terms)",
+    "mode": "full",
+    "doc_ids": [
+      "1737191804348417",
+      "1737191909315585",
+      "1737192284435457",
+      "1737192304571394"
+    ],
+    "chars": 5913,
+    "unit_id": "u82"
+  },
+  {
+    "key": "apiref:TikTok One",
+    "out": "docs/12-api-reference/68-tiktok-one-p1.md",
+    "title_vi": "TikTok One — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1735827359532033",
+      "1768493902119937",
+      "1765926674648065",
+      "1815693478150146",
+      "1837799887531010",
+      "1831975745134593",
+      "1828185358712897",
+      "1828185411810305",
+      "1834913529338882",
+      "1834913554657282",
+      "1816372654109698",
+      "1816378813274113",
+      "1825017307843585",
+      "1830335387914241",
+      "1830335437705217",
+      "1815693549459458",
+      "1830338948169794",
+      "1815693562720258",
+      "1824449956282370",
+      "1824450033584129"
+    ],
+    "chars": 168733,
+    "unit_id": "u83"
+  },
+  {
+    "key": "apiref:TikTok One",
+    "out": "docs/12-api-reference/68-tiktok-one-p2.md",
+    "title_vi": "TikTok One — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1815693573340162",
+      "1751098904942594",
+      "1751098935842817",
+      "1826564934723585",
+      "1826564965840066",
+      "1826564985760770",
+      "1836584318657537",
+      "1836584551347201",
+      "1837247726007298",
+      "1837247744649345"
+    ],
+    "chars": 89774,
+    "unit_id": "u84"
+  },
+  {
+    "key": "apiref:TikTok Store",
+    "out": "docs/12-api-reference/69-tiktok-store.md",
+    "title_vi": "TikTok Store",
+    "mode": "full",
+    "doc_ids": [
+      "1740661959804929",
+      "1752267762718722",
+      "1793482248880130"
+    ],
+    "chars": 17174,
+    "unit_id": "u85"
+  },
+  {
+    "key": "apiref:Tools",
+    "out": "docs/12-api-reference/70-tools-p1.md",
+    "title_vi": "Công cụ tra cứu (Tools) — phần 1/3",
+    "mode": "full",
+    "doc_ids": [
+      "1736271001971713",
+      "1761236883355649",
+      "1761237001980929",
+      "1737189539571713",
+      "1773644763581441",
+      "1737188554152962",
+      "1796638342793218",
+      "1737174348712961",
+      "1737180852720642",
+      "1763590884474882",
+      "1763590894544897",
+      "1737166752522241",
+      "1736271339521025",
+      "1736280889167874",
+      "1736275204260866",
+      "1838630375757825",
+      "1848591212970082",
+      "1855460985594881",
+      "1738308662898689",
+      "1737172880570369",
+      "1737168013095938"
+    ],
+    "chars": 164013,
+    "unit_id": "u86"
+  },
+  {
+    "key": "apiref:Tools",
+    "out": "docs/12-api-reference/70-tools-p2.md",
+    "title_vi": "Công cụ tra cứu (Tools) — phần 2/3",
+    "mode": "full",
+    "doc_ids": [
+      "1762962378261506",
+      "1747747118654465",
+      "1747747180830722",
+      "1769738074686465",
+      "1769738105333826",
+      "1746463695763458",
+      "1746463732779009",
+      "1737107845597186",
+      "1770016073586753",
+      "1738456743621634",
+      "1755436556897281",
+      "1774487686007810",
+      "1774488637039618",
+      "1738455961470977",
+      "1738457335681026",
+      "1851286489283585",
+      "1853450329535490",
+      "1863332009162754",
+      "1870952425111618",
+      "1874392512912449"
+    ],
+    "chars": 166243,
+    "unit_id": "u87"
+  },
+  {
+    "key": "apiref:Tools",
+    "out": "docs/12-api-reference/70-tools-p3.md",
+    "title_vi": "Công cụ tra cứu (Tools) — phần 3/3",
+    "mode": "full",
+    "doc_ids": [
+      "1874392516418561",
+      "1879581236824514",
+      "1879581240885250"
+    ],
+    "chars": 26244,
+    "unit_id": "u88"
+  },
+  {
+    "key": "apiref:Video",
+    "out": "docs/12-api-reference/71-video.md",
+    "title_vi": "Video",
+    "mode": "full",
+    "doc_ids": [
+      "1737587293087810",
+      "1737587322856449",
+      "1740049987749890",
+      "1740050161973250",
+      "1740050472224769",
+      "1740051189071873"
+    ],
+    "chars": 41078,
+    "unit_id": "u89"
+  },
+  {
+    "key": "apiref:Verification",
+    "out": "docs/12-api-reference/72-verification.md",
+    "title_vi": "Xác minh (Verification)",
+    "mode": "full",
+    "doc_ids": [
+      "1870687451913217",
+      "1870687810081794",
+      "1870687812502530",
+      "1870687936881281",
+      "1870687815670786"
+    ],
+    "chars": 21456,
+    "unit_id": "u90"
+  },
+  {
+    "key": "apiref:Welcome Messages",
+    "out": "docs/12-api-reference/73-welcome-messages.md",
+    "title_vi": "Tin nhắn chào mừng (Welcome Messages)",
+    "mode": "full",
+    "doc_ids": [
+      "1822106064917506",
+      "1822106113771521",
+      "1822106498804738"
+    ],
+    "chars": 10592,
+    "unit_id": "u91"
+  },
+  {
+    "key": "guide:About the Guide",
+    "out": "docs/01-about-the-guide/gioi-thieu-bo-tai-lieu.md",
+    "title_vi": "Giới thiệu bộ tài liệu",
+    "mode": "full",
+    "doc_ids": [
+      "1877109209998337"
+    ],
+    "chars": 8649,
+    "unit_id": "u92"
+  },
+  {
+    "key": "guide:Overview",
+    "out": "docs/02-overview/tong-quan-va-phien-ban.md",
+    "title_vi": "Tổng quan, phiên bản và thay đổi v1.3",
+    "mode": "full",
+    "doc_ids": [
+      "1735712062490625",
+      "1740029169927169",
+      "1740578661644289",
+      "1740579480076290",
+      "1740591846408194",
+      "1749537346290689"
+    ],
+    "chars": 30986,
+    "unit_id": "u93"
+  },
+  {
+    "key": "guide:Get Started",
+    "out": "docs/04-get-started/bat-dau.md",
+    "title_vi": "Bắt đầu: khái niệm, quy trình, rate limit, sandbox",
+    "mode": "full",
+    "doc_ids": [
+      "1735713609895937",
+      "1738928364967937",
+      "1740029179343874",
+      "1781888800300034",
+      "1738855099573250",
+      "1738855176671234",
+      "1738855242728450",
+      "1781891256601602",
+      "1832209711206401",
+      "1781892384100354",
+      "1740029171730433",
+      "1738855280338946",
+      "1738855331457026",
+      "1747849403155521",
+      "1768657234981890",
+      "1795190020378625"
+    ],
+    "chars": 57012,
+    "unit_id": "u94"
+  },
+  {
+    "key": "guide:TikTok for Business MCP Server",
+    "out": "docs/05-mcp-server/mcp-server.md",
+    "title_vi": "TikTok for Business MCP Server",
+    "mode": "full",
+    "doc_ids": [
+      "1869388085523458",
+      "1879193110871042",
+      "1874027802752002",
+      "1878917016654850"
+    ],
+    "chars": 30097,
+    "unit_id": "u95"
+  },
+  {
+    "key": "guide:TikTok for Business MCP Server:digest",
+    "out": "docs/05-mcp-server/mcp-server-tom-tat.md",
+    "title_vi": "TikTok for Business MCP Server (tóm tắt)",
+    "mode": "digest",
+    "doc_ids": [
+      "1869389950974978",
+      "1876677898348545",
+      "1876678060056257",
+      "1876678063526450",
+      "1876678103250945",
+      "1873497625216513",
+      "1878653463547282",
+      "1879095943307394",
+      "1869389953319233"
+    ],
+    "chars": 97974,
+    "unit_id": "u96"
+  },
+  {
+    "key": "guide:Skill and MCP management",
+    "out": "docs/06-skill-and-mcp-management/skill-va-mcp.md",
+    "title_vi": "Quản lý Skill và MCP",
+    "mode": "full",
+    "doc_ids": [
+      "1869387171836930",
+      "1869392848734209",
+      "1869392851504145",
+      "1869392854803490",
+      "1869392857565186",
+      "1879106319214594",
+      "1879106374962178",
+      "1879106378631233",
+      "1879106382373633"
+    ],
+    "chars": 65681,
+    "unit_id": "u97"
+  },
+  {
+    "key": "guide:FAQs",
+    "out": "docs/07-faqs/faq.md",
+    "title_vi": "Câu hỏi thường gặp (FAQs)",
+    "mode": "full",
+    "doc_ids": [
+      "1740029175352322"
+    ],
+    "chars": 3382,
+    "unit_id": "u98"
+  },
+  {
+    "key": "guide:Use Cases/",
+    "out": "docs/08-use-cases/use-cases.md",
+    "title_vi": "Use cases — tổng quan, Audience, Báo cáo",
+    "mode": "full",
+    "doc_ids": [
+      "1735713713137730"
+    ],
+    "chars": 1228,
+    "unit_id": "u99"
+  },
+  {
+    "key": "guide:Use Cases/Audience integration",
+    "out": "docs/08-use-cases/use-case-audience.md",
+    "title_vi": "Use case: tích hợp Audience",
+    "mode": "full",
+    "doc_ids": [
+      "1758526010304514"
+    ],
+    "chars": 3874,
+    "unit_id": "u100"
+  },
+  {
+    "key": "guide:Use Cases/Campaign creation",
+    "out": "docs/08-use-cases/use-case-tao-chien-dich-p1.md",
+    "title_vi": "Use case: tạo chiến dịch (tóm tắt) — phần 1/2",
+    "mode": "digest",
+    "doc_ids": [
+      "1758526151905281",
+      "1782086026530817",
+      "1782086241778690",
+      "1808164002093058",
+      "1772549012687873",
+      "1739470742024193",
+      "1774482920012801",
+      "1774482976097281",
+      "1827752507854850",
+      "1829635758164994",
+      "1774482992153601",
+      "1774482999036930",
+      "1774482936048641",
+      "1775548501843970",
+      "1741942179356738",
+      "1837161048383489",
+      "1741942291730434",
+      "1750361698613249",
+      "1774519076905985",
+      "1775099621140482",
+      "1782087855154177",
+      "1750361719059457",
+      "1759232259360770",
+      "1754162402455554",
+      "1785886237030401",
+      "1754726939130882",
+      "1742003478618114",
+      "1758528372513794",
+      "1822009058467842",
+      "1822009220448257",
+      "1822009242546258",
+      "1768006268820546",
+      "1827645480080385",
+      "1814122471133186",
+      "1814122492598274",
+      "1843309449749698",
+      "1843309500205058",
+      "1853377390815233",
+      "1853377803841537",
+      "1875231879602658",
+      "1875231912916994",
+      "1875231953230418",
+      "1879220213492353",
+      "1868120855134226",
+      "1868121865281538",
+      "1853377811982657",
+      "1863331595515009",
+      "1843309514567809",
+      "1847302878676994",
+      "1847302895272962",
+      "1847302908327938",
+      "1847302920924306",
+      "1847302935967746"
+    ],
+    "chars": 1545911,
+    "unit_id": "u101"
+  },
+  {
+    "key": "guide:Use Cases/Campaign creation",
+    "out": "docs/08-use-cases/use-case-tao-chien-dich-p2.md",
+    "title_vi": "Use case: tạo chiến dịch (tóm tắt) — phần 2/2",
+    "mode": "digest",
+    "doc_ids": [
+      "1874421347053569",
+      "1843324498993154",
+      "1843324592169986",
+      "1843324606213121",
+      "1847302969710913",
+      "1847302988449921",
+      "1847302998941697",
+      "1876685025962241",
+      "1843324618421314",
+      "1843325008693250",
+      "1843325022799873",
+      "1874421377372161",
+      "1847303035303106",
+      "1854746404386113",
+      "1855007137120578",
+      "1855007163018689",
+      "1873144295333889",
+      "1873147546166737",
+      "1873147575660753",
+      "1873147588534657",
+      "1873147560720593",
+      "1873147602825601",
+      "1873147614281746",
+      "1873147628169218",
+      "1873147640065409",
+      "1873147653815745",
+      "1873147670578193",
+      "1873147685889425",
+      "1873147699663874",
+      "1875743103825537",
+      "1875743211659265",
+      "1875743288255489",
+      "1875743291988242",
+      "1875743295409170",
+      "1875743331398673",
+      "1875743215419394",
+      "1875743384633345",
+      "1875743388430337",
+      "1875743392271362",
+      "1875743219104321",
+      "1875743454192641",
+      "1875743457587714",
+      "1780164603696130",
+      "1815394136739841",
+      "1839876593708034",
+      "1839882947475458",
+      "1839882969587906",
+      "1842232769643905",
+      "1777633230937090",
+      "1766217791987713",
+      "1739470744631298",
+      "1848048566169730",
+      "1797011827608577",
+      "1738963942132738",
+      "1739470724723714",
+      "1739470947488770"
+    ],
+    "chars": 1984360,
+    "unit_id": "u102"
+  },
+  {
+    "key": "guide:Use Cases/Lead generation",
+    "out": "docs/08-use-cases/use-case-lead-generation.md",
+    "title_vi": "Use case: Lead generation",
+    "mode": "full",
+    "doc_ids": [
+      "1739289524101122",
+      "1806817494948930",
+      "1806817505894402"
+    ],
+    "chars": 14066,
+    "unit_id": "u103"
+  },
+  {
+    "key": "guide:Use Cases/Reporting",
+    "out": "docs/08-use-cases/use-case-bao-cao.md",
+    "title_vi": "Use case: Báo cáo",
+    "mode": "full",
+    "doc_ids": [
+      "1758528841973762"
+    ],
+    "chars": 2490,
+    "unit_id": "u104"
+  },
+  {
+    "key": "guide:Use Cases/Webhook subscription",
+    "out": "docs/08-use-cases/use-case-webhook.md",
+    "title_vi": "Use case: đăng ký Webhook",
+    "mode": "full",
+    "doc_ids": [
+      "1810521709205505",
+      "1810521730276354",
+      "1825113658431489",
+      "1832190670631937",
+      "1810521739537409"
+    ],
+    "chars": 109341,
+    "unit_id": "u105"
+  },
+  {
+    "key": "guide:Use Cases/Media Mix Modeling data request",
+    "out": "docs/08-use-cases/use-case-mmm.md",
+    "title_vi": "Use case: yêu cầu dữ liệu Media Mix Modeling",
+    "mode": "full",
+    "doc_ids": [
+      "1825298892472513"
+    ],
+    "chars": 4607,
+    "unit_id": "u106"
+  },
+  {
+    "key": "guide:Marketing API/",
+    "out": "docs/09-marketing-api/marketing-api-gioi-thieu.md",
+    "title_vi": "Marketing API — giới thiệu",
+    "mode": "full",
+    "doc_ids": [
+      "1781891416235009"
+    ],
+    "chars": 1472,
+    "unit_id": "u107"
+  },
+  {
+    "key": "guide:Marketing API/Overview",
+    "out": "docs/09-marketing-api/marketing-api-tong-quan.md",
+    "title_vi": "Marketing API — tổng quan",
+    "mode": "full",
+    "doc_ids": [
+      "1781891506567170"
+    ],
+    "chars": 1922,
+    "unit_id": "u108"
+  },
+  {
+    "key": "guide:Marketing API/Get started",
+    "out": "docs/09-marketing-api/marketing-api-xac-thuc-uy-quyen.md",
+    "title_vi": "Marketing API — bắt đầu, xác thực và ủy quyền",
+    "mode": "full",
+    "doc_ids": [
+      "1781891830241281",
+      "1738373141733378",
+      "1766037914914818",
+      "1738373164380162",
+      "1766041812130817"
+    ],
+    "chars": 22912,
+    "unit_id": "u109"
+  },
+  {
+    "key": "guide:Marketing API/Business Center",
+    "out": "docs/09-marketing-api/business-center.md",
+    "title_vi": "Hướng dẫn Business Center",
+    "mode": "full",
+    "doc_ids": [
+      "1738864498580481",
+      "1739562432184322",
+      "1739562439582722",
+      "1754705308039169",
+      "1754705315233793",
+      "1754705318594562",
+      "1754705407307777",
+      "1855026897423361",
+      "1870688178806290",
+      "1754705410074626",
+      "1754705321657346",
+      "1781992772171778",
+      "1839157972427970",
+      "1775798662604802",
+      "1739562436183041",
+      "1739562438061058"
+    ],
+    "chars": 50374,
+    "unit_id": "u110"
+  },
+  {
+    "key": "guide:Marketing API/Creatives",
+    "out": "docs/09-marketing-api/creatives.md",
+    "title_vi": "Hướng dẫn Creatives",
+    "mode": "full",
+    "doc_ids": [
+      "1736271785207810",
+      "1748896830086145",
+      "1748896852671489",
+      "1739361739523073",
+      "1738963828459521",
+      "1868153086739601",
+      "1739953260466178",
+      "1749018853745665",
+      "1749019605861377",
+      "1749019652141058",
+      "1749019667506177",
+      "1749019676181505",
+      "1739953274550273",
+      "1740286998081538",
+      "1740307202170881",
+      "1740317791125506",
+      "1740307384545345",
+      "1740307296329730",
+      "1741472523309058",
+      "1749022727865345",
+      "1767568085608450",
+      "1874110837867522",
+      "1739067487319042",
+      "1749023062758401",
+      "1789769972291585",
+      "1749023065231362",
+      "1740649324143617"
+    ],
+    "chars": 80448,
+    "unit_id": "u111"
+  },
+  {
+    "key": "guide:Marketing API/Catalog Management",
+    "out": "docs/09-marketing-api/catalog.md",
+    "title_vi": "Hướng dẫn quản lý Catalog",
+    "mode": "full",
+    "doc_ids": [
+      "1739578433846274",
+      "1754263078057986",
+      "1754263100123137",
+      "1782141580104705",
+      "1754263112945665",
+      "1766862002851842",
+      "1739578479392770",
+      "1740673108747265",
+      "1873323074102273",
+      "1873323143235585",
+      "1874599038216210",
+      "1874599078452225",
+      "1780803490136066",
+      "1780803525320706",
+      "1805642743426050",
+      "1805642902406145",
+      "1803654904260674",
+      "1754263135747073",
+      "1739470992872450",
+      "1739470990574594",
+      "1738964064361474",
+      "1754263154550786",
+      "1739578477445121"
+    ],
+    "chars": 138070,
+    "unit_id": "u112"
+  },
+  {
+    "key": "guide:Marketing API/TikTok Store",
+    "out": "docs/09-marketing-api/tiktok-store.md",
+    "title_vi": "Hướng dẫn TikTok Store",
+    "mode": "full",
+    "doc_ids": [
+      "1739581901879298",
+      "1763572749953025",
+      "1739581925704769",
+      "1740641357077505"
+    ],
+    "chars": 3666,
+    "unit_id": "u113"
+  },
+  {
+    "key": "guide:Marketing API/Campaign Management",
+    "out": "docs/09-marketing-api/quan-ly-chien-dich-p1.md",
+    "title_vi": "Hướng dẫn quản lý chiến dịch — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1735713781404673",
+      "1737585544915970",
+      "1739381193120770",
+      "1739381695768577",
+      "1740673047618561",
+      "1745292231199745",
+      "1737719523561474",
+      "1788434533212162",
+      "1866529015923713",
+      "1737585562434561",
+      "1747553433902082",
+      "1747553507237889",
+      "1834189283112962",
+      "1834189985160193",
+      "1739470723315713",
+      "1744571201117186",
+      "1744571205201922",
+      "1744571207714818",
+      "1744571210012673",
+      "1804258360285186",
+      "1767959274087425",
+      "1853452461203458",
+      "1854103649826817",
+      "1854112742370306",
+      "1740029173531649",
+      "1752256248260610",
+      "1742668394531842",
+      "1742668948278274",
+      "1739381246298114",
+      "1739381757818881",
+      "1737585839634433",
+      "1785880454546433"
+    ],
+    "chars": 166251,
+    "unit_id": "u114"
+  },
+  {
+    "key": "guide:Marketing API/Campaign Management",
+    "out": "docs/09-marketing-api/quan-ly-chien-dich-p2.md",
+    "title_vi": "Hướng dẫn quản lý chiến dịch — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1805437148769281",
+      "1745292233615362",
+      "1738857874837506",
+      "1745292441739265",
+      "1771747626094593",
+      "1745292439329793",
+      "1739381236849665",
+      "1783164662979586",
+      "1783164826830849",
+      "1745292519923713",
+      "1739361474981889",
+      "1745292444424193",
+      "1739381743067137",
+      "1750444779586561",
+      "1746463274713089",
+      "1746463333984258",
+      "1746463347473410",
+      "1745292235571201",
+      "1745292553358338",
+      "1767322784934914",
+      "1739470718398465",
+      "1745292500427777",
+      "1738958351620097",
+      "1799186631031809",
+      "1855450880142402",
+      "1767309272869890",
+      "1739381823123458"
+    ],
+    "chars": 102253,
+    "unit_id": "u115"
+  },
+  {
+    "key": "guide:Marketing API/Campaign Management:digest",
+    "out": "docs/09-marketing-api/quan-ly-chien-dich-tom-tat.md",
+    "title_vi": "Hướng dẫn quản lý chiến dịch (tóm tắt các tài liệu dài)",
+    "mode": "digest",
+    "doc_ids": [
+      "1854104036724929",
+      "1739381752981505",
+      "1770019181843458",
+      "1840137502583809",
+      "1777694366654465",
+      "1757239620352002",
+      "1779541971843073",
+      "1798658439859202"
+    ],
+    "chars": 192661,
+    "unit_id": "u116"
+  },
+  {
+    "key": "guide:Marketing API/Audience Management",
+    "out": "docs/09-marketing-api/audience.md",
+    "title_vi": "Hướng dẫn quản lý Audience",
+    "mode": "full",
+    "doc_ids": [
+      "1739566496956417",
+      "1746998266963969",
+      "1746998271267841",
+      "1746998648212482",
+      "1739566528222210",
+      "1850030360880129",
+      "1746998676042753",
+      "1747012172250114",
+      "1747012327159809",
+      "1739566532187138",
+      "1747012174934018",
+      "1780156510696449",
+      "1746998678415361",
+      "1746998681953281",
+      "1739566530595841"
+    ],
+    "chars": 45289,
+    "unit_id": "u117"
+  },
+  {
+    "key": "guide:Marketing API/Reporting",
+    "out": "docs/09-marketing-api/bao-cao-p1.md",
+    "title_vi": "Hướng dẫn Báo cáo (Reporting) — phần 1/4",
+    "mode": "full",
+    "doc_ids": [
+      "1738864739862530",
+      "1751087777884161",
+      "1751087792726017",
+      "1751088469160001",
+      "1738864778664961",
+      "1738864800380930",
+      "1738864835805186",
+      "1738864915188737",
+      "1751443956638721",
+      "1759239462689793",
+      "1866989577164801"
+    ],
+    "chars": 63786,
+    "unit_id": "u118"
+  },
+  {
+    "key": "guide:Marketing API/Reporting",
+    "out": "docs/09-marketing-api/bao-cao-p2.md",
+    "title_vi": "Hướng dẫn Báo cáo (Reporting) — phần 2/4",
+    "mode": "full",
+    "doc_ids": [
+      "1751443967255553"
+    ],
+    "chars": 187088,
+    "unit_id": "u119"
+  },
+  {
+    "key": "guide:Marketing API/Reporting",
+    "out": "docs/09-marketing-api/bao-cao-p3.md",
+    "title_vi": "Hướng dẫn Báo cáo (Reporting) — phần 3/4",
+    "mode": "full",
+    "doc_ids": [
+      "1751443975608321",
+      "1738864928947201",
+      "1751454103714818",
+      "1762404685488130",
+      "1751454162042882",
+      "1751454172429314",
+      "1738864940608513",
+      "1751617879104514",
+      "1762405483224065",
+      "1751617882108929",
+      "1751617884206210",
+      "1738864960144385",
+      "1751625287345154",
+      "1751625293044737",
+      "1751625296192514",
+      "1738864971714562",
+      "1751631253780482",
+      "1762405922636802",
+      "1751631257050114",
+      "1751631259350017",
+      "1775747432712194",
+      "1775747465089026",
+      "1775747492072449"
+    ],
+    "chars": 160626,
+    "unit_id": "u120"
+  },
+  {
+    "key": "guide:Marketing API/Reporting",
+    "out": "docs/09-marketing-api/bao-cao-p4.md",
+    "title_vi": "Hướng dẫn Báo cáo (Reporting) — phần 4/4",
+    "mode": "full",
+    "doc_ids": [
+      "1775747476019266",
+      "1775747484045313",
+      "1803073629472770",
+      "1803073899092993",
+      "1803073913733121",
+      "1738864817670145",
+      "1738864894606337",
+      "1757262274182145",
+      "1738864850353154",
+      "1861445809243137",
+      "1740649343188994"
+    ],
+    "chars": 53665,
+    "unit_id": "u121"
+  },
+  {
+    "key": "guide:Marketing API/Ad Measurement",
+    "out": "docs/09-marketing-api/do-luong-quang-cao-p1.md",
+    "title_vi": "Hướng dẫn đo lường quảng cáo (Ad Measurement) — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1739583617914881",
+      "1757985960801281",
+      "1757986592010242",
+      "1771100779668482",
+      "1771100799076354",
+      "1771100879787009",
+      "1771100936446977",
+      "1771100952291330",
+      "1771100965992450",
+      "1771100984456193",
+      "1807346079965186",
+      "1771101001228290",
+      "1771100815832065",
+      "1771101049613313",
+      "1771101064635394",
+      "1771100838106114",
+      "1819583269559297",
+      "1819581869993025",
+      "1835052243486786",
+      "1835052369704961",
+      "1835052398174274",
+      "1771101130925058",
+      "1771101162079234",
+      "1771101186666498",
+      "1771101204435970",
+      "1797165504155649",
+      "1875218499994561",
+      "1739583647070209",
+      "1739584809311234",
+      "1739584855420929",
+      "1749819614433282",
+      "1739584860883969",
+      "1765942670613506",
+      "1739584863252481",
+      "1739584864945154",
+      "1749819287162881",
+      "1758049779688450",
+      "1758051319816193",
+      "1758052897775617",
+      "1770091656601602",
+      "1834543156864002",
+      "1835087586303106",
+      "1835087595419649",
+      "1835087602015234",
+      "1835087607780546",
+      "1835087630325761",
+      "1835087643351106",
+      "1771101231937537",
+      "1739583650172929",
+      "1739584951798785",
+      "1862119945765889"
+    ],
+    "chars": 165381,
+    "unit_id": "u122"
+  },
+  {
+    "key": "guide:Marketing API/Ad Measurement",
+    "out": "docs/09-marketing-api/do-luong-quang-cao-p2.md",
+    "title_vi": "Hướng dẫn đo lường quảng cáo (Ad Measurement) — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1876487882210706",
+      "1828926473158657",
+      "1862344912338497",
+      "1862350524297618",
+      "1862348642630658",
+      "1862348999629826",
+      "1862351781303361",
+      "1862352021568001",
+      "1862352195035138",
+      "1774559446000642",
+      "1824048170680450",
+      "1862286300697794",
+      "1862287695864834",
+      "1739583651652673",
+      "1739585574120449",
+      "1739583652957185",
+      "1739585696931842",
+      "1739585700402178",
+      "1795929012554754",
+      "1801524003169281",
+      "1739585704427522",
+      "1739585706138625",
+      "1770092377990145",
+      "1799004006287425",
+      "1799004034003969",
+      "1799004081342466",
+      "1799004110681154",
+      "1799004129683458",
+      "1740963089558529"
+    ],
+    "chars": 112598,
+    "unit_id": "u123"
+  },
+  {
+    "key": "guide:Marketing API/Ad Measurement:digest",
+    "out": "docs/09-marketing-api/do-luong-quang-cao-tom-tat.md",
+    "title_vi": "Hướng dẫn đo lường quảng cáo (Ad Measurement) (tóm tắt các tài liệu dài)",
+    "mode": "digest",
+    "doc_ids": [
+      "1771100865818625",
+      "1771101027431425",
+      "1771101111730178",
+      "1835052338764993",
+      "1771101151059969",
+      "1805266308200514",
+      "1739584805049345",
+      "1741601162187777",
+      "1758053486938113",
+      "1739585434183746",
+      "1739585432134657",
+      "1824036608950273",
+      "1876482381311362",
+      "1862351923536898",
+      "1824048384831554",
+      "1739585702922241",
+      "1799004052020225",
+      "1799004097478658"
+    ],
+    "chars": 362893,
+    "unit_id": "u124"
+  },
+  {
+    "key": "guide:Organic API/",
+    "out": "docs/10-organic-api/tong-quan.md",
+    "title_vi": "Organic API — tổng quan",
+    "mode": "full",
+    "doc_ids": [
+      "1825101624331329",
+      "1825101694214273"
+    ],
+    "chars": 3846,
+    "unit_id": "u125"
+  },
+  {
+    "key": "guide:Organic API/Accounts API",
+    "out": "docs/10-organic-api/accounts-api.md",
+    "title_vi": "Organic API — Accounts API",
+    "mode": "full",
+    "doc_ids": [
+      "1737565048641538",
+      "1737944384433218",
+      "1760334514340866",
+      "1760334598980610",
+      "1738083939371009",
+      "1766042058952706",
+      "1738084387220481",
+      "1738084416214017",
+      "1769324038780930",
+      "1776065099288577",
+      "1815124785075201",
+      "1746624508278786",
+      "1759977800177665",
+      "1759978319341570",
+      "1810515090228226",
+      "1810515104773122",
+      "1759978341579777",
+      "1776983576127490",
+      "1740304387032066"
+    ],
+    "chars": 85889,
+    "unit_id": "u126"
+  },
+  {
+    "key": "guide:Organic API/Mentions API",
+    "out": "docs/10-organic-api/mentions-api.md",
+    "title_vi": "Organic API — Mentions API",
+    "mode": "full",
+    "doc_ids": [
+      "1825103301081169",
+      "1825103341635586",
+      "1825103402321025",
+      "1825103422736385",
+      "1825103730490434",
+      "1825105003772930",
+      "1825107305621506",
+      "1825107469360130",
+      "1825107519114241",
+      "1825107783639042"
+    ],
+    "chars": 28450,
+    "unit_id": "u127"
+  },
+  {
+    "key": "guide:Organic API/TikTok One API",
+    "out": "docs/10-organic-api/tiktok-one-api.md",
+    "title_vi": "Organic API — TikTok One API",
+    "mode": "full",
+    "doc_ids": [
+      "1735827019995138",
+      "1763402336271362",
+      "1763403737310209",
+      "1825117808886785",
+      "1825117875361793",
+      "1768506960432130",
+      "1763404664004609",
+      "1830337139853313",
+      "1828929329184770",
+      "1740027794580481",
+      "1825117901366274",
+      "1740302141934593"
+    ],
+    "chars": 31703,
+    "unit_id": "u128"
+  },
+  {
+    "key": "guide:Organic API/Discovery API",
+    "out": "docs/10-organic-api/discovery-api.md",
+    "title_vi": "Organic API — Discovery API",
+    "mode": "full",
+    "doc_ids": [
+      "1825127388184577",
+      "1825127469285442",
+      "1825127824570434",
+      "1825127842289729"
+    ],
+    "chars": 3634,
+    "unit_id": "u129"
+  },
+  {
+    "key": "guide:Organic API/Spark Ads Recommendation API",
+    "out": "docs/10-organic-api/spark-ads-recommendation-api.md",
+    "title_vi": "Organic API — Spark Ads Recommendation API",
+    "mode": "full",
+    "doc_ids": [
+      "1825128359356417",
+      "1825128393150530",
+      "1825128519531521",
+      "1825128562548930"
+    ],
+    "chars": 3571,
+    "unit_id": "u130"
+  },
+  {
+    "key": "guide:Business Messaging API",
+    "out": "docs/11-business-messaging-api/business-messaging-api.md",
+    "title_vi": "Business Messaging API",
+    "mode": "full",
+    "doc_ids": [
+      "1832183871604753",
+      "1832184079395841",
+      "1832184100272338",
+      "1832184116746305",
+      "1832184145137922",
+      "1832184206708737",
+      "1832184219753474",
+      "1832184159540418",
+      "1832184175482945",
+      "1832184236919810",
+      "1854823717597185",
+      "1832184250237954",
+      "1832184264385538",
+      "1832184277518338",
+      "1832184291198977",
+      "1877104214073346",
+      "1839594049581249",
+      "1832184306529874",
+      "1832184321030145"
+    ],
+    "chars": 68509,
+    "unit_id": "u131"
+  },
+  {
+    "key": "guide:API Playground",
+    "out": "docs/13-api-playground/api-playground.md",
+    "title_vi": "API Playground",
+    "mode": "full",
+    "doc_ids": [
+      "1826537506816001",
+      "1826537624043586"
+    ],
+    "chars": 8039,
+    "unit_id": "u132"
+  },
+  {
+    "key": "guide:API Service Status Page",
+    "out": "docs/14-api-service-status/trang-thai-dich-vu.md",
+    "title_vi": "Trang trạng thái dịch vụ API",
+    "mode": "full",
+    "doc_ids": [
+      "1847461383861378"
+    ],
+    "chars": 2245,
+    "unit_id": "u133"
+  },
+  {
+    "key": "guide:SDK",
+    "out": "docs/16-sdk/sdk.md",
+    "title_vi": "SDK",
+    "mode": "full",
+    "doc_ids": [
+      "1764231376750658"
+    ],
+    "chars": 5254,
+    "unit_id": "u134"
+  },
+  {
+    "key": "appendix",
+    "out": "docs/15-appendix/phu-luc-p1.md",
+    "title_vi": "Phụ lục: mã lỗi, enum, quyền, múi giờ… — phần 1/2",
+    "mode": "full",
+    "doc_ids": [
+      "1737172315193346",
+      "1737172488964097",
+      "1749734684478466",
+      "1737174886619138",
+      "1753986142651394",
+      "1737585867307010",
+      "1737586324313089",
+      "1738865030529025",
+      "1830336456075458",
+      "1772544628718594",
+      "1758485431181314",
+      "1764306884771842",
+      "1759238007931906",
+      "1844612550411265",
+      "1759238111603713",
+      "1788755983247362",
+      "1792139804568578",
+      "1847839781968897"
+    ],
+    "chars": 167112,
+    "unit_id": "u135"
+  },
+  {
+    "key": "appendix",
+    "out": "docs/15-appendix/phu-luc-p2.md",
+    "title_vi": "Phụ lục: mã lỗi, enum, quyền, múi giờ… — phần 2/2",
+    "mode": "full",
+    "doc_ids": [
+      "1847839827327106",
+      "1860735968798721"
+    ],
+    "chars": 10425,
+    "unit_id": "u136"
+  },
+  {
+    "key": "whatsnew",
+    "out": "docs/03-whats-new/co-gi-moi.md",
+    "title_vi": "Có gì mới (What's New) — các thay đổi gần đây",
+    "mode": "digest-text",
+    "doc_ids": [
+      "1740029165513730"
+    ],
+    "chars": 45000,
+    "unit_id": "u137"
+  }
+]

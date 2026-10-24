@@ -1,0 +1,51 @@
+{
+ "batch_id": "b21",
+ "units": [
+  {
+   "key": "apiref:Discovery",
+   "out": "docs/api-reference/40-discovery.md",
+   "title_vi": "Khám phá (Discovery)",
+   "mode": "full",
+   "doc_ids": [
+    "1825119005427714",
+    "1825119032526849",
+    "1825119047070721",
+    "1825119056527362",
+    "1825119063013505",
+    "1825119068941314",
+    "1832798345014338",
+    "1832798361818114"
+   ],
+   "chars": 55504,
+   "unit_id": "u46"
+  },
+  {
+   "key": "apiref:(Deprecated) Dynamic Scene",
+   "out": "docs/api-reference/41-deprecated-dynamic-scene.md",
+   "title_vi": "Dynamic Scene (đã ngừng hỗ trợ)",
+   "mode": "digest",
+   "doc_ids": [
+    "1740133053109249",
+    "1740317263937538",
+    "1740317320231938",
+    "1740317337705473",
+    "1740317360823297",
+    "1740317382510593"
+   ],
+   "chars": 30561,
+   "unit_id": "u47"
+  },
+  {
+   "key": "apiref:Events 2.0",
+   "out": "docs/api-reference/42-events-2-0.md",
+   "title_vi": "Sự kiện 2.0 (Events 2.0)",
+   "mode": "full",
+   "doc_ids": [
+    "1771101276978178",
+    "1771101303285761"
+   ],
+   "chars": 34694,
+   "unit_id": "u48"
+  }
+ ]
+}

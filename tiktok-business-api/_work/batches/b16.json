@@ -1,0 +1,18 @@
+{
+ "batch_id": "b16",
+ "units": [
+  {
+   "key": "apiref:Catalog Products",
+   "out": "docs/api-reference/28-catalog-products-p2.md",
+   "title_vi": "Sản phẩm Catalog — phần 2/3",
+   "mode": "full",
+   "doc_ids": [
+    "1740562287852546",
+    "1740562489236481",
+    "1740564136678402"
+   ],
+   "chars": 168589,
+   "unit_id": "u33"
+  }
+ ]
+}
