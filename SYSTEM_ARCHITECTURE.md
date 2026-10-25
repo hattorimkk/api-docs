@@ -1,4 +1,4 @@
-# 🏛️ TÀI LIỆU KIẾN TRÚC HỆ THỐNG DATA, WORKFLOW & AI AGENT TOÀN CÔNG TY
+# 🏛️ GoChek Data, Workflow & AI Agent Architecture
 
 > **Phạm vi áp dụng:** Hệ thống vận hành Thương mại Điện tử & Tiếp thị Đa kênh (`TikTok Business`, `TikTok Shop`, `Shopee`, `Facebook`) cho doanh nghiệp sản phẩm công nghệ (`GoChek S24`, `S25`, `G1`...).  
 >
