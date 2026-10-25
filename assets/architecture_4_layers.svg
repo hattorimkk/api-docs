@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1150 420" width="1150" height="420" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#94a3b8" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
+    </marker>
+    <marker id="arrow-emerald" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399" />
+    </marker>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect x="0" y="0" width="1150" height="420" rx="12" fill="#0f172a" />
+
+  <!-- LAYER HEADERS -->
+  <text x="112" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="0.06em">LỚP 1: ĐẦU API</text>
+  <text x="305" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="0.06em">LỚP 2: TRUNG GIAN</text>
+  <text x="575" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="0.06em">LỚP 3: DATA &amp; MCP</text>
+  <text x="955" y="28" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="700" letter-spacing="0.06em">LỚP 4: USE RESOURCES</text>
+
+  <!-- VERTICAL DASHED WALLS BETWEEN LAYERS -->
+  <line x1="220" y1="10" x2="220" y2="405" stroke="#64748b" stroke-width="2" stroke-dasharray="7,7" />
+  <line x1="390" y1="10" x2="390" y2="405" stroke="#64748b" stroke-width="2" stroke-dasharray="7,7" />
+  <line x1="760" y1="10" x2="760" y2="405" stroke="#64748b" stroke-width="2" stroke-dasharray="7,7" />
+
+  <!-- LAYER 1: API -->
+  <rect x="20" y="55" width="180" height="330" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="110" y="82" text-anchor="middle" fill="#e2e8f0" font-size="13" font-weight="700">API</text>
+
+  <rect x="35" y="100" width="150" height="52" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+  <text x="110" y="131" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="500">TikTok Business API</text>
+
+  <rect x="35" y="168" width="150" height="52" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+  <text x="110" y="199" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="500">TikTok Shop API</text>
+
+  <rect x="35" y="236" width="150" height="52" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+  <text x="110" y="267" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="500">Shopee API</text>
+
+  <rect x="35" y="304" width="150" height="52" rx="6" fill="#0f172a" stroke="#334155" stroke-width="1.2" />
+  <text x="110" y="335" text-anchor="middle" fill="#f8fafc" font-size="13" font-weight="500">Facebook Graph API</text>
+
+  <!-- LAYER 2: N8N -->
+  <rect x="255" y="185" width="100" height="70" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.8" />
+  <text x="305" y="226" text-anchor="middle" fill="#f8fafc" font-size="16" font-weight="700">n8n</text>
+
+  <!-- ARROW: LAYER 1 -> LAYER 2 -->
+  <line x1="200" y1="220" x2="253" y2="220" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)" />
+
+  <!-- LAYER 3: DATA -->
+  <!-- Nhánh trên: Data -> MCP qua n8n -->
+  <rect x="420" y="95" width="130" height="70" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="1.6" />
+  <text x="485" y="135" text-anchor="middle" fill="#f8fafc" font-size="15" font-weight="700">Data</text>
+
+  <line x1="550" y1="130" x2="593" y2="130" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-emerald)" />
+
+  <rect x="595" y="95" width="135" height="70" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="1.6" />
+  <text x="662" y="135" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="700">MCP qua n8n</text>
+
+  <!-- Nhánh dưới: MCP -->
+  <rect x="495" y="275" width="160" height="70" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="1.6" />
+  <text x="575" y="315" text-anchor="middle" fill="#f8fafc" font-size="15" font-weight="700">MCP</text>
+
+  <!-- ARROWS: LAYER 2 -> LAYER 3 -->
+  <path d="M 355 208 L 380 208 L 380 130 L 418 130" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-emerald)" />
+  <path d="M 355 232 L 380 232 L 380 310 L 493 310" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrow-blue)" />
+
+  <!-- LAYER 4: USE RESOURCES -->
+  <!-- Box 1 -->
+  <rect x="810" y="60" width="305" height="58" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="962" y="94" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="600">1. Báo cáo theo dõi</text>
+
+  <!-- Group 2, 3, 4 -->
+  <rect x="798" y="145" width="329" height="238" rx="10" fill="none" stroke="#475569" stroke-width="1.2" stroke-dasharray="4,4" />
+
+  <!-- Box 2 -->
+  <rect x="810" y="158" width="305" height="58" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="962" y="192" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="600">2. Phân tích Data</text>
+
+  <!-- Box 3 -->
+  <rect x="810" y="235" width="305" height="58" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="962" y="269" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="600">3. Agent / Workflow tự động chung</text>
+
+  <!-- Box 4 -->
+  <rect x="810" y="312" width="305" height="58" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1.5" />
+  <text x="962" y="346" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="600">4. Agent của nhân sự tự build</text>
+
+  <!-- ARROWS: LAYER 3 -> LAYER 4 -->
+  <!-- MCP qua n8n -> Box 1 -->
+  <path d="M 730 115 L 775 115 L 775 89 L 808 89" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arrow-emerald)" />
+
+  <!-- MCP qua n8n + MCP -> Group (2, 3, 4) -->
+  <path d="M 730 145 L 775 145 L 775 264" fill="none" stroke="#34d399" stroke-width="2" />
+  <path d="M 655 310 L 775 310 L 775 264" fill="none" stroke="#38bdf8" stroke-width="2" />
+  <circle cx="775" cy="264" r="4" fill="#e2e8f0" />
+  <line x1="775" y1="264" x2="796" y2="268" stroke="#e2e8f0" stroke-width="2" marker-end="url(#arrow)" />
+</svg>
+
